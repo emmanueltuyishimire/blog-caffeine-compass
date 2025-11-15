@@ -28,16 +28,16 @@ export const metadata: Metadata = {
   keywords: ['coffee', 'espresso', 'pour-over', 'coffee beans', 'coffee review', 'caffeine', 'cafe'],
   authors: [{ name: 'Caffeine Compass' }],
   alternates: {
-    canonical: '/blog',
+    canonical: '/',
   },
   openGraph: {
     title: 'Caffeine Compass',
     description: 'Your daily dose of coffee culture, reviews, and science.',
-    url: '/blog',
+    url: '/',
     siteName: 'Caffeine Compass',
     images: [
       {
-        url: '/blog/og-image.png', // Update with your actual OG image path
+        url: '/og-image.png', // Update with your actual OG image path
         width: 1200,
         height: 630,
       },
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Caffeine Compass',
     description: 'Your daily dose of coffee culture, reviews, and science.',
-    images: ['/blog/og-image.png'], // Update with your actual OG image path
+    images: ['/og-image.png'], // Update with your actual OG image path
   },
 };
 
@@ -61,7 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-pt-[3.5rem] ${fontBody.variable} ${fontHeadline.variable}`}>
       <head>
-        <link rel="icon" href="/blog/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={cn('min-h-screen bg-background font-body antialiased')} suppressHydrationWarning={true}>
         <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:z-[999] focus:top-2 focus:left-4 focus:px-4 focus:py-2 focus:bg-primary focus:text-primary-foreground focus:rounded-md">
