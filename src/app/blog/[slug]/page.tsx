@@ -2,7 +2,6 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import { blogPosts } from '@/lib/data';
 import type { Metadata } from 'next';
-import { headers } from 'next/headers';
 
 interface BlogPostPageProps {
   params: {
@@ -19,10 +18,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     };
   }
   
-  const headersList = headers();
-  const proto = headersList.get('x-forwarded-proto') || 'http';
-  const host = headersList.get('x-forwarded-host') || headersList.get('host');
-  const url = `${proto}://${host}/blog/${post.slug}`;
+  const url = `/blog/${post.slug}`;
 
   return {
     title: post.title,
@@ -66,10 +62,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     notFound();
   }
   
-  const headersList = headers();
-  const proto = headersList.get('x-forwarded-proto') || 'http';
-  const host = headersList.get('x-forwarded-host') || headersList.get('host');
-  const url = `${proto}://${host}/blog/${post.slug}`;
+  const url = `/blog/${post.slug}`;
 
   const jsonLd = {
     '@context': 'https://schema.org',

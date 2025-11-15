@@ -19,7 +19,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee',
     author: 'Caffeine Compass Staff',
     date: 'July 11, 2025',
-    imageUrl: '/ryze mushroom coffee.webp',
+    imageUrl: '/ryze-mushroom-coffee.webp',
     imageHint: 'mushroom coffee',
     excerpt: 'A complete beginner\'s guide to Ryze Mushroom Coffee. Understand what it is, the superfood ingredients inside, and how it can transform your morning ritual.',
     content: `
@@ -74,7 +74,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Review (2025): Worth the Hype?',
     author: 'Caffeine Compass Staff',
     date: 'July 10, 2025',
-    imageUrl: '/Ryze Mushroom Coffee Review.webp',
+    imageUrl: '/Ryze-Mushroom-Coffee-Review.webp',
     imageHint: 'mushroom coffee',
     excerpt: 'This comprehensive Ryze Mushroom Coffee review for 2025 dives into the popular coffee alternative that promises all-day energy without jitters, improved focus, and gut health. Is it the future of your morning ritual?',
     content: `
@@ -259,7 +259,7 @@ export const blogPosts = [
     title: 'Best Espresso Machines for Beginners in 2025',
     author: 'Caffeine Compass Staff',
     date: 'July 1, 2025',
-    imageUrl: '/Best Espresso Machines for Beginners in 2025.webp',
+    imageUrl: '/Best-Espresso-Machines-for-Beginners-in-2025.webp',
     imageHint: 'espresso beginner',
     excerpt: 'Compare the top beginner-friendly espresso machines to brew café-quality coffee at home.',
     content: `
@@ -755,7 +755,7 @@ export const productReviews = [
     productName: 'Chemex Classic (6-cup)',
     rating: 4,
     summary: "Not just a beautiful piece of design, the Chemex brews an exceptionally clean cup of coffee thanks to its thick, proprietary filters. A bit more hands-on, but worth the effort.",
-    imageUrl: 'https://images.unsplash.com/photo-1694440851401-63e8f8bcd61f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGVtZXglMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjIzOTE3fDA&ixlib=rb-4.1.0&q=80&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1694440851401-63e8f8bcd61f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGVtZXglMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjIzOTE3fDA&ixlib.rb-4.1.0&q=80&w=600',
     imageHint: 'chemex coffee',
   }
 ];

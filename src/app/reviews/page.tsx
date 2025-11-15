@@ -1,28 +1,17 @@
 import { productReviews } from '@/lib/data';
 import { ReviewCard } from '@/components/reviews/review-card';
 import type { Metadata } from 'next';
-import { headers } from 'next/headers';
 
-export async function generateMetadata(): Promise<Metadata> {
-  const headersList = headers();
-  const proto = headersList.get('x-forwarded-proto') || 'http';
-  const host = headersList.get('x-forwarded-host') || headersList.get('host');
-  const pageUrl = `${proto}://${host}/reviews`;
-
-  return {
-    title: 'Product Reviews',
-    description: 'Unbiased reviews of the latest coffee gear, from grinders to espresso machines.',
-    alternates: {
-      canonical: pageUrl,
-    },
-  };
-}
+export const metadata: Metadata = {
+  title: 'Product Reviews',
+  description: 'Unbiased reviews of the latest coffee gear, from grinders to espresso machines.',
+  alternates: {
+    canonical: '/reviews',
+  },
+};
 
 export default function ReviewsPage() {
-    const headersList = headers();
-    const proto = headersList.get('x-forwarded-proto') || 'http';
-    const host = headersList.get('x-forwarded-host') || headersList.get('host');
-    const url = `${proto}://${host}/reviews`;
+    const url = `/reviews`;
 
     const jsonLd = {
     '@context': 'https://schema.org',

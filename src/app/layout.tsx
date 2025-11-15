@@ -5,7 +5,6 @@ import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { Literata, Space_Grotesk } from 'next/font/google';
-import { headers } from 'next/headers';
 
 const fontBody = Literata({
   subsets: ['latin'],
@@ -19,47 +18,42 @@ const fontHeadline = Space_Grotesk({
   variable: '--font-headline',
 });
 
-export async function generateMetadata(): Promise<Metadata> {
-  const headersList = headers();
-  const proto = headersList.get('x-forwarded-proto') || 'http';
-  const host = headersList.get('x-forwarded-host') || headersList.get('host');
-  const url = `${proto}://${host}`;
+const url = 'https://www.calculation.site/blog';
 
-  return {
-    metadataBase: new URL(url),
-    title: {
-      default: 'Caffeine Compass',
-      template: '%s | Caffeine Compass',
-    },
+export const metadata: Metadata = {
+  metadataBase: new URL(url),
+  title: {
+    default: 'Caffeine Compass',
+    template: '%s | Caffeine Compass',
+  },
+  description: 'Your daily dose of coffee culture, reviews, and science.',
+  keywords: ['coffee', 'espresso', 'pour-over', 'coffee beans', 'coffee review', 'caffeine', 'cafe'],
+  authors: [{ name: 'T.Emmanuel' }],
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: 'Caffeine Compass',
     description: 'Your daily dose of coffee culture, reviews, and science.',
-    keywords: ['coffee', 'espresso', 'pour-over', 'coffee beans', 'coffee review', 'caffeine', 'cafe'],
-    authors: [{ name: 'T.Emmanuel' }],
-    alternates: {
-      canonical: '/',
-    },
-    openGraph: {
-      title: 'Caffeine Compass',
-      description: 'Your daily dose of coffee culture, reviews, and science.',
-      url: '/',
-      siteName: 'Caffeine Compass',
-      images: [
-        {
-          url: '/og-image.png', // Update with your actual OG image path
-          width: 1200,
-          height: 630,
-        },
-      ],
-      locale: 'en_US',
-      type: 'website',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: 'Caffeine Compass',
-      description: 'Your daily dose of coffee culture, reviews, and science.',
-      images: ['/og-image.png'], // Update with your actual OG image path
-    },
-  };
-}
+    url: '/',
+    siteName: 'Caffeine Compass',
+    images: [
+      {
+        url: '/og-image.png', // Update with your actual OG image path
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Caffeine Compass',
+    description: 'Your daily dose of coffee culture, reviews, and science.',
+    images: ['/og-image.png'], // Update with your actual OG image path
+  },
+};
 
 
 export default function RootLayout({
@@ -67,10 +61,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const headersList = headers();
-  const proto = headersList.get('x-forwarded-proto') || 'http';
-  const host = headersList.get('x-forwarded-host') || headersList.get('host');
-  const url = `${proto}://${host}`;
 
   const organizationLdJson = {
     '@context': 'https://schema.org',

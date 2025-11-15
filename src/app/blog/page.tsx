@@ -3,18 +3,14 @@ import { PostCard } from '@/components/blog/post-card';
 import type { Metadata } from 'next';
 import { PaginationControls } from '@/components/blog/pagination-controls';
 import { FeaturedPostCard } from '@/components/blog/featured-post-card';
-import { headers } from 'next/headers';
 
 interface BlogPageProps {
   searchParams: { [key: string]: string | string[] | undefined };
 }
 
 export async function generateMetadata({ searchParams }: BlogPageProps): Promise<Metadata> {
-  const headersList = headers();
-  const proto = headersList.get('x-forwarded-proto') || 'http';
-  const host = headersList.get('x-forwarded-host') || headersList.get('host');
   const page = searchParams['page'] ?? '1';
-  const pageUrl = `${proto}://${host}/blog${page !== '1' ? `?page=${page}` : ''}`;
+  const pageUrl = `/blog${page !== '1' ? `?page=${page}` : ''}`;
 
   return {
     title: 'Blog',
@@ -40,10 +36,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
   
   const paginatedPosts = blogPosts.slice(offset, offset + postsToShow);
 
-  const headersList = headers();
-  const proto = headersList.get('x-forwarded-proto') || 'http';
-  const host = headersList.get('x-forwarded-host') || headersList.get('host');
-  const pageUrl = `${proto}://${host}/blog`;
+  const pageUrl = `/blog`;
 
   const jsonLd = {
     '@context': 'https://schema.org',
