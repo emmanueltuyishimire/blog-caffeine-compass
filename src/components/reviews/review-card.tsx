@@ -1,26 +1,13 @@
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Star } from 'lucide-react';
 import type { productReviews } from '@/lib/data';
+import { StarRating } from './star-rating';
 
 type Review = (typeof productReviews)[0];
 
 interface ReviewCardProps {
   review: Review;
 }
-
-const StarRating = ({ rating }: { rating: number }) => (
-  <div className="flex items-center gap-0.5">
-    {[...Array(5)].map((_, i) => (
-      <Star
-        key={i}
-        className={`h-4 w-4 ${
-          i < rating ? 'text-accent fill-accent' : 'text-muted-foreground/50'
-        }`}
-      />
-    ))}
-  </div>
-);
 
 export function ReviewCard({ review }: ReviewCardProps) {
   return (
