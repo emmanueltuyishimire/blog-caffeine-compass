@@ -395,13 +395,13 @@ export const blogPosts = [
       <h3 class="text-2xl font-headline mt-6 mb-3">1. All-in-One Cold Brew Makers</h3>
       <p>These are the best entry point for most people. They combine the brewing container and filter into one easy-to-use pitcher system.</p>
       <div class="text-center my-6">
-        <a href="https://www.amazon.com/s?k=cold+brew+coffee+maker+pitcher" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
+        <a href="https://amzn.to/47JwYOr" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
           Shop All-in-One Makers on Amazon
         </a>
       </div>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">2. Quality Burr Grinders</h3>
-      <p>A coarse, consistent grind is non-negotiable for good cold brew. A burr grinder is the most important accessory you can buy. The <a href="https://www.amazon.com/s?k=baratza+encore+burr+grinder" target="_blank" rel="noopener noreferrer sponsored">Baratza Encore</a> is a highly-recommended starting point.</p>
+      <p>A coarse, consistent grind is non-negotiable for good cold brew. A burr grinder is the most important accessory you can buy. The <a href="https://amzn.to/4qWmN0h" target="_blank" rel="noopener noreferrer sponsored">Baratza Encore</a> is a highly-recommended starting point.</p>
       <div class="text-center my-6">
         <a href="https://www.amazon.com/s?k=burr+coffee+grinder" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
           Shop Burr Grinders on Amazon
@@ -409,9 +409,9 @@ export const blogPosts = [
       </div>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">3. French Presses</h3>
-      <p>If you already have a <a href="https://www.amazon.com/s?k=french+press" target="_blank" rel="noopener noreferrer sponsored">French press</a>, it's a great tool for making cold brew. The built-in filter makes separating the grounds simple.</p>
+      <p>If you already have a <a href="https://amzn.to/3X1hJKr" target="_blank" rel="noopener noreferrer sponsored">French press</a>, it's a great tool for making cold brew. The built-in filter makes separating the grounds simple.</p>
       <div class="text-center my-6">
-        <a href="https://www.amazon.com/s?k=french+press" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
+        <a href="https://amzn.to/3X1hJKr" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
           Shop French Presses on Amazon
         </a>
       </div>
@@ -419,7 +419,7 @@ export const blogPosts = [
       <h3 class="text-2xl font-headline mt-6 mb-3">4. High-End Kyoto-Style Brewers</h3>
       <p>For the true coffee aficionado, a Kyoto-style slow-drip tower is a beautiful and functional piece of art that produces a uniquely delicate brew.</p>
       <div class="text-center my-6">
-        <a href="https://www.amazon.com/s?k=kyoto+style+cold+brew" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
+        <a href="https://amzn.to/47Xi9GH" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
           Shop Kyoto-Style Brewers on Amazon
         </a>
       </div>
