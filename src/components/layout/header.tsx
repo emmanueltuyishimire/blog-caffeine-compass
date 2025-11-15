@@ -2,8 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const navItems = [
-  { href: '/', label: 'Home' },
-  { href: '/', label: 'Blog' },
+  { href: '/blog', label: 'Home' },
+  { href: '/blog', label: 'Blog' },
   { href: 'https://calculation.site/business', label: 'Coffee Bizz' },
   { href: 'https://calculation.site/calculators', label: 'Calculators' },
 ];
@@ -12,7 +12,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center">
-        <Link href="/" className="mr-6 flex items-center space-x-2">
+        <Link href="/blog" className="mr-6 flex items-center space-x-2">
           <Image src="/logo.png" alt="Caffeine Compass Logo" width={32} height={32} />
           <span className="font-bold font-headline text-lg sm:inline-block">
             Caffeine Compass
