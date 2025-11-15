@@ -68,7 +68,7 @@
     },
     {
       "id": "mushroom-benefits",
-      "imageUrl": "https://images.unsplash.com/photo-1575468130797-aa950b68aeec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2llbmNlJTIwaGVhbHRofGVufDB8fHx8MTc2MzIxNjQwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1575468130797-aa950b68aeec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2llbmNlJTIwaGVhbHRofGVufDB8fHx8MTc2MzIxNjQwNHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "science health",
       "description": "A scientific diagram of a mushroom's benefits."
     },
@@ -80,7 +80,7 @@
     },
     {
       "id": "mushroom-weight-loss",
-      "imageUrl": "https://images.unsplash.com/photo-1550985543-49bee3167284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWFzdXJpbmclMjB0YXBlfGVufDB8fHx8MTc2MzIyNTU1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1550985543-49bee3167284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWFzdXJpbmclMjB0YXBlfGVufDB8fHx8MTc2MzIyNTU1OXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "measuring tape",
       "description": "A measuring tape next to a healthy meal and mushroom coffee."
     },
@@ -116,7 +116,7 @@
     },
     {
       "id": "caffeine-system",
-      "imageUrl": "https://images.unsplash.com/photo-1519810755548-39f1b2da0435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0aW1lJTIwY2xvY2t8ZW58MHx8fHwxNzYzMzI0MjY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1519810755548-39f1b2da0435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0aW1lJTIwY2xvY2t8ZW58MHx8fHwxNzYzMzI0MjY0fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "time clock",
       "description": "A clock representing time."
     },
@@ -314,31 +314,31 @@
     },
     {
       "id": "coffee-grinders-2025",
-      "imageUrl": "https://images.unsplash.com/photo-1581446974083-41ed1a460587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2ZmZWUlMjBncmluZGVyfGVufDB8fHx8MTc2MzE4NjIzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1581446974083-41ed1a460587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2ZmZWUlMjBncmluZGVyfGVufDB8fHx8MTc2MzE4NjIzNHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee grinder",
       "description": "A collection of coffee grinders for 2025."
     },
     {
       "id": "burr-vs-blade",
-      "imageUrl": "https://images.unsplash.com/photo-1759997956694-55411e03aecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmluZGVyJTIwY29tcGFyaXNvbnxlbnwwfHx8fDE3NjMyMjYzODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1759997956694-55411e03aecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmluZGVyJTIwY29tcGFyaXNvbnxlbnwwfHx8fDE3NjMyMjYzODB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "grinder comparison",
       "description": "A burr grinder and a blade grinder side-by-side."
     },
     {
       "id": "manual-grinders",
-      "imageUrl": "https://images.unsplash.com/photo-1758979645721-ad65bacd6708?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW51YWwlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758979645721-ad65bacd6708?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW51YWwlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "manual grinder",
       "description": "A person using a manual coffee grinder."
     },
     {
       "id": "espresso-grinders",
-      "imageUrl": "https://images.unsplash.com/photo-1596718957890-cefe2bbf3e23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlc3ByZXNzbyUyMGdyaW5kfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1596718957890-cefe2bbf3e23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlc3ByZXNzbyUyMGdyaW5kfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "espresso grind",
       "description": "A close-up of finely ground coffee for espresso."
     },
     {
       "id": "grinders-under-100",
-      "imageUrl": "https://images.unsplash.com/photo-1602342654726-83c1ea525a9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidWRnZXQlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1602342654726-83c1ea525a9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidWRnZXQlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "budget grinder",
       "description": "An affordable coffee grinder on a kitchen counter."
     },
@@ -350,27 +350,87 @@
     },
     {
       "id": "grinder-types",
-      "imageUrl": "https://images.unsplash.com/photo-1664352603314-6047584b3e10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmluZGVyJTIwdmFyaWV0eXxlbnwwfHx8fDE3NjMyMjYzODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1664352603314-6047584b3e10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmluZGVyJTIwdmFyaWV0eXxlbnwwfHx8fDE3NjMyMjYzODF8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "grinder variety",
       "description": "An array of different types of coffee grinders."
     },
     {
       "id": "grinder-cleaning",
-      "imageUrl": "https://images.unsplash.com/photo-1672209962122-4e38cd353163?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjbGVhbiUyMGdyaW5kZXJ8ZW58MHx8fHwxNzYzMjI2MzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1672209962122-4e38cd353163?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjbGVhbiUyMGdyaW5kZXJ8ZW58MHx8fHwxNzYzMjI2MzgwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "clean grinder",
       "description": "A person cleaning a coffee grinder with a brush."
     },
     {
       "id": "portable-grinders",
-      "imageUrl": "https://images.unsplash.com/photo-1760648311436-d18d39f499bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0cmF2ZWwlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1760648311436-d18d39f499bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0cmF2ZWwlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "travel grinder",
       "description": "A portable coffee grinder next to a travel mug."
     },
     {
       "id": "electric-vs-manual-grinders",
-      "imageUrl": "https://images.unsplash.com/photo-1613626318906-68be0aef3334?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxncmluZGVyJTIwZHVlbHxlbnwwfHx8fDE3NjMyMjYzODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1613626318906-68be0aef3334?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxncmluZGVyJTIwZHVlbHxlbnwwfHx8fDE3NjMyMjYzODB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "grinder duel",
       "description": "An electric grinder and a manual grinder facing off."
+    },
+    {
+      "id": "coffee-beans-2025",
+      "imageUrl": "https://images.unsplash.com/photo-1599406240212-9993333f20b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBiZWFuc3xlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee beans",
+      "description": "A pile of freshly roasted coffee beans."
+    },
+    {
+      "id": "arabica-vs-robusta",
+      "imageUrl": "https://images.unsplash.com/photo-1614631379963-33927c73796d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiZWFucyUyMHNvcnRlZHxlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beans sorted",
+      "description": "Two types of coffee beans, Arabica and Robusta, side-by-side."
+    },
+    {
+      "id": "espresso-beans",
+      "imageUrl": "https://images.unsplash.com/photo-1610632383353-c35398246328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlc3ByZXNzbyUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "espresso beans",
+      "description": "Dark, oily espresso beans in a hopper."
+    },
+    {
+      "id": "organic-beans",
+      "imageUrl": "https://images.unsplash.com/photo-1507983944321-7248f6d39546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvcmdhbmljJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "organic coffee",
+      "description": "A hand holding coffee beans with a green leaf."
+    },
+    {
+      "id": "grinding-beans",
+      "imageUrl": "https://images.unsplash.com/photo-1551030173-122aabc4489c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmluZGluZyUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grinding beans",
+      "description": "Coffee beans being poured into a grinder."
+    },
+    {
+      "id": "unroasted-vs-roasted",
+      "imageUrl": "https://images.unsplash.com/photo-1610632383353-c35398246328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGNvZmZlZSUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green coffee-beans",
+      "description": "Green unroasted coffee beans next to dark roasted coffee beans."
+    },
+    {
+      "id": "beans-freshness",
+      "imageUrl": "https://images.unsplash.com/photo-1585574503370-109467886475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWclMjBvZiUyMGNvZmZlZSUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bag coffee-beans",
+      "description": "A bag of fresh coffee beans with a one-way valve."
+    },
+    {
+      "id": "cold-brew-beans",
+      "imageUrl": "https://images.unsplash.com/photo-1592663527359-a9941f659038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2xkJTIwYnJldyUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cold brew",
+      "description": "Coarsely ground coffee beans ready for cold brewing."
+    },
+    {
+      "id": "beans-origin",
+      "imageUrl": "https://images.unsplash.com/photo-1507135943934-95ab66373b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBmYXJtfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee farm",
+      "description": "A coffee plant with red coffee cherries on a farm."
+    },
+    {
+      "id": "beans-storage",
+      "imageUrl": "https://images.unsplash.com/photo-1511082264588-6c8413a4365f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzdG9yYWdlfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee storage",
+      "description": "Coffee beans being stored in an airtight container."
     }
   ]
 }
