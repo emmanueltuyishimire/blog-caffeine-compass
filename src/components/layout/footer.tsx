@@ -20,7 +20,7 @@ export function Footer() {
               href={item.href}
               className="transition-colors hover:text-foreground/80 text-muted-foreground"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
             >
               {item.label}
             </a>
