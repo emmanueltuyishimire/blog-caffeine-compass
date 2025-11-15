@@ -68,19 +68,19 @@
     },
     {
       "id": "mushroom-benefits",
-      "imageUrl": "https://images.unsplash.com/photo-1575468130797-aa950b68aeec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2llbmNlJTIwaGVhbHRofGVufDB8fHx8MTc2MzIxNjQwNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1575468130797-aa950b68aeec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2llbmNlJTIwaGVhbHRofGVufDB8fHx8MTc2MzIxNjQwNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "science health",
       "description": "A scientific diagram of a mushroom's benefits."
     },
     {
       "id": "mushroom-side-effects",
-      "imageUrl": "https://images.unsplash.com/photo-1615129563398-d97c2d6f0cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYXV0aW9uJTIwc2lnbnxlbnwwfHx8fDE3NjMxNjA4NzF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1615129563398-d97c2d6f0cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYXV0aW9uJTIwc2lnbnxlbnwwfHx8fDE3NjMxNjA4NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "caution sign",
       "description": "A person looking concerned at a cup of coffee."
     },
     {
       "id": "mushroom-weight-loss",
-      "imageUrl": "https://images.unsplash.com/photo-1550985543-49bee3167284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWFzdXJpbmclMjB0YXBlfGVufDB8fHx8MTc2MzIyNTU1OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1550985543-49bee3167284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWFzdXJpbmclMjB0YXBlfGVufDB8fHx8MTc2MzIyNTU1OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "measuring tape",
       "description": "A measuring tape next to a healthy meal and mushroom coffee."
     },
@@ -104,7 +104,7 @@
     },
     {
       "id": "caffeine-table",
-      "imageUrl": "https://images.unsplash.com/photo-1554101831-2947b9650b86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYWZmZWluZSUyMHRhYmxlfGVufDB8fHx8MTc2MzMyNDI2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1554101831-2947b9650b86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYWZmZWluZSUyMHRhYmxlfGVufDB8fHx8MTc2MzMyNDI2NHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "caffeine table",
       "description": "A table or chart about caffeine."
     },
@@ -374,63 +374,123 @@
     },
     {
       "id": "coffee-beans-2025",
-      "imageUrl": "https://images.unsplash.com/photo-1599406240212-9993333f20b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBiZWFuc3xlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1599406240212-9993333f20b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBiZWFuc3xlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee beans",
       "description": "A pile of freshly roasted coffee beans."
     },
     {
       "id": "arabica-vs-robusta",
-      "imageUrl": "https://images.unsplash.com/photo-1614631379963-33927c73796d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiZWFucyUyMHNvcnRlZHxlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1614631379963-33927c73796d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiZWFucyUyMHNvcnRlZHxlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "beans sorted",
       "description": "Two types of coffee beans, Arabica and Robusta, side-by-side."
     },
     {
       "id": "espresso-beans",
-      "imageUrl": "https://images.unsplash.com/photo-1610632383353-c35398246328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlc3ByZXNzbyUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1610632383353-c35398246328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlc3ByZXNzbyUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "espresso beans",
       "description": "Dark, oily espresso beans in a hopper."
     },
     {
       "id": "organic-beans",
-      "imageUrl": "https://images.unsplash.com/photo-1507983944321-7248f6d39546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvcmdhbmljJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1507983944321-7248f6d39546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvcmdhbmljJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "organic coffee",
       "description": "A hand holding coffee beans with a green leaf."
     },
     {
       "id": "grinding-beans",
-      "imageUrl": "https://images.unsplash.com/photo-1551030173-122aabc4489c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmluZGluZyUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1551030173-122aabc4489c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmluZGluZyUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "grinding beans",
       "description": "Coffee beans being poured into a grinder."
     },
     {
       "id": "unroasted-vs-roasted",
-      "imageUrl": "https://images.unsplash.com/photo-1610632383353-c35398246328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGNvZmZlZSUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1610632383353-c35398246328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGNvZmZlZSUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "green coffee-beans",
       "description": "Green unroasted coffee beans next to dark roasted coffee beans."
     },
     {
       "id": "beans-freshness",
-      "imageUrl": "https://images.unsplash.com/photo-1585574503370-109467886475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWclMjBvZiUyMGNvZmZlZSUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1585574503370-109467886475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWclMjBvZiUyMGNvZmZlZSUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "bag coffee-beans",
       "description": "A bag of fresh coffee beans with a one-way valve."
     },
     {
       "id": "cold-brew-beans",
-      "imageUrl": "https://images.unsplash.com/photo-1592663527359-a9941f659038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2xkJTIwYnJldyUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1592663527359-a9941f659038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2xkJTIwYnJldyUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "cold brew",
       "description": "Coarsely ground coffee beans ready for cold brewing."
     },
     {
       "id": "beans-origin",
-      "imageUrl": "https://images.unsplash.com/photo-1507135943934-95ab66373b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBmYXJtfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1507135943934-95ab66373b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBmYXJtfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee farm",
       "description": "A coffee plant with red coffee cherries on a farm."
     },
     {
       "id": "beans-storage",
-      "imageUrl": "https://images.unsplash.com/photo-1511082264588-6c8413a4365f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzdG9yYWdlfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1511082264588-6c8413a4365f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzdG9yYWdlfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee storage",
       "description": "Coffee beans being stored in an airtight container."
+    },
+    {
+      "id": "cold-brew-at-home",
+      "imageUrl": "https://images.unsplash.com/photo-1592663527359-cf6642f54cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2xkJTIwYnJld3xlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cold brew",
+      "description": "A pitcher of cold brew coffee steeping in a kitchen."
+    },
+    {
+      "id": "iced-coffee-starbucks",
+      "imageUrl": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpY2VkJTIwY29mZmVlfGVufDB8fHx8MTc2MzE5OTAwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "iced coffee",
+      "description": "A tall glass of iced coffee with a straw, resembling a Starbucks drink."
+    },
+    {
+      "id": "dalgona-coffee",
+      "imageUrl": "https://images.unsplash.com/photo-1589638895165-e80df3583854?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYWxnb25hJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNjgxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dalgona coffee",
+      "description": "A glass of dalgona coffee, showing the distinct whipped coffee and milk layers."
+    },
+    {
+      "id": "homemade-mocha",
+      "imageUrl": "https://images.unsplash.com/photo-1576521528238-eedd3602b8a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2NoYSUyMHJlY2lwZXxlbnwwfHx8fDE3NjMyMjY4MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mocha recipe",
+      "description": "A warm mug of homemade mocha, topped with whipped cream and chocolate drizzle."
+    },
+    {
+      "id": "pumpkin-spice-latte",
+      "imageUrl": "https://images.unsplash.com/photo-1569383893830-b73dc4a03af0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwdW1wa2luJTIwc3BpY2V8ZW58MHx8fHwxNzYzMjI2ODEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pumpkin spice",
+      "description": "A pumpkin spice latte in a mug, surrounded by autumn decorations."
+    },
+    {
+      "id": "frappuccino-at-home",
+      "imageUrl": "https://images.unsplash.com/photo-1661499102718-aebb4886a0bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmcmFwcHVjY2lubyUyMHJlY2lwZXxlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "frappuccino recipe",
+      "description": "A blender full of coffee, ice, and milk, ready to be made into a frappuccino."
+    },
+    {
+      "id": "coffee-smoothie",
+      "imageUrl": "https://images.unsplash.com/photo-1586601399668-cd0c1484cd44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzbW9vdGhpZXxlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee smoothie",
+      "description": "A thick and creamy coffee smoothie in a glass, with a banana and coffee beans nearby."
+    },
+    {
+      "id": "zero-sugar-coffee",
+      "imageUrl": "https://images.unsplash.com/photo-1623133106725-1e3d77acb7f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdWdhci1mcmVlJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNjgxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sugar-free coffee",
+      "description": "A cup of black coffee with various natural sweeteners on the side, like cinnamon and stevia."
+    },
+    {
+      "id": "protein-coffee",
+      "imageUrl": "https://images.unsplash.com/photo-1558022231-4d796744622e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm90ZWluJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNjgxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "protein coffee",
+      "description": "A shaker bottle next to a cup of coffee, with a scoop of protein powder."
+    },
+    {
+      "id": "barista-at-home",
+      "imageUrl": "https://images.unsplash.com/photo-1714415632229-6c31557634cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob21lJTIwYmFyaXN0YXxlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "home barista",
+      "description": "A person using a home espresso machine to make a latte, focused on the portafilter."
     }
   ]
 }
