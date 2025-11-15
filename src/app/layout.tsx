@@ -6,7 +6,7 @@ import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'Caffeine Chronicle',
+  title: 'Caffeine Compass',
   description: 'Your daily dose of coffee culture, reviews, and science.',
 };
 

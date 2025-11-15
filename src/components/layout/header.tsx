@@ -16,7 +16,7 @@ export function Header() {
         <Link href="/" className="mr-6 flex items-center space-x-2">
           <Coffee className="h-6 w-6" />
           <span className="font-bold font-headline text-lg sm:inline-block">
-            Caffeine Chronicle
+            Caffeine Compass
           </span>
         </Link>
         <nav className="flex items-center gap-4 text-sm lg:gap-6">
