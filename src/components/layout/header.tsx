@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const navItems = [
   { href: '/', label: 'Home' },
-  { href: '/blog', label: 'Blog' },
+  { href: '/', label: 'Blog' },
   { href: 'https://calculation.site/business', label: 'Coffee Bizz' },
   { href: 'https://calculation.site/calculators', label: 'Calculators' },
 ];
