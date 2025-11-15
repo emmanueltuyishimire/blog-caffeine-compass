@@ -4,6 +4,7 @@ import Image from 'next/image';
 const navItems = [
   { href: 'https://calculation.site', label: 'Home' },
   { href: '/blog', label: 'Blog' },
+  { href: '/reviews', label: 'Product Reviews' },
   { href: 'https://calculation.site/business', label: 'Coffee Bizz' },
   { href: 'https://calculation.site/calculators', label: 'Calculators' },
 ];
