@@ -19,7 +19,8 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee',
     author: 'Caffeine Compass Staff',
     date: 'July 11, 2025',
-    ...findImage('ryze-cup'),
+    imageUrl: '/ryze mushroom coffee.webp',
+    imageHint: 'mushroom coffee',
     excerpt: 'A complete beginner\'s guide to Ryze Mushroom Coffee. Understand what it is, the superfood ingredients inside, and how it can transform your morning ritual.',
     content: `
       <p>If you've been anywhere near social media or wellness circles recently, you've likely encountered <strong>Ryze Mushroom Coffee</strong>. It's the drink that promises the energy and focus of coffee but without the jitters, anxiety, or dreaded afternoon crash. But what exactly is it? Is it real coffee? And what do the mushrooms do?</p>
@@ -73,7 +74,8 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Review (2025): Worth the Hype?',
     author: 'Caffeine Compass Staff',
     date: 'July 10, 2025',
-    ...findImage('ryze-review'),
+    imageUrl: '/Ryze Mushroom Coffee Review.webp',
+    imageHint: 'mushroom coffee',
     excerpt: 'This comprehensive Ryze Mushroom Coffee review for 2025 dives into the popular coffee alternative that promises all-day energy without jitters, improved focus, and gut health. Is it the future of your morning ritual?',
     content: `
       <p>Welcome to our definitive <strong>Ryze Mushroom Coffee review</strong> for 2025. If you're here, you've likely seen the ads flooding your social media feeds: smiling faces sipping a dark, frothy drink while promising a life free from coffee-induced jitters, afternoon crashes, and stomach upset. It sounds almost too good to be true. Can a coffee made with fungi really deliver on these claims?</p>
@@ -580,7 +582,6 @@ export const blogPosts = [
     title: 'How to Make Cold Brew Coffee at Home',
     author: 'Caffeine Compass Staff',
     date: 'April 10, 2025',
-    ...findImage('cold-brew-at-home'),
     excerpt: 'Learn the simple, patient art of making smooth and rich cold brew concentrate right in your own kitchen.',
     content: `
       <p>Tired of bitter, acidic coffee that upsets your stomach? Do you crave a smooth, rich, and deeply flavorful coffee experience that you can grab straight from your fridge? Welcome to the wonderful world of cold brew. Learning <strong>how to make cold brew coffee at home</strong> is a game-changer, and it's shockingly simple.</p>
@@ -727,7 +728,7 @@ export const blogPosts = [
       <p>Your next step is simple: grab a jar, get some coarsely ground beans, and start your first batch. Trust the process, taste the results, and don't be afraid to tweak the variables. The perfect glass of cold brew is waiting in your fridge.</p>
       <p><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
     `,
-  },
+  }
 ];
 
 export const productReviews = [
@@ -735,7 +736,6 @@ export const productReviews = [
     slug: 'aeropress-go-review',
     productName: 'Aeropress Go',
     rating: 5,
-    ...findImage('aeropress-go'),
     summary:
       'The Aeropress Go is the perfect companion for coffee lovers on the move. It packs all the brewing power of the original into a brilliantly designed, self-contained travel mug.',
   },
@@ -743,7 +743,6 @@ export const productReviews = [
     slug: 'baratza-encore-review',
     productName: 'Baratza Encore Grinder',
     rating: 4,
-    ...findImage('baratza-grinder'),
     summary:
       "A fantastic entry-level burr grinder that offers consistency and durability. It's the go-to recommendation for anyone starting their home brewing journey.",
   },
@@ -751,25 +750,9 @@ export const productReviews = [
     slug: 'chemex-classic-review',
     productName: 'Chemex Classic (6-cup)',
     rating: 4,
-    ...findImage('chemex-review'),
     summary:
       "Not just a beautiful piece of design, the Chemex brews an exceptionally clean cup of coffee thanks to its thick, proprietary filters. A bit more hands-on, but worth the effort.",
-  },
+  }
 ];
 
     
-
-
-
-
-    
-
-
-
-
-    
-
-    
-
-    
-
