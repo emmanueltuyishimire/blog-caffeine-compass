@@ -18,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-pt-[3.5rem]">
       <head>
+        <link rel="icon" href="/blog/favicon.ico" sizes="any" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
