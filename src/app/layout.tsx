@@ -76,8 +76,8 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Caffeine Compass',
-    url: url,
-    logo: `${url}/logo.png`,
+    url: 'https://calculation.site',
+    logo: 'https://calculation.site/logo.png',
     sameAs: [],
   };
 

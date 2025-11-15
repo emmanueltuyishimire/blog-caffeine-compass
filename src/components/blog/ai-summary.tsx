@@ -5,7 +5,7 @@ import { Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { useToast } from '@/hooks/use-toast';
-import { getBlogSummaryAction } from '@/app/actions';
+import { generateBlogSummary } from '@/ai/flows/blog-summary-generator';
 import { CoffeeBeanIcon } from '../icons';
 
 interface AiSummaryProps {
@@ -24,19 +24,21 @@ export function AiSummary({ content }: AiSummaryProps) {
     // Quick sanitization to remove HTML for the AI prompt
     const textContent = content.replace(/<[^>]*>/g, ' ');
 
-    const result = await getBlogSummaryAction({ blogPostContent: textContent });
+    try {
+        const result = await generateBlogSummary({ blogPostContent: textContent });
+        if (result.summary) {
+            setSummary(result.summary);
+        }
+    } catch(e: any) {
+        toast({
+            variant: 'destructive',
+            title: 'Error',
+            description: e.message || 'Could not generate summary.',
+        });
+    }
+
 
     setIsLoading(false);
-
-    if (result.error) {
-      toast({
-        variant: 'destructive',
-        title: 'Error',
-        description: result.error,
-      });
-    } else if (result.summary) {
-      setSummary(result.summary);
-    }
   };
 
   return (

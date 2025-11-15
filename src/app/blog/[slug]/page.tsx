@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { blogPosts } from '@/lib/data';
 import type { Metadata } from 'next';
 import { headers } from 'next/headers';
+import { AiSummary } from '@/components/blog/ai-summary';
 
 interface BlogPostPageProps {
   params: {
@@ -90,7 +91,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       name: 'Caffeine Compass',
       logo: {
         '@type': 'ImageObject',
-        url: '/logo.png',
+        url: 'https://calculation.site/logo.png',
       },
     },
     datePublished: post.date,
@@ -127,7 +128,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           className="prose prose-lg dark:prose-invert max-w-none text-foreground prose-headings:font-headline prose-headings:text-foreground prose-p:font-body prose-li:font-body"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
-        
+        <AiSummary content={post.content} />
       </div>
     </article>
   );

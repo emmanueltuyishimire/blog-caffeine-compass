@@ -3,13 +3,20 @@ import { ReviewCard } from '@/components/reviews/review-card';
 import type { Metadata } from 'next';
 import { headers } from 'next/headers';
 
-export const metadata: Metadata = {
-  title: 'Product Reviews',
-  description: 'Unbiased reviews of the latest coffee gear, from grinders to espresso machines.',
-  alternates: {
-    canonical: '/reviews',
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const headersList = headers();
+  const proto = headersList.get('x-forwarded-proto') || 'http';
+  const host = headersList.get('x-forwarded-host') || headersList.get('host');
+  const pageUrl = `${proto}://${host}/reviews`;
+
+  return {
+    title: 'Product Reviews',
+    description: 'Unbiased reviews of the latest coffee gear, from grinders to espresso machines.',
+    alternates: {
+      canonical: pageUrl,
+    },
+  };
+}
 
 export default function ReviewsPage() {
     const headersList = headers();

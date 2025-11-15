@@ -5,17 +5,27 @@ import { PaginationControls } from '@/components/blog/pagination-controls';
 import { FeaturedPostCard } from '@/components/blog/featured-post-card';
 import { headers } from 'next/headers';
 
-
-export const metadata: Metadata = {
-  title: 'Blog',
-  description: 'The latest articles on coffee culture, brewing techniques, and our love for the bean.',
-};
-
-export default function BlogPage({
-  searchParams,
-}: {
+interface BlogPageProps {
   searchParams: { [key: string]: string | string[] | undefined };
-}) {
+}
+
+export async function generateMetadata({ searchParams }: BlogPageProps): Promise<Metadata> {
+  const headersList = headers();
+  const proto = headersList.get('x-forwarded-proto') || 'http';
+  const host = headersList.get('x-forwarded-host') || headersList.get('host');
+  const page = searchParams['page'] ?? '1';
+  const pageUrl = `${proto}://${host}/blog${page !== '1' ? `?page=${page}` : ''}`;
+
+  return {
+    title: 'Blog',
+    description: 'The latest articles on coffee culture, brewing techniques, and our love for the bean.',
+    alternates: {
+      canonical: pageUrl,
+    },
+  };
+}
+
+export default function BlogPage({ searchParams }: BlogPageProps) {
   const page = searchParams['page'] ?? '1';
   const pageNumber = Number(page);
   const perPage = 8;
@@ -34,7 +44,6 @@ export default function BlogPage({
   const proto = headersList.get('x-forwarded-proto') || 'http';
   const host = headersList.get('x-forwarded-host') || headersList.get('host');
   const pageUrl = `${proto}://${host}/blog`;
-
 
   const jsonLd = {
     '@context': 'https://schema.org',
