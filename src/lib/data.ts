@@ -99,7 +99,7 @@ export const blogPosts = [
         </div>
       </div>
       <div class="text-center my-6">
-        <a href="https://amzn.to/44cg1cW" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
+        <a href="https://amzn.to/44cg1cW" target="_blank" rel="noopener noreferrer sponsored" class="font-semibold text-primary hover:underline">
           Check Price on Amazon
         </a>
       </div>
@@ -132,7 +132,7 @@ export const blogPosts = [
         </div>
       </div>
       <div class="text-center my-6">
-        <a href="https://amzn.to/3LFcTjz" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
+        <a href="https://amzn.to/3LFcTjz" target="_blank" rel="noopener noreferrer sponsored" class="font-semibold text-primary hover:underline">
           Check Price on Amazon
         </a>
       </div>
@@ -165,7 +165,7 @@ export const blogPosts = [
         </div>
       </div>
       <div class="text-center my-6">
-        <a href="https://amzn.to/47IHq8J" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
+        <a href="https://amzn.to/47IHq8J" target="_blank" rel="noopener noreferrer sponsored" class="font-semibold text-primary hover:underline">
           Check Price on Amazon
         </a>
       </div>
@@ -198,7 +198,7 @@ export const blogPosts = [
         </div>
       </div>
       <div class="text-center my-6">
-        <a href="https://amzn.to/47YH3pg" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
+        <a href="https://amzn.to/47YH3pg" target="_blank" rel="noopener noreferrer sponsored" class="font-semibold text-primary hover:underline">
           Check Price on Amazon
         </a>
       </div>
@@ -389,33 +389,33 @@ export const blogPosts = [
       <p>While you can absolutely start with a simple Mason jar, investing in a few key pieces of dedicated equipment will make your cold brew process cleaner, easier, and much more consistent. Here are our top recommendations for gear that provides a great return on investment.</p>
       
       <h3 class="text-2xl font-headline mt-6 mb-3">1. All-in-One Cold Brew Makers</h3>
-      <p>This is the best starting point for 99% of people. These products combine the brewing container and the filter into a single, elegant pitcher system. You simply add your coarse grounds to the filter core, add water to the pitcher, and let it steep. When it's done, you just pull out the filter core—no messy straining required.</p>
+      <p>This is the best starting point for 99% of people. These products combine the brewing container and the filter into a single, elegant pitcher system. You simply add your coarse grounds to the filter core, add water to the pitcher, and let it steep. When it's done, you just pull out the filter core—no messy straining required. They are affordable, effective, and incredibly easy to use.</p>
       <div class="text-center my-6">
-        <a href="https://amzn.to/47JwYOr" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
+        <a href="https://amzn.to/47JwYOr" target="_blank" rel="noopener noreferrer sponsored" class="font-semibold text-primary hover:underline">
           Shop All-in-One Makers on Amazon
         </a>
       </div>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">2. A Quality Burr Grinder</h3>
-      <p>This is the single most important accessory for upgrading your coffee game, for cold brew or any other method. A <strong>coarse, even grind is non-negotiable</strong> for delicious cold brew. Blade grinders produce a mix of dust and boulders, leading to a brew that is simultaneously bitter and weak. A burr grinder mills the beans to a consistent size, ensuring a smooth, balanced extraction. The <a href="https://amzn.to/4qWmN0h" target="_blank" rel="noopener noreferrer sponsored">Baratza Encore</a> is the gold standard for an entry-level home grinder.</p>
+      <p>This is the single most important accessory for upgrading your coffee game, for cold brew or any other method. A <strong>coarse, even grind is non-negotiable</strong> for delicious cold brew. Blade grinders produce a mix of dust and boulders, leading to a brew that is simultaneously bitter and weak. A burr grinder mills the beans to a consistent size, ensuring a smooth, balanced extraction. The <a href="https://amzn.to/4qWmN0h" target="_blank" rel="noopener noreferrer sponsored">Baratza Encore</a> is the gold standard for an entry-level home grinder that will last for years.</p>
       <div class="text-center my-6">
-        <a href="https://www.amazon.com/s?k=burr+coffee+grinder" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
+        <a href="https://www.amazon.com/s?k=burr+coffee+grinder" target="_blank" rel="noopener noreferrer sponsored" class="font-semibold text-primary hover:underline">
           Shop Burr Grinders on Amazon
         </a>
       </div>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">3. French Press</h3>
-      <p>If you already own a <a href="https://amzn.to/3X1hJKr" target="_blank" rel="noopener noreferrer sponsored">French press</a>, you already have an excellent cold brew maker! The process is identical to the Mason jar method, but the built-in mesh filter makes separation incredibly simple. Just add grounds and water, let it steep, and then slowly press the plunger down to filter the brew.</p>
+      <p>If you already own a <a href="https://amzn.to/3X1hJKr" target="_blank" rel="noopener noreferrer sponsored">French press</a>, you already have an excellent cold brew maker! The process is identical to the Mason jar method, but the built-in mesh filter makes separation incredibly simple. Just add grounds and water, let it steep, and then slowly press the plunger down to filter the brew. It's a great multi-purpose tool for any coffee lover.</p>
       <div class="text-center my-6">
-        <a href="https://amzn.to/3X1hJKr" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
+        <a href="https://amzn.to/3X1hJKr" target="_blank" rel="noopener noreferrer sponsored" class="font-semibold text-primary hover:underline">
           Shop French Presses on Amazon
         </a>
       </div>
       
       <h3 class="text-2xl font-headline mt-6 mb-3">4. For the Connoisseur: Kyoto-Style Slow Drip</h3>
-      <p>If you appreciate the art and science of coffee, a Kyoto-style slow-drip tower is a stunning centerpiece that produces a uniquely nuanced brew. These devices slowly drip water, one drop at a time, over a bed of coffee grounds for several hours. The resulting brew is often lighter, more aromatic, and even smoother than immersion-style cold brew. It's a statement piece for the true coffee aficionado.</p>
+      <p>If you appreciate the art and science of coffee, a <a href="https://amzn.to/47Xi9GH" target="_blank" rel="noopener noreferrer sponsored">Kyoto-style slow-drip tower</a> is a stunning centerpiece that produces a uniquely nuanced brew. These devices slowly drip water, one drop at a time, over a bed of coffee grounds for several hours. The resulting brew is often lighter, more aromatic, and even smoother than immersion-style cold brew. It's a statement piece for the true coffee aficionado who enjoys the process as much as the result.</p>
       <div class="text-center my-6">
-        <a href="https://amzn.to/47Xi9GH" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
+        <a href="https://amzn.to/47Xi9GH" target="_blank" rel="noopener noreferrer sponsored" class="font-semibold text-primary hover:underline">
           Shop Kyoto-Style Brewers on Amazon
         </a>
       </div>
@@ -528,3 +528,6 @@ export const productReviews = [
     
 
 
+
+
+    
