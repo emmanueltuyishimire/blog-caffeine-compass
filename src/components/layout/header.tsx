@@ -6,7 +6,7 @@ const navItems = [
   { href: '/', label: 'Home' },
   { href: '/blog', label: 'Blog' },
   { href: '/reviews', label: 'Reviews' },
-  { href: '/calculator', label: 'Calculator' },
+  { href: 'https://calculation.site/calculators', label: 'Calculator' },
 ];
 
 export function Header() {
@@ -25,6 +25,8 @@ export function Header() {
               key={item.label}
               href={item.href}
               className="transition-colors hover:text-foreground/80 text-foreground/60"
+              target={item.href.startsWith('http') ? '_blank' : undefined}
+              rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
             >
               {item.label}
             </Link>
