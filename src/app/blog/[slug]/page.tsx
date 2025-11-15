@@ -19,14 +19,19 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     };
   }
 
+  const url = `/blog/${post.slug}`;
+
   return {
     title: post.title,
     description: post.excerpt,
+    alternates: {
+      canonical: url,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: 'article',
-      url: `/blog/${post.slug}`,
+      url: url,
       images: [
         {
           url: post.imageUrl,

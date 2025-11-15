@@ -19,6 +19,7 @@ const fontHeadline = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://calculation.site'),
   title: {
     default: 'Caffeine Compass',
     template: '%s | Caffeine Compass',
@@ -26,10 +27,13 @@ export const metadata: Metadata = {
   description: 'Your daily dose of coffee culture, reviews, and science.',
   keywords: ['coffee', 'espresso', 'pour-over', 'coffee beans', 'coffee review', 'caffeine', 'cafe'],
   authors: [{ name: 'Caffeine Compass' }],
+  alternates: {
+    canonical: '/blog',
+  },
   openGraph: {
     title: 'Caffeine Compass',
     description: 'Your daily dose of coffee culture, reviews, and science.',
-    url: 'https://calculation.site/blog',
+    url: '/blog',
     siteName: 'Caffeine Compass',
     images: [
       {

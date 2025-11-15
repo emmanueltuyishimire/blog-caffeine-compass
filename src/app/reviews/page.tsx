@@ -5,6 +5,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Product Reviews',
   description: 'Unbiased reviews of the latest coffee gear, from grinders to espresso machines.',
+  alternates: {
+    canonical: '/reviews',
+  },
 };
 
 export default function ReviewsPage() {
