@@ -191,6 +191,66 @@
       "imageUrl": "https://images.unsplash.com/photo-1633562473489-13d803a61250?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhJTIwY3VwJTIwb2YlMjB5ZXJiYSUyMG1hdGUlMjBuZXh0JTIwdG8lMjBhJTIwY3VwJTIwb2YlMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMzI1MjEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "yerba-mate coffee",
       "description": "A cup of yerba mate next to a cup of coffee."
+    },
+    {
+      "id": "coffee-makers-2025",
+      "imageUrl": "https://images.unsplash.com/photo-1644225978520-04f4c843cc2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBtYWtlcnN8ZW58MHx8fHwxNzYzMjI1OTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee makers",
+      "description": "A variety of modern coffee makers."
+    },
+    {
+      "id": "keurig-ranked",
+      "imageUrl": "https://images.unsplash.com/photo-1758271613743-748b409c196b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxrZXVyaWclMjBtYWNoaW5lfGVufDB8fHx8MTc2MzIyNTk0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "keurig machine",
+      "description": "Several Keurig coffee makers lined up."
+    },
+    {
+      "id": "ninja-review",
+      "imageUrl": "https://images.unsplash.com/photo-1678304920324-69dc21694e71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxuaW5qYSUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ninja coffee-maker",
+      "description": "A Ninja coffee maker brewing coffee."
+    },
+    {
+      "id": "under-50",
+      "imageUrl": "https://images.unsplash.com/photo-1761483281120-4fc47bfe3e29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGVhcCUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cheap coffee-maker",
+      "description": "A simple, affordable coffee maker."
+    },
+    {
+      "id": "small-spaces",
+      "imageUrl": "https://images.unsplash.com/photo-1595334519455-c225faa3c258?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb21wYWN0JTIwY29mZmVlLW1ha2VyfGVufDB8fHx8MTc2MzIyNTk0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "compact coffee-maker",
+      "description": "A compact coffee maker on a small kitchen counter."
+    },
+    {
+      "id": "programmable-coffee",
+      "imageUrl": "https://images.unsplash.com/photo-1618584171314-4a127f31a3ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzbWFydCUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smart coffee-maker",
+      "description": "A coffee maker with a digital display showing a scheduled brew time."
+    },
+    {
+      "id": "cheapest-coffee",
+      "imageUrl": "https://images.unsplash.com/photo-1652146909306-3dc16342ed4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxiYXNpYyUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "basic coffee-maker",
+      "description": "A very basic, no-frills coffee maker."
+    },
+    {
+      "id": "college-coffee",
+      "imageUrl": "https://images.unsplash.com/photo-1586084530410-1fef480049e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkb3JtLXJvb20lMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjI1OTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dorm-room coffee",
+      "description": "A coffee maker in a college dorm room setting."
+    },
+    {
+      "id": "single-vs-drip",
+      "imageUrl": "https://images.unsplash.com/photo-1758520387646-a5fe1bf5fc33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2ZmZWUlMjBjaG9pY2V8ZW58MHx8fHwxNzYzMjI1OTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee choice",
+      "description": "A single-serve coffee pod next to a drip coffee filter."
+    },
+    {
+      "id": "new-coffee-maker",
+      "imageUrl": "https://images.unsplash.com/photo-1750159711471-9fbcf9f8534c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxvbGQlMjBicm9rZW58ZW58MHx8fHwxNzYzMjI1OTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "old broken",
+      "description": "An old, broken coffee maker next to a shiny new one."
     }
   ]
 }
