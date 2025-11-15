@@ -582,6 +582,8 @@ export const blogPosts = [
     title: 'How to Make Cold Brew Coffee at Home',
     author: 'Caffeine Compass Staff',
     date: 'April 10, 2025',
+    imageUrl: 'https://images.unsplash.com/photo-1592663527359-cf6642f54cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2xkJTIwYnJld3xlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    imageHint: 'cold brew',
     excerpt: 'Learn the simple, patient art of making smooth and rich cold brew concentrate right in your own kitchen.',
     content: `
       <p>Tired of bitter, acidic coffee that upsets your stomach? Do you crave a smooth, rich, and deeply flavorful coffee experience that you can grab straight from your fridge? Welcome to the wonderful world of cold brew. Learning <strong>how to make cold brew coffee at home</strong> is a game-changer, and it's shockingly simple.</p>
@@ -736,22 +738,25 @@ export const productReviews = [
     slug: 'aeropress-go-review',
     productName: 'Aeropress Go',
     rating: 5,
-    summary:
-      'The Aeropress Go is the perfect companion for coffee lovers on the move. It packs all the brewing power of the original into a brilliantly designed, self-contained travel mug.',
+    summary: 'The Aeropress Go is the perfect companion for coffee lovers on the move. It packs all the brewing power of the original into a brilliantly designed, self-contained travel mug.',
+    imageUrl: 'https://images.unsplash.com/photo-1666877674033-28172f3a0c5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhZXJvcHJlc3MlMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjIzOTE2fDA&ixlib=rb-4.1.0&q=80&w=600',
+    imageHint: 'aeropress coffee',
   },
   {
     slug: 'baratza-encore-review',
     productName: 'Baratza Encore Grinder',
     rating: 4,
-    summary:
-      "A fantastic entry-level burr grinder that offers consistency and durability. It's the go-to recommendation for anyone starting their home brewing journey.",
+    summary: "A fantastic entry-level burr grinder that offers consistency and durability. It's the go-to recommendation for anyone starting their home brewing journey.",
+    imageUrl: 'https://images.unsplash.com/photo-1646346834998-5b610ec21d12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2ZmZWUlMjBncmluZGVyfGVufDB8fHx8MTc2MzE4NjIzNHww&ixlib=rb-4.1.0&q=80&w=600',
+    imageHint: 'coffee grinder',
   },
   {
     slug: 'chemex-classic-review',
     productName: 'Chemex Classic (6-cup)',
     rating: 4,
-    summary:
-      "Not just a beautiful piece of design, the Chemex brews an exceptionally clean cup of coffee thanks to its thick, proprietary filters. A bit more hands-on, but worth the effort.",
+    summary: "Not just a beautiful piece of design, the Chemex brews an exceptionally clean cup of coffee thanks to its thick, proprietary filters. A bit more hands-on, but worth the effort.",
+    imageUrl: 'https://images.unsplash.com/photo-1694440851401-63e8f8bcd61f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGVtZXglMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjIzOTE3fDA&ixlib=rb-4.1.0&q=80&w=600',
+    imageHint: 'chemex coffee',
   }
 ];
 
