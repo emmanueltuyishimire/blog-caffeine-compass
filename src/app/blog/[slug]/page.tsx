@@ -78,9 +78,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <h1 className="text-3xl md:text-5xl font-headline font-bold drop-shadow-lg max-w-4xl">
             {post.title}
           </h1>
-          <p className="mt-4 text-lg text-white/90">
-            By {post.author} on {post.date}
-          </p>
         </div>
       </header>
 
