@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 const navItems = [
   { href: 'https://calculation.site', label: 'Home' },
   { href: '/blog', label: 'Blog' },
+  { href: 'https://calculation.site/business', label: 'Coffee Bizz' },
 ];
 
 export function Header() {
