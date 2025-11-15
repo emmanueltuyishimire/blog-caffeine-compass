@@ -64,24 +64,26 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
   return (
     <article>
-      <header className="relative w-full h-[50vh] min-h-[300px]">
-        <Image
-          src={post.imageUrl}
-          alt={post.title}
-          fill
-          className="object-cover"
-          priority
-          data-ai-hint={post.imageHint}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/20" />
-        <div className="relative container h-full flex flex-col items-center justify-center text-center text-white p-4">
-          <h1 className="text-3xl md:text-5xl font-headline font-bold drop-shadow-lg max-w-4xl">
+      <header className="container pt-8 md:pt-16">
+         <h1 className="text-3xl md:text-5xl font-headline font-bold text-center max-w-4xl mx-auto">
             {post.title}
           </h1>
-        </div>
       </header>
 
-      <div className="container max-w-3xl mx-auto py-8 md:py-16">
+      <div className="container max-w-5xl mx-auto my-8 md:my-12">
+        <div className="relative w-full h-auto aspect-video rounded-lg overflow-hidden">
+          <Image
+            src={post.imageUrl}
+            alt={post.title}
+            fill
+            className="object-cover"
+            priority
+            data-ai-hint={post.imageHint}
+          />
+        </div>
+      </div>
+
+      <div className="container max-w-3xl mx-auto pb-8 md:pb-16">
         <div
           className="prose prose-lg dark:prose-invert max-w-none text-foreground prose-headings:font-headline prose-headings:text-foreground prose-p:font-body prose-li:font-body"
           dangerouslySetInnerHTML={{ __html: post.content }}
