@@ -24,7 +24,7 @@ export const blogPosts = [
     imageHint: 'espresso beginner',
     excerpt: 'Compare the top beginner-friendly espresso machines to brew café-quality coffee at home.',
     content: `
-      <p><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
+      
       <p>Dreaming of pulling rich, aromatic shots of espresso at home but intimidated by the complex, chrome-plated machines you see in cafés? You're not alone. The world of espresso can feel like a private club with a high barrier to entry. But in 2025, brewing café-quality espresso at home has never been more accessible, thanks to a new generation of beginner-friendly machines.</p>
       <p>This guide is your friendly welcome to that club. We'll demystify the process, break down exactly what you need to look for, and introduce you to the best espresso machines for beginners in 2025. Whether you're a latte lover, a cappuccino connoisseur, or just want a straight shot of pure coffee goodness, the perfect machine for you is on this list.</p>
       
@@ -263,7 +263,7 @@ export const blogPosts = [
     ...findImage('cold-brew-at-home'),
     excerpt: 'Learn the simple, patient art of making smooth and rich cold brew concentrate right in your own kitchen.',
     content: `
-      <p><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
+      
       <p>Tired of bitter, acidic coffee that upsets your stomach? Do you crave a smooth, rich, and deeply flavorful coffee experience that you can grab straight from your fridge? Welcome to the wonderful world of cold brew. Learning <strong>how to make cold brew coffee at home</strong> is a game-changer, and it's shockingly simple.</p>
       <p>This ultimate guide will walk you through everything you need to know, from the basic cold brew recipe to advanced techniques, troubleshooting common issues, and choosing the best gear. By the end, you'll be a home-brewing cold brew connoisseur, saving money and enjoying café-quality coffee every day.</p>
       <h3 class="text-xl font-headline mt-4 mb-2">Who This Guide Is For:</h3>
@@ -398,7 +398,7 @@ export const blogPosts = [
         </li>
       </ol>
       <h2 class="text-3xl font-headline mt-8 mb-4" id="product-recommendations">Product Recommendations for the Home Cold Brewer</h2>
-      <p>While a Mason jar works perfectly, dedicated cold brew makers can simplify the process, especially filtration. Here are some of the best types of products to elevate your experience.</p>
+      
       <p><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
       <h3 class="text-xl font-headline mt-4 mb-2">1. All-in-One Pitcher Systems</h3>
       <p>These are the most popular and user-friendly options. They typically consist of a pitcher with a long, cylindrical filter basket that holds the grounds.</p>
