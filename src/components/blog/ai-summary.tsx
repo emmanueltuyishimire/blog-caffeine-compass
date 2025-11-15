@@ -45,12 +45,12 @@ export function AiSummary({ content }: AiSummaryProps) {
         <Button onClick={handleGenerateSummary} disabled={isLoading} size="lg" variant="secondary" className="bg-accent text-accent-foreground hover:bg-accent/90">
           {isLoading ? (
             <>
-              <Sparkles className="mr-2 h-4 w-4 animate-spin" />
+              <Sparkles aria-hidden="true" className="mr-2 h-4 w-4 animate-spin" />
               Generating...
             </>
           ) : (
             <>
-              <Sparkles className="mr-2 h-4 w-4" />
+              <Sparkles aria-hidden="true" className="mr-2 h-4 w-4" />
               Generate AI Summary
             </>
           )}
@@ -58,8 +58,8 @@ export function AiSummary({ content }: AiSummaryProps) {
       </div>
 
       {summary && (
-        <Alert className="mt-6 bg-card">
-          <CoffeeBeanIcon className="h-5 w-5" />
+        <Alert className="mt-6 bg-card" role="status">
+          <CoffeeBeanIcon aria-hidden="true" className="h-5 w-5" />
           <AlertTitle className="font-headline">AI-Generated Summary</AlertTitle>
           <AlertDescription className="mt-2">{summary}</AlertDescription>
         </Alert>
