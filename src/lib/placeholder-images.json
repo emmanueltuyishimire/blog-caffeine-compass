@@ -41,6 +41,66 @@
       "description": "A beautiful latte art.",
       "imageUrl": "https://images.unsplash.com/photo-1579265898841-79c7890d69cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsYXR0ZSUyMGFydHxlbnwwfHx8fDE3NjMyMTA2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "latte art"
+    },
+    {
+      "id": "ryze-review",
+      "imageUrl": "https://images.unsplash.com/photo-1670508183158-d1a3cbf5239a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtdXNocm9vbSUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjU1NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mushroom coffee",
+      "description": "A cup of Ryze mushroom coffee."
+    },
+    {
+      "id": "ryze-vs-dose",
+      "imageUrl": "https://images.unsplash.com/photo-1610920051820-cb947e1c75da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2ZmZWUlMjBjb21wYXJpc29ufGVufDB8fHx8MTc2MzIyNTU1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee comparison",
+      "description": "Two different cups of coffee side-by-side."
+    },
+    {
+      "id": "mushroom-brands",
+      "imageUrl": "https://images.unsplash.com/photo-1700811882783-2d45f1c41b24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29mZmVlJTIwYnJhbmRzfGVufDB8fHx8MTc2MzIyNTU1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee brands",
+      "description": "A collection of different mushroom coffee brands."
+    },
+    {
+      "id": "mushroom-works",
+      "imageUrl": "https://images.unsplash.com/photo-1735623102116-910500bc5445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnbG93aW5nJTIwbXVzaHJvb218ZW58MHx8fHwxNzYzMjI1NTU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "glowing mushroom",
+      "description": "A person looking thoughtfully at a mushroom."
+    },
+    {
+      "id": "mushroom-benefits",
+      "imageUrl": "https://images.unsplash.com/photo-1575468130797-aa950b68aeec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2llbmNlJTIwaGVhbHRofGVufDB8fHx8MTc2MzIxNjQwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science health",
+      "description": "A scientific diagram of a mushroom's benefits."
+    },
+    {
+      "id": "mushroom-side-effects",
+      "imageUrl": "https://images.unsplash.com/photo-1615129563398-d97c2d6f0cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYXV0aW9uJTIwc2lnbnxlbnwwfHx8fDE3NjMxNjA4NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "caution sign",
+      "description": "A person looking concerned at a cup of coffee."
+    },
+    {
+      "id": "mushroom-weight-loss",
+      "imageUrl": "https://images.unsplash.com/photo-1550985543-49bee3167284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWFzdXJpbmclMjB0YXBlfGVufDB8fHx8MTc2MzIyNTU1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "measuring tape",
+      "description": "A measuring tape next to a healthy meal and mushroom coffee."
+    },
+    {
+      "id": "mud-wtr-review",
+      "imageUrl": "https://images.unsplash.com/photo-1615928597189-156d5f0677d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtdWRkeSUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjU1NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "muddy coffee",
+      "description": "A cup of Mud/WTR coffee."
+    },
+    {
+      "id": "homemade-mushroom-coffee",
+      "imageUrl": "https://images.unsplash.com/photo-1518164483967-d6d558aa44df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxESVklMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjI1NTU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "DIY coffee",
+      "description": "Ingredients for making homemade mushroom coffee laid out on a kitchen counter."
+    },
+    {
+      "id": "mushroom-vs-regular",
+      "imageUrl": "https://images.unsplash.com/photo-1588410885838-169620ac6966?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2ZmZWUlMjBtYXRjaHVwfGVufDB8fHx8MTc2MzIyNTU1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee matchup",
+      "description": "A cup of mushroom coffee next to a cup of regular coffee."
     }
   ]
 }
