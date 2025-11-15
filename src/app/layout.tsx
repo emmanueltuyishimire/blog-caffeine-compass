@@ -6,8 +6,34 @@ import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'Caffeine Compass',
+  title: {
+    default: 'Caffeine Compass',
+    template: '%s | Caffeine Compass',
+  },
   description: 'Your daily dose of coffee culture, reviews, and science.',
+  keywords: ['coffee', 'espresso', 'pour-over', 'coffee beans', 'coffee review', 'caffeine', 'cafe'],
+  authors: [{ name: 'Caffeine Compass' }],
+  openGraph: {
+    title: 'Caffeine Compass',
+    description: 'Your daily dose of coffee culture, reviews, and science.',
+    url: 'https://calculation.site/blog',
+    siteName: 'Caffeine Compass',
+    images: [
+      {
+        url: '/blog/og-image.png', // Update with your actual OG image path
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Caffeine Compass',
+    description: 'Your daily dose of coffee culture, reviews, and science.',
+    images: ['/blog/og-image.png'], // Update with your actual OG image path
+  },
 };
 
 export default function RootLayout({

@@ -14,7 +14,7 @@ export function PostCard({ post }: PostCardProps) {
   return (
     <Card className="flex flex-col group overflow-hidden">
       <CardHeader className="p-0">
-        <Link href={`/${post.slug}`} className="block overflow-hidden">
+        <Link href={`/blog/${post.slug}`} className="block overflow-hidden">
           <Image
             src={post.imageUrl}
             alt={post.title}
@@ -27,7 +27,7 @@ export function PostCard({ post }: PostCardProps) {
       </CardHeader>
       <CardContent className="p-6 flex-1">
         <CardTitle className="font-headline text-xl lg:text-2xl leading-snug">
-          <Link href={`/${post.slug}`} className="hover:text-primary transition-colors">
+          <Link href={`/blog/${post.slug}`} className="hover:text-primary transition-colors">
             {post.title}
           </Link>
         </CardTitle>
@@ -35,7 +35,7 @@ export function PostCard({ post }: PostCardProps) {
       </CardContent>
       <CardFooter className="p-6 pt-0">
         <Link
-          href={`/${post.slug}`}
+          href={`/blog/${post.slug}`}
           className="font-semibold text-primary hover:underline flex items-center group-hover:gap-3 transition-all duration-300"
         >
           Read More <ArrowRight className="ml-2 h-4 w-4 " />

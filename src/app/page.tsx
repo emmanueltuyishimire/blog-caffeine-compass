@@ -1,5 +1,12 @@
 import { blogPosts } from '@/lib/data';
 import { PostCard } from '@/components/blog/post-card';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Blog',
+  description: 'The latest articles on coffee culture, brewing techniques, and our love for the bean.',
+};
+
 
 export default function Home() {
   return (

@@ -1,5 +1,11 @@
 import { productReviews } from '@/lib/data';
 import { ReviewCard } from '@/components/reviews/review-card';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Product Reviews',
+  description: 'Unbiased reviews of the latest coffee gear, from grinders to espresso machines.',
+};
 
 export default function ReviewsPage() {
   return (
