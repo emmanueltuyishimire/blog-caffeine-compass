@@ -61,9 +61,41 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   if (!post) {
     notFound();
   }
+  
+  const url = process.env.NEXT_PUBLIC_BASE_URL ? `${process.env.NEXT_PUBLIC_BASE_URL}/blog/${post.slug}` : `/blog/${post.slug}`;
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': url,
+    },
+    headline: post.title,
+    description: post.excerpt,
+    image: post.imageUrl,
+    author: {
+      '@type': 'Person',
+      name: 'T.Emmanuel',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Caffeine Compass',
+      logo: {
+        '@type': 'ImageObject',
+        url: '/logo.png',
+      },
+    },
+    datePublished: post.date,
+  };
+
 
   return (
     <article>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className="container pt-8 md:pt-16">
          <h1 className="text-3xl md:text-5xl font-headline font-bold text-center max-w-4xl mx-auto">
             {post.title}

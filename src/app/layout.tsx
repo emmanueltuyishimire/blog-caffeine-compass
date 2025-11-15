@@ -18,15 +18,17 @@ const fontHeadline = Space_Grotesk({
   variable: '--font-headline',
 });
 
+const url = 'https://calculation.site';
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://calculation.site'),
+  metadataBase: new URL(url),
   title: {
     default: 'Caffeine Compass',
     template: '%s | Caffeine Compass',
   },
   description: 'Your daily dose of coffee culture, reviews, and science.',
   keywords: ['coffee', 'espresso', 'pour-over', 'coffee beans', 'coffee review', 'caffeine', 'cafe'],
-  authors: [{ name: 'Caffeine Compass' }],
+  authors: [{ name: 'T.Emmanuel' }],
   alternates: {
     canonical: '/',
   },
@@ -58,9 +60,40 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  const organizationLdJson = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Caffeine Compass',
+    url: url,
+    logo: `${url}/logo.png`,
+    sameAs: [],
+  };
+
+  const websiteLdJson = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Caffeine Compass',
+    url: url,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `${url}/search?q={search_term_string}`,
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
+
   return (
     <html lang="en" className={`scroll-pt-[3.5rem] ${fontBody.variable} ${fontHeadline.variable}`}>
       <head>
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLdJson) }}
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLdJson) }}
+          />
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={cn('min-h-screen bg-background font-body antialiased')} suppressHydrationWarning={true}>

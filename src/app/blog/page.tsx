@@ -28,8 +28,31 @@ export default function BlogPage({
   
   const paginatedPosts = blogPosts.slice(offset, offset + postsToShow);
 
+  const url = process.env.NEXT_PUBLIC_BASE_URL ? `${process.env.NEXT_PUBLIC_BASE_URL}/blog` : '/blog';
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Caffeine Compass Blog',
+    description: 'The latest articles on coffee culture, brewing techniques, and our love for the bean.',
+    url: url,
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: blogPosts.map((post, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        url: process.env.NEXT_PUBLIC_BASE_URL ? `${process.env.NEXT_PUBLIC_BASE_URL}/blog/${post.slug}` : `/blog/${post.slug}`,
+        name: post.title,
+      })),
+    },
+  };
+
   return (
     <div className="container py-12 md:py-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <h1 className="text-4xl md:text-5xl font-headline font-bold mb-10">Caffeine Compass</h1>
       
       {featuredPost && (

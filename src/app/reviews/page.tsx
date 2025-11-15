@@ -11,8 +11,45 @@ export const metadata: Metadata = {
 };
 
 export default function ReviewsPage() {
+    const url = process.env.NEXT_PUBLIC_BASE_URL ? `${process.env.NEXT_PUBLIC_BASE_URL}/reviews` : '/reviews';
+    const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Product Reviews',
+    description: 'Unbiased reviews of the latest coffee gear, from grinders to espresso machines.',
+    url: url,
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: productReviews.map((review, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        item: {
+            '@type': 'Product',
+            name: review.productName,
+            url: url,
+            image: review.imageUrl,
+            review: {
+                '@type': 'Review',
+                reviewRating: {
+                    '@type': 'Rating',
+                    ratingValue: review.rating.toString(),
+                    bestRating: '5',
+                },
+                author: {
+                    '@type': 'Person',
+                    name: 'T.Emmanuel'
+                }
+            }
+        }
+      })),
+    },
+  };
   return (
     <div className="container py-12 md:py-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <h1 className="text-4xl md:text-5xl font-headline font-bold mb-10">Product Reviews</h1>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {productReviews.map((review) => (
