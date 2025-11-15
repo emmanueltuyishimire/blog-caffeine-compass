@@ -14,8 +14,6 @@ const findImage = (id: string) => {
   return { imageUrl: image.imageUrl, imageHint: image.imageHint };
 };
 
-const placeholderContent = `<p>This is a placeholder for the full blog post. Stay tuned for the complete article!</p>`;
-
 export const blogPosts = [
   {
     slug: 'best-espresso-machines-for-beginners-in-2025',
@@ -254,6 +252,7 @@ export const blogPosts = [
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="conclusion">Conclusion: Your Home Barista Journey Begins Here</h2>
       <p>[Placeholder for conclusion. This section will summarize the key takeaways, reinforce that great home espresso is achievable, and encourage the user to choose the machine that best fits their lifestyle and budget.]</p>
+      <p><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
     `,
   },
   {
@@ -589,6 +588,7 @@ export const blogPosts = [
       <p>Learning <strong>how to make cold brew coffee at home</strong> is more than just learning a new recipe—it's about taking control of your coffee experience. It's about saving money, reducing waste, and treating yourself to a consistently delicious, smooth, and refreshing cup of coffee, perfectly tailored to your taste, every single day.</p>
       <p>By understanding the core principles of beans, grind, ratio, and time, you've unlocked the secret to café-quality cold brew. You can say goodbye to bitter, acidic coffee and the expensive daily café run. The perfect brew is not intimidating or complex; it's a simple, patient process that rewards you with an incredibly satisfying result.</p>
       <p>Your next step is simple: grab a jar, get some coarsely ground beans, and start your first batch. Trust the process, taste the results, and don't be afraid to tweak the variables. The perfect glass of cold brew is waiting in your fridge.</p>
+      <p><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
     `,
   },
 ];
