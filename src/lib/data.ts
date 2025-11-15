@@ -197,6 +197,51 @@ export const blogPosts = [
     content: placeholderContent,
   },
   {
+    slug: 'does-matcha-have-caffeine',
+    title: 'Does Matcha Have Caffeine?',
+    author: 'Caffeine Compass Staff',
+    date: 'November 25, 2024',
+    ...findImage('matcha-caffeine'),
+    excerpt: 'A definitive guide to the caffeine content in matcha and how it compares to your typical cup of coffee.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'matcha-vs-coffee',
+    title: 'Matcha vs Coffee – Which Keeps You Awake Longer?',
+    author: 'Caffeine Compass Staff',
+    date: 'November 24, 2024',
+    ...findImage('matcha-vs-coffee'),
+    excerpt: 'We compare the energizing effects of matcha and coffee, looking at the science of L-theanine and caffeine.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'does-green-tea-have-caffeine',
+    title: 'Does Green Tea Have Caffeine?',
+    author: 'Caffeine Compass Staff',
+    date: 'November 23, 2024',
+    ...findImage('green-tea-caffeine'),
+    excerpt: 'Exploring the caffeine levels in different types of green tea and how it affects your body.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'best-caffeine-free-coffee-alternatives',
+    title: 'Best Caffeine-Free Coffee Alternatives',
+    author: 'Caffeine Compass Staff',
+    date: 'November 22, 2024',
+    ...findImage('caffeine-free-alternatives'),
+    excerpt: 'Looking to cut back on caffeine? We review the best-tasting and most satisfying coffee alternatives on the market.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'yerba-mate-vs-coffee-energy-comparison',
+    title: 'Yerba Mate vs Coffee Energy Comparison',
+    author: 'Caffeine Compass Staff',
+    date: 'November 21, 2024',
+    ...findImage('yerba-mate-vs-coffee'),
+    excerpt: 'A detailed comparison of the buzz from yerba mate and coffee. Which one provides a better, more sustained energy boost?',
+    content: placeholderContent,
+  },
+  {
     slug: 'the-ultimate-guide-to-pour-over-coffee',
     title: 'The Ultimate Guide to Pour-Over Coffee',
     author: 'Jane Doe',
@@ -273,5 +318,3 @@ export const productReviews = [
       "Not just a beautiful piece of design, the Chemex brews an exceptionally clean cup of coffee thanks to its thick, proprietary filters. A bit more hands-on, but worth the effort.",
   },
 ];
-
-    
