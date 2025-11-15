@@ -830,6 +830,51 @@ export const blogPosts = [
       <p>These are not added flavors! Tasting notes are the roaster's description of the natural flavors they perceive in the coffee, similar to how one might describe the notes in wine or chocolate. It's a guide to help you find a coffee you might like. If you see "notes of chocolate, nuts, and caramel," you can expect a rich, less acidic coffee. If you see "notes of lemon, blueberry, and jasmine," you're likely in for a bright, acidic, and fruity cup.</p>
     `,
   },
+  {
+    slug: 'how-to-start-a-coffee-shop',
+    title: 'How to Start a Coffee Shop (Beginner Guide)',
+    author: 'Caffeine Compass Staff',
+    date: 'June 1, 2025',
+    ...findImage('start-coffee-shop'),
+    excerpt: 'Your complete beginner\'s guide to starting a coffee shop, from concept to grand opening.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'coffee-shop-business-plan',
+    title: 'Coffee Shop Business Plan (Template)',
+    author: 'Caffeine Compass Staff',
+    date: 'June 2, 2025',
+    ...findImage('business-plan'),
+    excerpt: 'A comprehensive template to help you write a solid business plan for your new coffee shop.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'cost-to-start-coffee-shop',
+    title: 'How Much Does It Cost to Start a Coffee Shop?',
+    author: 'Caffeine Compass Staff',
+    date: 'June 3, 2025',
+    ...findImage('coffee-shop-cost'),
+    excerpt: 'A detailed breakdown of the startup costs involved in opening your own coffee shop.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'best-pos-systems-for-coffee-shops',
+    title: 'Best POS Systems for Coffee Shops',
+    author: 'Caffeine Compass Staff',
+    date: 'June 4, 2025',
+    ...findImage('pos-system'),
+    excerpt: 'A review of the top Point of Sale (POS) systems to manage your coffee shop efficiently.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'coffee-shop-marketing-ideas',
+    title: 'Coffee Shop Marketing Ideas That Actually Work',
+    author: 'Caffeine Compass Staff',
+    date: 'June 5, 2025',
+    ...findImage('coffee-marketing'),
+    excerpt: 'Creative and effective marketing strategies to attract and retain customers for your coffee shop.',
+    content: placeholderContent,
+  },
 ];
 
 export const productReviews = [

@@ -62,283 +62,283 @@
     },
     {
       "id": "mushroom-works",
-      "imageUrl": "https://images.unsplash.com/photo-1735623102116-910500bc5445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnbG93aW5nJTIwbXVzaHJvb218ZW58MHx8fHwxNzYzMjI1NTU5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1735623102116-910500bc5445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnbG93aW5nJTIwbXVzaHJvb218ZW58MHx8fHwxNzYzMjI1NTU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "glowing mushroom",
       "description": "A person looking thoughtfully at a mushroom."
     },
     {
       "id": "mushroom-benefits",
-      "imageUrl": "https://images.unsplash.com/photo-1575468130797-aa950b68aeec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2llbmNlJTIwaGVhbHRofGVufDB8fHx8MTc2MzIxNjQwNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1575468130797-aa950b68aeec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2llbmNlJTIwaGVhbHRofGVufDB8fHx8MTc2MzIxNjQwNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "science health",
       "description": "A scientific diagram of a mushroom's benefits."
     },
     {
       "id": "mushroom-side-effects",
-      "imageUrl": "https://images.unsplash.com/photo-1615129563398-d97c2d6f0cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYXV0aW9uJTIwc2lnbnxlbnwwfHx8fDE3NjMxNjA4NzF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1615129563398-d97c2d6f0cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYXV0aW9uJTIwc2lnbnxlbnwwfHx8fDE3NjMxNjA4NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "caution sign",
       "description": "A person looking concerned at a cup of coffee."
     },
     {
       "id": "mushroom-weight-loss",
-      "imageUrl": "https://images.unsplash.com/photo-1550985543-49bee3167284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWFzdXJpbmclMjB0YXBlfGVufDB8fHx8MTc2MzIyNTU1OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1550985543-49bee3167284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWFzdXJpbmclMjB0YXBlfGVufDB8fHx8MTc2MzIyNTU1OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "measuring tape",
       "description": "A measuring tape next to a healthy meal and mushroom coffee."
     },
     {
       "id": "mud-wtr-review",
-      "imageUrl": "https://images.unsplash.com/photo-1615928597189-156d5f0677d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtdWRkeSUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjU1NTl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1615928597189-156d5f0677d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtdWRkeSUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjU1NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "muddy coffee",
       "description": "A cup of Mud/WTR coffee."
     },
     {
       "id": "homemade-mushroom-coffee",
-      "imageUrl": "https://images.unsplash.com/photo-1518164483967-d6d558aa44df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxESVklMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjI1NTU5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1518164483967-d6d558aa44df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxESVklMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjI1NTU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "DIY coffee",
       "description": "Ingredients for making homemade mushroom coffee laid out on a kitchen counter."
     },
     {
       "id": "mushroom-vs-regular",
-      "imageUrl": "https://images.unsplash.com/photo-1588410885838-169620ac6966?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2ZmZWUlMjBtYXRjaHVwfGVufDB8fHx8MTc2MzIyNTU1OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1588410885838-169620ac6966?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2ZmZWUlMjBtYXRjaHVwfGVufDB8fHx8MTc2MzIyNTU1OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee matchup",
       "description": "A cup of mushroom coffee next to a cup of regular coffee."
     },
     {
       "id": "caffeine-table",
-      "imageUrl": "https://images.unsplash.com/photo-1554101831-2947b9650b86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYWZmZWluZSUyMHRhYmxlfGVufDB8fHx8MTc2MzMyNDI2NHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1554101831-2947b9650b86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYWZmZWluZSUyMHRhYmxlfGVufDB8fHx8MTc2MzMyNDI2NHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "caffeine table",
       "description": "A table or chart about caffeine."
     },
     {
       "id": "caffeine-cup",
-      "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3BmZWUlMjBjdXB8ZW58MHx8fHwxNzYzMzI0MjY0fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3BmZWUlMjBjdXB8ZW58MHx8fHwxNzYzMzI0MjY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee cup",
       "description": "A simple cup of black coffee."
     },
     {
       "id": "caffeine-system",
-      "imageUrl": "https://images.unsplash.com/photo-1519810755548-39f1b2da0435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0aW1lJTIwY2xvY2t8ZW58MHx8fHwxNzYzMzI0MjY0fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1519810755548-39f1b2da0435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0aW1lJTIwY2xvY2t8ZW58MHx8fHwxNzYzMzI0MjY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "time clock",
       "description": "A clock representing time."
     },
     {
       "id": "caffeine-withdrawal",
-      "imageUrl": "https://images.unsplash.com/photo-1551026419-75f49007a9a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFkYWNoZXxlbnwwfHx8fDE3NjMzMjQyNjR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1551026419-75f49007a9a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFkYWNoZXxlbnwwfHx8fDE3NjMzMjQyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person headache",
       "description": "A person looking tired and holding their head."
     },
     {
       "id": "caffeine-dehydration",
-      "imageUrl": "https://images.unsplash.com/photo-1561039535-654812a4c62b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjB3YXRlcnxlbnwwfHx8fDE3NjMzMjQyNjR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1561039535-654812a4c62b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjB3YXRlcnxlbnwwfHx8fDE3NjMzMjQyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee water",
       "description": "A cup of coffee next to a glass of water."
     },
     {
       "id": "caffeine-sleepy",
-      "imageUrl": "https://images.unsplash.com/photo-1549429486-7a7a505f7d3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx5YXduaW5nfGVufDB8fHx8MTc2MzMyNDI2NHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1549429486-7a7a505f7d3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx5YXduaW5nfGVufDB8fHx8MTc2MzMyNDI2NHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person yawning",
       "description": "A person yawning next to a cup of coffee."
     },
     {
       "id": "caffeine-poop",
-      "imageUrl": "https://images.unsplash.com/photo-1628527301933-8d2d6f1a85f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxxdWVzdGlvbiUyMG1hcmt8ZW58MHx8fHwxNzYzMzI0MjY1fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1628527301933-8d2d6f1a85f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxxdWVzdGlvbiUyMG1hcmt8ZW58MHx8fHwxNzYzMzI0MjY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "question mark",
       "description": "A question mark over a cup of coffee."
     },
     {
       "id": "caffeine-too-much",
-      "imageUrl": "https://images.unsplash.com/photo-1541167760496-162885647544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW55JTIwY29mZmVlJTIwY3Vwc3xlbnwwfHx8fDE3NjMzMjQyNjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1541167760496-162885647544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW55JTIwY29mZmVlJTIwY3Vwc3xlbnwwfHx8fDE3NjMzMjQyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "many coffee-cups",
       "description": "Many empty coffee cups on a table."
     },
     {
       "id": "tea-vs-coffee",
-      "imageUrl": "https://images.unsplash.com/photo-1574360344794-af1563412535?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZSUyMHZzJTIwY29mZmVlfGVufDB8fHx8MTc2MzMyNDI2NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1574360344794-af1563412535?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZSUyMHZzJTIwY29mZmVlfGVufDB8fHx8MTc2MzMyNDI2NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "tea vs-coffee",
       "description": "A cup of tea next to a cup of coffee."
     },
     {
       "id": "caffeine-chart",
-      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGFydHxlbnwwfHx8fDE3NjMzMjQyNjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGFydHxlbnwwfHx8fDE3NjMzMjQyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "data chart",
       "description": "A generic chart or graph."
     },
     {
       "id": "matcha-caffeine",
-      "imageUrl": "https://images.unsplash.com/photo-1563514214432-f388a1013143?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXRjaGElMjB0ZWF8ZW58MHx8fHwxNzYzMzI1MjAxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563514214432-f388a1013143?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXRjaGElMjB0ZWF8ZW58MHx8fHwxNzYzMzI1MjAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "matcha tea",
       "description": "A cup of matcha tea."
     },
     {
       "id": "matcha-vs-coffee",
-      "imageUrl": "https://images.unsplash.com/photo-1578339169115-b245a03358c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXRjaGElMjB2cyUyMGNvZmZlZXxlbnwwfHx8fDE3NjMzMjUyMTB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1578339169115-b245a03358c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXRjaGElMjB2cyUyMGNvZmZlZXxlbnwwfHx8fDE3NjMzMjUyMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "matcha coffee",
       "description": "A cup of matcha next to a cup of coffee."
     },
     {
       "id": "green-tea-caffeine",
-      "imageUrl": "https://images.unsplash.com/photo-1627435601361-ec25f24aa2e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHRlYXxlbnwwfHx8fDE3NjMzMjUyMTB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627435601361-ec25f24aa2e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHRlYXxlbnwwfHx8fDE3NjMzMjUyMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "green tea",
       "description": "A cup of green tea."
     },
     {
       "id": "caffeine-free-alternatives",
-      "imageUrl": "https://images.unsplash.com/photo-1596700317637-259e846a6f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZXJiYWwlMjB0ZWF8ZW58MHx8fHwxNzYzMzI1MjEwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1596700317637-259e846a6f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZXJiYWwlMjB0ZWF8ZW58MHx8fHwxNzYzMzI1MjEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "herbal tea",
       "description": "A variety of caffeine-free herbal teas."
     },
     {
       "id": "yerba-mate-vs-coffee",
-      "imageUrl": "https://images.unsplash.com/photo-1633562473489-13d803a61250?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhJTIwY3VwJTIwb2YlMjB5ZXJiYSUyMG1hdGUlMjBuZXh0JTIwdG8lMjBhJTIwY3VwJTIwb2YlMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMzI1MjEwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1633562473489-13d803a61250?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhJTIwY3VwJTIwb2YlMjB5ZXJiYSUyMG1hdGUlMjBuZXh0JTIwdG8lMjBhJTIwY3VwJTIwb2YlMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMzI1MjEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "yerba-mate coffee",
       "description": "A cup of yerba mate next to a cup of coffee."
     },
     {
       "id": "coffee-makers-2025",
-      "imageUrl": "https://images.unsplash.com/photo-1644225978520-04f4c843cc2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBtYWtlcnN8ZW58MHx8fHwxNzYzMjI1OTQyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1644225978520-04f4c843cc2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBtYWtlcnN8ZW58MHx8fHwxNzYzMjI1OTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee makers",
       "description": "A variety of modern coffee makers."
     },
     {
       "id": "keurig-ranked",
-      "imageUrl": "https://images.unsplash.com/photo-1758271613743-748b409c196b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxrZXVyaWclMjBtYWNoaW5lfGVufDB8fHx8MTc2MzIyNTk0Mnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758271613743-748b409c196b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxrZXVyaWclMjBtYWNoaW5lfGVufDB8fHx8MTc2MzIyNTk0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "keurig machine",
       "description": "Several Keurig coffee makers lined up."
     },
     {
       "id": "ninja-review",
-      "imageUrl": "https://images.unsplash.com/photo-1678304920324-69dc21694e71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxuaW5qYSUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1678304920324-69dc21694e71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxuaW5qYSUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ninja coffee-maker",
       "description": "A Ninja coffee maker brewing coffee."
     },
     {
       "id": "under-50",
-      "imageUrl": "https://images.unsplash.com/photo-1761483281120-4fc47bfe3e29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGVhcCUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1761483281120-4fc47bfe3e29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGVhcCUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cheap coffee-maker",
       "description": "A simple, affordable coffee maker."
     },
     {
       "id": "small-spaces",
-      "imageUrl": "https://images.unsplash.com/photo-1595334519455-c225faa3c258?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb21wYWN0JTIwY29mZmVlLW1ha2VyfGVufDB8fHx8MTc2MzIyNTk0Mnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1595334519455-c225faa3c258?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb21wYWN0JTIwY29mZmVlLW1ha2VyfGVufDB8fHx8MTc2MzIyNTk0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "compact coffee-maker",
       "description": "A compact coffee maker on a small kitchen counter."
     },
     {
       "id": "programmable-coffee",
-      "imageUrl": "https://images.unsplash.com/photo-1618584171314-4a127f31a3ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzbWFydCUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1618584171314-4a127f31a3ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzbWFydCUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "smart coffee-maker",
       "description": "A coffee maker with a digital display showing a scheduled brew time."
     },
     {
       "id": "cheapest-coffee",
-      "imageUrl": "https://images.unsplash.com/photo-1652146909306-3dc16342ed4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxiYXNpYyUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1652146909306-3dc16342ed4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxiYXNpYyUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "basic coffee-maker",
       "description": "A very basic, no-frills coffee maker."
     },
     {
       "id": "college-coffee",
-      "imageUrl": "https://images.unsplash.com/photo-1586084530410-1fef480049e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkb3JtLXJvb20lMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjI1OTQyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1586084530410-1fef480049e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkb3JtLXJvb20lMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjI1OTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dorm-room coffee",
       "description": "A coffee maker in a college dorm room setting."
     },
     {
       "id": "single-vs-drip",
-      "imageUrl": "https://images.unsplash.com/photo-1758520387646-a5fe1bf5fc33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2ZmZWUlMjBjaG9pY2V8ZW58MHx8fHwxNzYzMjI1OTQyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758520387646-a5fe1bf5fc33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2ZmZWUlMjBjaG9pY2V8ZW58MHx8fHwxNzYzMjI1OTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee choice",
       "description": "A single-serve coffee pod next to a drip coffee filter."
     },
     {
       "id": "new-coffee-maker",
-      "imageUrl": "https://images.unsplash.com/photo-1750159711471-9fbcf9f8534c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxvbGQlMjBicm9rZW58ZW58MHx8fHwxNzYzMjI1OTQyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1750159711471-9fbcf9f8534c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxvbGQlMjBicm9rZW58ZW58MHx8fHwxNzYzMjI1OTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "old broken",
       "description": "An old, broken coffee maker next to a shiny new one."
     },
     {
       "id": "espresso-machines-2025",
-      "imageUrl": "https://images.unsplash.com/photo-1563200088-2c49021e4284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlc3ByZXNzbyUyMG1hY2hpbmVzfGVufDB8fHx8MTc2MzMyNTQwNnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563200088-2c49021e4284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlc3ByZXNzbyUyMG1hY2hpbmVzfGVufDB8fHx8MTc2MzMyNTQwNnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "espresso machines",
       "description": "A lineup of modern espresso machines."
     },
     {
       "id": "breville-ranked",
-      "imageUrl": "https://images.unsplash.com/photo-1612195273349-dd3e4d94b335?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXJhYm9vJTIwY29mZmVlJTIwbWFjaGluZXxlbnwwfHx8fDE3NjMzMjU0MDZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1612195273349-dd3e4d94b335?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXJhYm9vJTIwY29mZmVlJTIwbWFjaGluZXxlbnwwfHx8fDE3NjMzMjU0MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "breville espresso",
       "description": "Several Breville espresso machines side-by-side."
     },
     {
       "id": "espresso-under-300",
-      "imageUrl": "https://images.unsplash.com/photo-1565065472852-d3f3458c3dea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYXJpc3RhJTIwbWFraW5nJTIwZXNwcmVzc298ZW58MHx8fHwxNzYzMzI1NDA2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1565065472852-d3f3458c3dea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYXJpc3RhJTIwbWFraW5nJTIwZXNwcmVzc298ZW58MHx8fHwxNzYzMzI1NDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "budget espresso",
       "description": "An affordable espresso machine making a shot."
     },
     {
       "id": "manual-espresso",
-      "imageUrl": "https://images.unsplash.com/photo-1600684722835-a6703b0d4537?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW51YWwlMjBlc3ByZXNzbyUyMG1hY2hpbmV8ZW58MHx8fHwxNzYzMzI1NDA2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1600684722835-a6703b0d4537?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW51YWwlMjBlc3ByZXNzbyUyMG1hY2hpbmV8ZW58MHx8fHwxNzYzMzI1NDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "manual espresso",
       "description": "A manual lever espresso machine."
     },
     {
       "id": "auto-vs-semi-auto",
-      "imageUrl": "https://images.unsplash.com/photo-1615918455896-1c29014e3734?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlc3ByZXNzbyUyMGNvbXBhcmlzb258ZW58MHx8fHwxNzYzMzI1NDA2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1615918455896-1c29014e3734?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlc3ByZXNzbyUyMGNvbXBhcmlzb258ZW58MHx8fHwxNzYzMzI1NDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "espresso comparison",
       "description": "An automatic and a semi-automatic espresso machine side-by-side."
     },
     {
       "id": "espresso-beginners",
-      "imageUrl": "https://images.unsplash.com/photo-1559350796-a8139556708b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiZWdpbm5lciUyMGJhcmlzdGF8ZW58MHx8fHwxNzYzMzI1NDA2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1559350796-a8139556708b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiZWdpbm5lciUyMGJhcmlzdGF8ZW58MHx8fHwxNzYzMzI1NDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "beginner barista",
       "description": "A person smiling while learning to use an espresso machine."
     },
     {
       "id": "jura-espresso",
-      "imageUrl": "https://images.unsplash.com/photo-1646903258752-d9653a996abe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBlc3ByZXNzbyUyMG1hY2hpbmV8ZW58MHx8fHwxNzYzMzI1NDA2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1646903258752-d9653a996abe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBlc3ByZXNzbyUyMG1hY2hpbmV8ZW58MHx8fHwxNzYzMzI1NDA2fDA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "luxury espresso",
       "description": "A high-end Jura espresso machine."
     },
     {
       "id": "commercial-espresso",
-      "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYWZlJTIwZXNwcmVzc28lMjBtYWNoaW5lfGVufDB8fHx8MTc2MzMyNTQwNnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYWZlJTIwZXNwcmVzc28lMjBtYWNoaW5lfGVufDB8fHx8MTc2MzMyNTQwNnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cafe espresso",
       "description": "A large commercial espresso machine in a cafe setting."
     },
     {
       "id": "choose-espresso",
-      "imageUrl": "https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlc3ByZXNzbyUyMG1hY2hpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjMzMjU0MDZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlc3ByZXNzbyUyMG1hY2hpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjMzMjU0MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "espresso shopping",
       "description": "A person looking at different espresso machines in a store."
     },
     {
       "id": "maintain-espresso",
-      "imageUrl": "https://images.unsplash.com/photo-1621217037775-827c4b075253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlc3ByZXNzbyUyMG1hY2hpbmUlMjBjbGVhbmluZ3xlbnwwfHx8fDE3NjMzMjU0MDZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1621217037775-827c4b075253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlc3ByZXNzbyUyMG1hY2hpbmUlMjBjbGVhbmluZ3xlbnwwfHx8fDE3NjMzMjU0MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "espresso cleaning",
       "description": "A person cleaning a part of an espresso machine."
     },
     {
       "id": "coffee-grinders-2025",
-      "imageUrl": "https://images.unsplash.com/photo-1581446974083-41ed1a460587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2ZmZWUlMjBncmluZGVyfGVufDB8fHx8MTc2MzE4NjIzNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1581446974083-41ed1a460587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2ZmZWUlMjBncmluZGVyfGVufDB8fHx8MTc2MzE4NjIzNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee grinder",
       "description": "A collection of coffee grinders for 2025."
     },
     {
       "id": "burr-vs-blade",
-      "imageUrl": "https://images.unsplash.com/photo-1759997956694-55411e03aecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmluZGVyJTIwY29tcGFyaXNvbnxlbnwwfHx8fDE3NjMyMjYzODB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1759997956694-55411e03aecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmluZGVyJTIwY29tcGFyaXNvbnxlbnwwfHx8fDE3NjMyMjYzODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "grinder comparison",
       "description": "A burr grinder and a blade grinder side-by-side."
     },
     {
       "id": "manual-grinders",
-      "imageUrl": "https://images.unsplash.com/photo-1758979645721-ad65bacd6708?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW51YWwlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758979645721-ad65bacd6708?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW51YWwlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "manual grinder",
       "description": "A person using a manual coffee grinder."
     },
     {
       "id": "espresso-grinders",
-      "imageUrl": "https://images.unsplash.com/photo-1596718957890-cefe2bbf3e23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlc3ByZXNzbyUyMGdyaW5kfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1596718957890-cefe2bbf3e23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlc3ByZXNzbyUyMGdyaW5kfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "espresso grind",
       "description": "A close-up of finely ground coffee for espresso."
     },
     {
       "id": "grinders-under-100",
-      "imageUrl": "https://images.unsplash.com/photo-1602342654726-83c1ea525a9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidWRnZXQlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1602342654726-83c1ea525a9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidWRnZXQlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "budget grinder",
       "description": "An affordable coffee grinder on a kitchen counter."
     },
@@ -350,7 +350,7 @@
     },
     {
       "id": "grinder-types",
-      "imageUrl": "https://images.unsplash.com/photo-1664352603314-6047584b3e10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmluZGVyJTIwdmFyaWV0eXxlbnwwfHx8fDE3NjMyMjYzODF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1664352603314-6047584b3e10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmluZGVyJTIwdmFyaWV0eXxlbnwwfHx8fDE3NjMyMjYzODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "grinder variety",
       "description": "An array of different types of coffee grinders."
     },
@@ -374,7 +374,7 @@
     },
     {
       "id": "coffee-beans-2025",
-      "imageUrl": "https://images.unsplash.com/photo-1599406240212-9993333f20b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBiZWFuc3xlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1599406240212-9993333f20b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBiZWFuc3xlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee beans",
       "description": "A pile of freshly roasted coffee beans."
     },
@@ -386,31 +386,31 @@
     },
     {
       "id": "espresso-beans",
-      "imageUrl": "https://images.unsplash.com/photo-1610632383353-c35398246328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlc3ByZXNzbyUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1610632383353-c35398246328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlc3ByZXNzbyUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "espresso beans",
       "description": "Dark, oily espresso beans in a hopper."
     },
     {
       "id": "organic-beans",
-      "imageUrl": "https://images.unsplash.com/photo-1507983944321-7248f6d39546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvcmdhbmljJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1507983944321-7248f6d39546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvcmdhbmljJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "organic coffee",
       "description": "A hand holding coffee beans with a green leaf."
     },
     {
       "id": "grinding-beans",
-      "imageUrl": "https://images.unsplash.com/photo-1551030173-122aabc4489c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmluZGluZyUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1551030173-122aabc4489c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmluZGluZyUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "grinding beans",
       "description": "Coffee beans being poured into a grinder."
     },
     {
       "id": "unroasted-vs-roasted",
-      "imageUrl": "https://images.unsplash.com/photo-1610632383353-c35398246328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGNvZmZlZSUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1610632383353-c35398246328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGNvZmZlZSUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "green coffee-beans",
       "description": "Green unroasted coffee beans next to dark roasted coffee beans."
     },
     {
       "id": "beans-freshness",
-      "imageUrl": "https://images.unsplash.com/photo-1585574503370-109467886475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWclMjBvZiUyMGNvZmZlZSUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1585574503370-109467886475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWclMjBvZiUyMGNvZmZlZSUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "bag coffee-beans",
       "description": "A bag of fresh coffee beans with a one-way valve."
     },
@@ -494,63 +494,93 @@
     },
     {
       "id": "coffee-good-for-you",
-      "imageUrl": "https://images.unsplash.com/photo-1720356778285-74818d6d7919?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFsdGh5JTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1720356778285-74818d6d7919?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFsdGh5JTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "healthy coffee",
       "description": "A cup of coffee surrounded by healthy items like fruits and nuts."
     },
     {
       "id": "coffee-bad-for-you",
-      "imageUrl": "https://images.unsplash.com/photo-1645356894529-8c3b231fbbbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBteXRofGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1645356894529-8c3b231fbbbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBteXRofGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee myth",
       "description": "A coffee cup with a question mark and a cross over it."
     },
     {
       "id": "coffee-weight-loss",
-      "imageUrl": "https://images.unsplash.com/photo-1680172050645-50b668379959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2ZmZWUlMjBkaWV0fGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1680172050645-50b668379959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2ZmZWUlMjBkaWV0fGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee diet",
       "description": "A cup of black coffee next to a measuring tape."
     },
     {
       "id": "black-coffee-benefits",
-      "imageUrl": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibGFjayUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjcwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibGFjayUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjcwNzZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "black coffee",
       "description": "A simple, elegant cup of black coffee."
     },
     {
       "id": "coffee-vs-energy-drink",
-      "imageUrl": "https://images.unsplash.com/photo-1598146635303-dd566d5e3ac2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBlbmVyZ3ktZHJpbmt8ZW58MHx8fHwxNzYzMjI3MDc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1598146635303-dd566d5e3ac2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBlbmVyZ3ktZHJpbmt8ZW58MHx8fHwxNzYzMjI3MDc2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee energy-drink",
       "description": "A cup of coffee next to a can of an energy drink."
     },
     {
       "id": "coffee-blood-pressure",
-      "imageUrl": "https://images.unsplash.com/photo-1631815584191-0ed1723f0ead?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxibG9vZCUyMHByZXNzdXJlfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1631815584191-0ed1723f0ead?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxibG9vZCUyMHByZXNzdXJlfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "blood pressure",
       "description": "A blood pressure monitor next to a cup of coffee."
     },
     {
       "id": "caffeine-sleep-impact",
-      "imageUrl": "https://images.unsplash.com/photo-1758874383822-0e63bdadd37a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYWZmZWluZSUyMHNsZWVwfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758874383822-0e63bdadd37a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYWZmZWluZSUyMHNsZWVwfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "caffeine sleep",
       "description": "A clock showing a late time next to a cup of coffee on a bedside table."
     },
     {
       "id": "healthy-coffee-alternatives",
-      "imageUrl": "https://images.unsplash.com/photo-1758599543195-259390d42a50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxoZWFsdGh5JTIwYWx0ZXJuYXRpdmVzfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758599543195-259390d42a50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxoZWFsdGh5JTIwYWx0ZXJuYXRpdmVzfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "healthy alternatives",
       "description": "A variety of healthy drinks like herbal tea, matcha, and chicory coffee."
     },
     {
       "id": "decaf-caffeine",
-      "imageUrl": "https://images.unsplash.com/photo-1719488757646-6c214c8315b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkZWNhZiUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjcwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1719488757646-6c214c8315b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkZWNhZiUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjcwNzZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "decaf coffee",
       "description": "A cup of decaf coffee with a small question mark."
     },
     {
       "id": "coffee-heart-race",
-      "imageUrl": "https://images.unsplash.com/photo-1723401697770-a6693eb921a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFydCUyMHJhY2V8ZW58MHx8fHwxNzYzMjI3MDc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1723401697770-a6693eb921a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFydCUyMHJhY2V8ZW58MHx8fHwxNzYzMjI3MDc2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "heart race",
       "description": "An EKG line showing a fast heart rate next to a cup of coffee."
+    },
+    {
+      "id": "start-coffee-shop",
+      "imageUrl": "https://images.unsplash.com/photo-1511081692775-05d0f180a065?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2ZmZWUlMjBzaG9wfGVufDB8fHx8MTc2MzE1MjA2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee shop",
+      "description": "A bright and welcoming coffee shop interior."
+    },
+    {
+      "id": "business-plan",
+      "imageUrl": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YnVzaW5lc3MlMjBwbGFufGVufDB8fHx8MTc2MzE5ODI5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business plan",
+      "description": "A person writing a business plan on a notepad."
+    },
+    {
+      "id": "coffee-shop-cost",
+      "imageUrl": "https://images.unsplash.com/photo-1711437365291-b3df620b2fd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb25leSUyMGNhbGN1bGF0b3J8ZW58MHx8fHwxNzYzMjI3NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "money calculator",
+      "description": "A calculator with stacks of coins, representing costs."
+    },
+    {
+      "id": "pos-system",
+      "imageUrl": "https://images.unsplash.com/photo-1602665478334-f8c4fd62ede4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3MlMjBzeXN0ZW18ZW58MHx8fHwxNzYzMTQzNjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pos system",
+      "description": "A modern Point of Sale (POS) system in a coffee shop."
+    },
+    {
+      "id": "coffee-marketing",
+      "imageUrl": "https://images.unsplash.com/photo-1686061593213-98dad7c599b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYXJrZXRpbmclMjBzdHJhdGVneXxlbnwwfHx8fDE3NjMyMDI5NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "marketing strategy",
+      "description": "A whiteboard with marketing ideas and strategies."
     }
   ]
 }
