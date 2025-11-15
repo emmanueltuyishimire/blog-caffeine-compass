@@ -101,6 +101,66 @@
       "imageUrl": "https://images.unsplash.com/photo-1588410885838-169620ac6966?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2ZmZWUlMjBtYXRjaHVwfGVufDB8fHx8MTc2MzIyNTU1OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee matchup",
       "description": "A cup of mushroom coffee next to a cup of regular coffee."
+    },
+    {
+      "id": "caffeine-table",
+      "imageUrl": "https://images.unsplash.com/photo-1554101831-2947b9650b86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYWZmZWluZSUyMHRhYmxlfGVufDB8fHx8MTc2MzMyNDI2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "caffeine table",
+      "description": "A table or chart about caffeine."
+    },
+    {
+      "id": "caffeine-cup",
+      "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3BmZWUlMjBjdXB8ZW58MHx8fHwxNzYzMzI0MjY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee cup",
+      "description": "A simple cup of black coffee."
+    },
+    {
+      "id": "caffeine-system",
+      "imageUrl": "https://images.unsplash.com/photo-1519810755548-39f1b2da0435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0aW1lJTIwY2xvY2t8ZW58MHx8fHwxNzYzMzI0MjY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "time clock",
+      "description": "A clock representing time."
+    },
+    {
+      "id": "caffeine-withdrawal",
+      "imageUrl": "https://images.unsplash.com/photo-1551026419-75f49007a9a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFkYWNoZXxlbnwwfHx8fDE3NjMzMjQyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person headache",
+      "description": "A person looking tired and holding their head."
+    },
+    {
+      "id": "caffeine-dehydration",
+      "imageUrl": "https://images.unsplash.com/photo-1561039535-654812a4c62b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjB3YXRlcnxlbnwwfHx8fDE3NjMzMjQyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee water",
+      "description": "A cup of coffee next to a glass of water."
+    },
+    {
+      "id": "caffeine-sleepy",
+      "imageUrl": "https://images.unsplash.com/photo-1549429486-7a7a505f7d3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx5YXduaW5nfGVufDB8fHx8MTc2MzMyNDI2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person yawning",
+      "description": "A person yawning next to a cup of coffee."
+    },
+    {
+      "id": "caffeine-poop",
+      "imageUrl": "https://images.unsplash.com/photo-1628527301933-8d2d6f1a85f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxxdWVzdGlvbiUyMG1hcmt8ZW58MHx8fHwxNzYzMzI0MjY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "question mark",
+      "description": "A question mark over a cup of coffee."
+    },
+    {
+      "id": "caffeine-too-much",
+      "imageUrl": "https://images.unsplash.com/photo-1541167760496-162885647544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW55JTIwY29mZmVlJTIwY3Vwc3xlbnwwfHx8fDE3NjMzMjQyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "many coffee-cups",
+      "description": "Many empty coffee cups on a table."
+    },
+    {
+      "id": "tea-vs-coffee",
+      "imageUrl": "https://images.unsplash.com/photo-1574360344794-af1563412535?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZSUyMHZzJTIwY29mZmVlfGVufDB8fHx8MTc2MzMyNDI2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tea vs-coffee",
+      "description": "A cup of tea next to a cup of coffee."
+    },
+    {
+      "id": "caffeine-chart",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGFydHxlbnwwfHx8fDE3NjMzMjQyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data chart",
+      "description": "A generic chart or graph."
     }
   ]
 }

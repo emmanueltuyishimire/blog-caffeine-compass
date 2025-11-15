@@ -1,3 +1,4 @@
+
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const findImage = (id: string) => {
@@ -106,6 +107,96 @@ export const blogPosts = [
     content: placeholderContent,
   },
   {
+    slug: 'how-much-caffeine-in-coffee-table',
+    title: 'How Much Caffeine Is in Coffee? (Table Included)',
+    author: 'Caffeine Compass Staff',
+    date: 'December 5, 2024',
+    ...findImage('caffeine-table'),
+    excerpt: 'A detailed breakdown of the caffeine content in different types of coffee, from espresso to cold brew, complete with a helpful comparison table.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'how-much-caffeine-in-a-cup-of-coffee',
+    title: 'How Much Caffeine in a Cup of Coffee?',
+    author: 'Caffeine Compass Staff',
+    date: 'December 4, 2024',
+    ...findImage('caffeine-cup'),
+    excerpt: 'The simple answer to a common question. We explore the factors that influence caffeine levels in your daily cup.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'how-long-does-caffeine-stay-in-your-system',
+    title: 'How Long Does Caffeine Stay in Your System?',
+    author: 'Caffeine Compass Staff',
+    date: 'December 3, 2024',
+    ...findImage('caffeine-system'),
+    excerpt: 'Understanding the half-life of caffeine and how long its effects can last in your body. We look at the science behind caffeine metabolism.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'caffeine-withdrawal-symptoms-timeline',
+    title: 'Caffeine Withdrawal Symptoms & Timeline',
+    author: 'Caffeine Compass Staff',
+    date: 'December 2, 2024',
+    ...findImage('caffeine-withdrawal'),
+    excerpt: 'Thinking of a caffeine detox? Here’s what to expect. A guide to the common symptoms of caffeine withdrawal and how long they typically last.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'does-caffeine-dehydrate-you',
+    title: 'Does Caffeine Dehydrate You?',
+    author: 'Caffeine Compass Staff',
+    date: 'December 1, 2024',
+    ...findImage('caffeine-dehydration'),
+    excerpt: 'We bust the myth about coffee and dehydration. Find out what the science says about caffeine’s effects on your hydration levels.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'does-coffee-make-you-sleepy',
+    title: 'Does Coffee Make You Sleepy?',
+    author: 'Caffeine Compass Staff',
+    date: 'November 30, 2024',
+    ...findImage('caffeine-sleepy'),
+    excerpt: 'It sounds counterintuitive, but for some people, coffee can lead to fatigue. We explore the reasons why, from adenosine to sugar crashes.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'does-coffee-make-you-poop',
+    title: 'Does Coffee Make You Poop? (Real Reason)',
+    author: 'Caffeine Compass Staff',
+    date: 'November 29, 2024',
+    ...findImage('caffeine-poop'),
+    excerpt: 'It’s a question many people wonder about. We look at the science behind why coffee can stimulate your digestive system.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'how-much-caffeine-is-too-much',
+    title: 'How Much Caffeine Is Too Much?',
+    author: 'Caffeine Compass Staff',
+    date: 'November 28, 2024',
+    ...findImage('caffeine-too-much'),
+    excerpt: 'A look at the recommended daily limits for caffeine and the signs that you might be consuming too much.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'caffeine-in-tea-vs-coffee',
+    title: 'Caffeine in Tea vs Coffee',
+    author: 'Caffeine Compass Staff',
+    date: 'November 27, 2024',
+    ...findImage('tea-vs-coffee'),
+    excerpt: 'Which has more caffeine? We compare the caffeine content in various types of tea and coffee to help you choose your brew.',
+    content: placeholderContent,
+  },
+  {
+    slug: 'caffeine-chart-popular-drinks-compared',
+    title: 'Caffeine Chart: Popular Drinks Compared',
+    author: 'Caffeine Compass Staff',
+    date: 'November 26, 2024',
+    ...findImage('caffeine-chart'),
+    excerpt: 'See how your favorite coffee, tea, soda, and energy drinks stack up in our comprehensive caffeine comparison chart.',
+    content: placeholderContent,
+  },
+  {
     slug: 'the-ultimate-guide-to-pour-over-coffee',
     title: 'The Ultimate Guide to Pour-Over Coffee',
     author: 'Jane Doe',
@@ -182,3 +273,5 @@ export const productReviews = [
       "Not just a beautiful piece of design, the Chemex brews an exceptionally clean cup of coffee thanks to its thick, proprietary filters. A bit more hands-on, but worth the effort.",
   },
 ];
+
+    
