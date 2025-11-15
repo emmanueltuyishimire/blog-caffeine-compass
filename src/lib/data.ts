@@ -100,7 +100,7 @@ export const blogPosts = [
         </div>
       </div>
       <div class="text-center my-6">
-        <a href="https://amzn.to/44cg1cW" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-primary text-primary-foreground font-bold px-6 py-3 rounded-md no-underline hover:bg-primary/90 transition-colors">
+        <a href="https://amzn.to/44cg1cW" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
           Check Price on Amazon
         </a>
       </div>
@@ -134,7 +134,7 @@ export const blogPosts = [
         </div>
       </div>
       <div class="text-center my-6">
-        <a href="https://amzn.to/3LFcTjz" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-primary text-primary-foreground font-bold px-6 py-3 rounded-md no-underline hover:bg-primary/90 transition-colors">
+        <a href="https://amzn.to/3LFcTjz" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
           Check Price on Amazon
         </a>
       </div>
@@ -168,7 +168,7 @@ export const blogPosts = [
         </div>
       </div>
       <div class="text-center my-6">
-        <a href="https://amzn.to/47IHq8J" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-primary text-primary-foreground font-bold px-6 py-3 rounded-md no-underline hover:bg-primary/90 transition-colors">
+        <a href="https://amzn.to/47IHq8J" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
           Check Price on Amazon
         </a>
       </div>
@@ -202,7 +202,7 @@ export const blogPosts = [
         </div>
       </div>
       <div class="text-center my-6">
-        <a href="https://amzn.to/47YH3pg" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-primary text-primary-foreground font-bold px-6 py-3 rounded-md no-underline hover:bg-primary/90 transition-colors">
+        <a href="https://amzn.to/47YH3pg" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-yellow-400 text-black font-bold px-6 py-3 rounded-md no-underline hover:bg-yellow-500 transition-colors">
           Check Price on Amazon
         </a>
       </div>
@@ -277,7 +277,6 @@ export const blogPosts = [
     ...findImage('cold-brew-at-home'),
     excerpt: 'Learn the simple, patient art of making smooth and rich cold brew concentrate right in your own kitchen.',
     content: `
-      <p><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
       <p>Tired of bitter, acidic coffee that upsets your stomach? Do you crave a smooth, rich, and deeply flavorful coffee experience that you can grab straight from your fridge? Welcome to the wonderful world of cold brew. Learning <strong>how to make cold brew coffee at home</strong> is a game-changer, and it's shockingly simple.</p>
       <p>This ultimate guide will walk you through everything you need to know, from the basic cold brew recipe to advanced techniques, troubleshooting common issues, and choosing the best gear. By the end, you'll be a home-brewing cold brew connoisseur, saving money and enjoying café-quality coffee every day.</p>
       <h3 class="text-xl font-headline mt-4 mb-2">Who This Guide Is For:</h3>
