@@ -1,7 +1,6 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import { blogPosts } from '@/lib/data';
-import { AiSummary } from '@/components/blog/ai-summary';
 import type { Metadata } from 'next';
 
 interface BlogPostPageProps {
@@ -91,7 +90,6 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
         
-        <AiSummary content={post.content} />
       </div>
     </article>
   );
