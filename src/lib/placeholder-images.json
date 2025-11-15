@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "pour-over-guide",
+      "description": "A person making pour-over coffee.",
+      "imageUrl": "https://images.unsplash.com/photo-1657340281158-0ee4bf385f1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cG91ci1vdmVyJTIwY29mZmVlfGVufDB8fHx8MTc2MzE2MTI0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pour-over coffee"
+    },
+    {
+      "id": "coffee-labels",
+      "description": "Close up on a coffee bag label.",
+      "imageUrl": "https://images.unsplash.com/photo-1761936513644-cbc5f3207139?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb2ZmZWUlMjBsYWJlbHxlbnwwfHx8fDE3NjMyMjM5MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee label"
+    },
+    {
+      "id": "caffeine-productivity",
+      "description": "A person working on a laptop with a cup of coffee.",
+      "imageUrl": "https://images.unsplash.com/photo-1534432295314-d934309ea09d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsYXB0b3AlMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMTA2MTcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laptop coffee"
+    },
+    {
+      "id": "aeropress-go",
+      "description": "An Aeropress Go coffee maker on a table.",
+      "imageUrl": "https://images.unsplash.com/photo-1666877674033-28172f3a0c5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhZXJvcHJlc3MlMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjIzOTE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "aeropress coffee"
+    },
+    {
+      "id": "baratza-grinder",
+      "description": "A Baratza Encore coffee grinder.",
+      "imageUrl": "https://images.unsplash.com/photo-1646346834998-5b610ec21d12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2ZmZWUlMjBncmluZGVyfGVufDB8fHx8MTc2MzE4NjIzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee grinder"
+    },
+    {
+      "id": "chemex-review",
+      "description": "A Chemex coffee maker.",
+      "imageUrl": "https://images.unsplash.com/photo-1694440851401-63e8f8bcd61f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGVtZXglMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjIzOTE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chemex coffee"
+    },
+    {
+      "id": "hero-image",
+      "description": "A beautiful latte art.",
+      "imageUrl": "https://images.unsplash.com/photo-1579265898841-79c7890d69cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsYXR0ZSUyMGFydHxlbnwwfHx8fDE3NjMyMTA2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "latte art"
+    }
+  ]
 }
