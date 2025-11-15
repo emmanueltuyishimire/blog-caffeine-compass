@@ -1,6 +1,7 @@
 import { productReviews } from '@/lib/data';
 import { ReviewCard } from '@/components/reviews/review-card';
 import type { Metadata } from 'next';
+import { headers } from 'next/headers';
 
 export const metadata: Metadata = {
   title: 'Product Reviews',
@@ -11,7 +12,11 @@ export const metadata: Metadata = {
 };
 
 export default function ReviewsPage() {
-    const url = process.env.NEXT_PUBLIC_BASE_URL ? `${process.env.NEXT_PUBLIC_BASE_URL}/reviews` : '/reviews';
+    const headersList = headers();
+    const proto = headersList.get('x-forwarded-proto') || 'http';
+    const host = headersList.get('x-forwarded-host') || headersList.get('host');
+    const url = `${proto}://${host}/reviews`;
+
     const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',

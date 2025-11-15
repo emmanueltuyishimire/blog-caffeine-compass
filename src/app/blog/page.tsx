@@ -3,6 +3,8 @@ import { PostCard } from '@/components/blog/post-card';
 import type { Metadata } from 'next';
 import { PaginationControls } from '@/components/blog/pagination-controls';
 import { FeaturedPostCard } from '@/components/blog/featured-post-card';
+import { headers } from 'next/headers';
+
 
 export const metadata: Metadata = {
   title: 'Blog',
@@ -28,20 +30,24 @@ export default function BlogPage({
   
   const paginatedPosts = blogPosts.slice(offset, offset + postsToShow);
 
-  const url = process.env.NEXT_PUBLIC_BASE_URL ? `${process.env.NEXT_PUBLIC_BASE_URL}/blog` : '/blog';
+  const headersList = headers();
+  const proto = headersList.get('x-forwarded-proto') || 'http';
+  const host = headersList.get('x-forwarded-host') || headersList.get('host');
+  const pageUrl = `${proto}://${host}/blog`;
+
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: 'Caffeine Compass Blog',
     description: 'The latest articles on coffee culture, brewing techniques, and our love for the bean.',
-    url: url,
+    url: pageUrl,
     mainEntity: {
       '@type': 'ItemList',
       itemListElement: blogPosts.map((post, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        url: process.env.NEXT_PUBLIC_BASE_URL ? `${process.env.NEXT_PUBLIC_BASE_URL}/blog/${post.slug}` : `/blog/${post.slug}`,
+        url: `${pageUrl}/${post.slug}`,
         name: post.title,
       })),
     },
