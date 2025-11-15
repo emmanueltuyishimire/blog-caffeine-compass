@@ -1,4 +1,5 @@
 
+
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const findImage = (id: string) => {
@@ -21,7 +22,8 @@ export const blogPosts = [
     title: 'Best Espresso Machines for Beginners in 2025',
     author: 'Caffeine Compass Staff',
     date: 'July 1, 2025',
-    ...findImage('espresso-beginners-2025'),
+    imageUrl: '/Best Espresso Machines for Beginners in 2025.webp',
+    imageHint: 'espresso beginner',
     excerpt: 'Compare the top beginner-friendly espresso machines to brew café-quality coffee at home.',
     content: `
       <p><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
