@@ -99,7 +99,11 @@ export const blogPosts = [
           </ul>
         </div>
       </div>
-      <p class="text-center my-4">This machine is an excellent choice for those who value speed, convenience, and consistency above all else. <a href="https://amzn.to/44cg1cW" target="_blank" rel="noopener noreferrer sponsored">Available on Amazon.</a></p>
+      <div class="text-center my-6">
+        <a href="https://amzn.to/44cg1cW" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-primary text-primary-foreground font-bold px-6 py-3 rounded-md no-underline hover:bg-primary/90 transition-colors">
+          Check Price on Amazon
+        </a>
+      </div>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">2. KitchenAid Fully Automatic Espresso Machine KF8</h3>
       <h4 class="text-xl font-headline mt-4 mb-2">Best for One-Touch Automation</h4>
@@ -129,7 +133,11 @@ export const blogPosts = [
           </ul>
         </div>
       </div>
-      <p class="text-center my-4">This is the perfect machine for the beginner who has a bigger budget and wants the quality of fresh beans and the convenience of automation. <a href="https://amzn.to/3LFcTjz" target="_blank" rel="noopener noreferrer sponsored">Find this item on Amazon.</a></p>
+      <div class="text-center my-6">
+        <a href="https://amzn.to/3LFcTjz" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-primary text-primary-foreground font-bold px-6 py-3 rounded-md no-underline hover:bg-primary/90 transition-colors">
+          Check Price on Amazon
+        </a>
+      </div>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">3. Artkoff 20 Bar Espresso Machine</h3>
       <h4 class="text-xl font-headline mt-4 mb-2">Best for Budget with Manual Control</h4>
@@ -159,7 +167,11 @@ export const blogPosts = [
           </ul>
         </div>
       </div>
-      <p class="text-center my-4">This machine is for the true beginner enthusiast on a budget who is excited by the idea of learning a new skill. <a href="https://amzn.to/47IHq8J" target="_blank" rel="noopener noreferrer sponsored">See product details on Amazon.</a></p>
+      <div class="text-center my-6">
+        <a href="https://amzn.to/47IHq8J" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-primary text-primary-foreground font-bold px-6 py-3 rounded-md no-underline hover:bg-primary/90 transition-colors">
+          Check Price on Amazon
+        </a>
+      </div>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">4. CASABREWS CM5418 Espresso Machine</h3>
       <h4 class="text-xl font-headline mt-4 mb-2">Best for Compact Manual Brewing</h4>
@@ -189,7 +201,11 @@ export const blogPosts = [
           </ul>
         </div>
       </div>
-      <p class="text-center my-4">A fantastic choice for beginners who are short on space but big on ambition to learn the art of espresso. <a href="https://amzn.to/47YH3pg" target="_blank" rel="noopener noreferrer sponsored">Available on Amazon.</a></p>
+      <div class="text-center my-6">
+        <a href="https://amzn.to/47YH3pg" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-primary text-primary-foreground font-bold px-6 py-3 rounded-md no-underline hover:bg-primary/90 transition-colors">
+          Check Price on Amazon
+        </a>
+      </div>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="comparison-table">Beginner Espresso Machine Comparison</h2>
       <table class="w-full text-left border-collapse mt-4">
