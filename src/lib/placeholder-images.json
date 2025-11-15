@@ -1,6 +1,486 @@
 {
   "placeholderImages": [
     {
+      "id": "espresso-beginners-2025",
+      "imageUrl": "https://images.unsplash.com/photo-1689164255885-d172a4f5fc4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZXNwcmVzc28lMjBiZWdpbm5lcnxlbnwwfHx8fDE3NjMyMjgxNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "espresso beginner",
+      "description": "A person learning to use a simple espresso machine."
+    },
+    {
+      "id": "top-coffee-grinders",
+      "imageUrl": "https://images.unsplash.com/photo-1611854778859-3ee00caf1ea5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBncmluZGVyc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee grinders",
+      "description": "A lineup of various coffee grinders."
+    },
+    {
+      "id": "single-serve-makers",
+      "imageUrl": "https://images.unsplash.com/photo-1720762223716-ed06ab1142cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzaW5nbGUtc2VydmUlMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "single-serve coffee",
+      "description": "A sleek single-serve coffee maker brewing a cup."
+    },
+    {
+      "id": "budget-espresso-200",
+      "imageUrl": "https://images.unsplash.com/photo-1575724494215-e1baede6fa4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidWRnZXQlMjBlc3ByZXNzb3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "budget espresso",
+      "description": "An affordable espresso machine under $200 making espresso."
+    },
+    {
+      "id": "manual-grinders-travelers",
+      "imageUrl": "https://images.unsplash.com/photo-1573066516618-70e8e69506e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW51YWwlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "manual grinder",
+      "description": "A manual coffee grinder being used outdoors."
+    },
+    {
+      "id": "drip-makers-home-office",
+      "imageUrl": "https://images.unsplash.com/photo-1610874150308-a1e6f8c905d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkcmlwJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "drip coffee",
+      "description": "A drip coffee maker suitable for home and office use."
+    },
+    {
+      "id": "milk-frothers-latte",
+      "imageUrl": "https://images.unsplash.com/photo-1604946326434-8dd1a3b6098b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtaWxrJTIwZnJvdGhlcnxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "milk frother",
+      "description": "A high-pressure milk frother creating foam for a latte."
+    },
+    {
+      "id": "smart-makers-app",
+      "imageUrl": "https://images.unsplash.com/photo-1615400924742-67293aae4257?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzbWFydCUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smart coffee-maker",
+      "description": "A coffee maker being controlled by a smartphone app."
+    },
+    {
+      "id": "cold-brew-makers-summer",
+      "imageUrl": "https://images.unsplash.com/photo-1733860443209-7d5733b654d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2xkLWJyZXclMjBtYWtlcnxlbnwwfHx8fDE3NjMyMjgxNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cold-brew maker",
+      "description": "A cold brew coffee maker on a sunny patio."
+    },
+    {
+      "id": "french-press-makers",
+      "imageUrl": "https://images.unsplash.com/photo-1609902980959-8fc750449b73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmcmVuY2glMjBwcmVzc3xlbnwwfHx8fDE3NjMxMzUxMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "french press",
+      "description": "A classic French press coffee maker."
+    },
+    {
+      "id": "reusable-filters",
+      "imageUrl": "https://images.unsplash.com/photo-1667568977136-2375252124cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZXVzYWJsZSUyMGZpbHRlcnxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "reusable filter",
+      "description": "A reusable metal coffee filter."
+    },
+    {
+      "id": "gooseneck-kettles-pour-over",
+      "imageUrl": "https://images.unsplash.com/photo-1749467738056-bd7078383ca9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnb29zZW5lY2slMjBrZXR0bGV8ZW58MHx8fHwxNzYzMTQzNjEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gooseneck kettle",
+      "description": "A gooseneck kettle being used for pour-over coffee."
+    },
+    {
+      "id": "travel-mugs-hot",
+      "imageUrl": "https://images.unsplash.com/photo-1669824774762-65ddf29bee56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dHJhdmVsJTIwbXVnfGVufDB8fHx8MTc2MzE1NDQ3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "travel mug",
+      "description": "A travel coffee mug keeping a drink hot for hours."
+    },
+    {
+      "id": "bean-storage-containers",
+      "imageUrl": "https://images.unsplash.com/photo-1756678444668-6afd4990d2f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiZWFuJTIwc3RvcmFnZXxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bean storage",
+      "description": "Airtight coffee bean storage containers."
+    },
+    {
+      "id": "coffee-scales-accurate",
+      "imageUrl": "https://images.unsplash.com/photo-1670989235993-f16cf3f782eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzY2FsZXxlbnwwfHx8fDE3NjMxNDM2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee scale",
+      "description": "A precision coffee scale with beans on it."
+    },
+    {
+      "id": "home-roasters-small-batch",
+      "imageUrl": "https://images.unsplash.com/photo-1695191405835-5e466c4d1fba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob21lJTIwcm9hc3RlcnxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "home roaster",
+      "description": "A small-batch home coffee roaster in action."
+    },
+    {
+      "id": "subscription-boxes-2025",
+      "imageUrl": "https://images.unsplash.com/photo-1608145264900-e9905d0d6de8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdWJzY3JpcHRpb24lMjBib3h8ZW58MHx8fHwxNzYzMjA2MTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "subscription box",
+      "description": "A coffee subscription box with various bags of beans."
+    },
+    {
+      "id": "iced-coffee-makers-home",
+      "imageUrl": "https://images.unsplash.com/photo-1749104028313-a175107a5052?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpY2VkLWNvZmZlZSUyMG1ha2VyfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "iced-coffee maker",
+      "description": "An iced coffee maker brewing a refreshing drink."
+    },
+    {
+      "id": "barista-tools-latte-art",
+      "imageUrl": "https://images.unsplash.com/photo-1497636577773-f1231844b336?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYXR0ZSUyMGFydHxlbnwwfHx8fDE3NjMyMTA2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "latte art",
+      "description": "A set of barista tools for creating latte art."
+    },
+    {
+      "id": "coffee-starter-kits",
+      "imageUrl": "https://images.unsplash.com/photo-1646760820822-590b87282813?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdGFydGVyJTIwa2l0fGVufDB8fHx8MTc2MzExNjMwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "starter kit",
+      "description": "A complete coffee starter kit for beginners."
+    },
+    {
+      "id": "brew-perfect-espresso",
+      "imageUrl": "https://images.unsplash.com/photo-1666854448526-2232df89b6bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJmZWN0JTIwZXNwcmVzc298ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfect espresso",
+      "description": "A perfect shot of espresso being pulled."
+    },
+    {
+      "id": "make-cold-brew-beginner",
+      "imageUrl": "https://images.unsplash.com/photo-1654139080818-8254afadbf74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2xkLWJyZXclMjBiZWdpbm5lcnxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cold-brew beginner",
+      "description": "A simple setup for making cold brew coffee."
+    },
+    {
+      "id": "froth-milk-no-machine",
+      "imageUrl": "https://images.unsplash.com/photo-1708024974458-6b8028563ea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmcm90aCUyMG1pbGt8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "froth milk",
+      "description": "Frothing milk in a jar."
+    },
+    {
+      "id": "taste-coffee-pro",
+      "imageUrl": "https://images.unsplash.com/photo-1558996260-4bac67dbd110?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBjdXBwaW5nfGVufDB8fHx8MTc2MzIyODE0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee cupping",
+      "description": "A coffee cupping session with multiple cups."
+    },
+    {
+      "id": "grind-coffee-every-method",
+      "imageUrl": "https://images.unsplash.com/photo-1629248990514-c350da4e7bc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2ZmZWUlMjBncmluZHxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee grind",
+      "description": "Different coffee grind sizes displayed."
+    },
+    {
+      "id": "store-beans-properly",
+      "imageUrl": "https://images.unsplash.com/photo-1502045856-4882464b27a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdG9yZSUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "store beans",
+      "description": "Coffee beans being stored in a proper container."
+    },
+    {
+      "id": "brew-pour-over-perfectly",
+      "imageUrl": "https://images.unsplash.com/photo-1679038555214-fde035f21701?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3VyLW92ZXIlMjBwZXJmZWN0bHl8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pour-over perfectly",
+      "description": "A perfect pour-over coffee being brewed."
+    },
+    {
+      "id": "brew-french-press-no-over-extraction",
+      "imageUrl": "https://images.unsplash.com/photo-1524424177250-5f178b523ebc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmcmVuY2glMjBwcmVzc3xlbnwwfHx8fDE3NjMxMzUxMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "french press",
+      "description": "A French press being plunged at the right time."
+    },
+    {
+      "id": "make-iced-latte-home",
+      "imageUrl": "https://images.unsplash.com/photo-1527156231393-7023794f363c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpY2VkJTIwbGF0dGV8ZW58MHx8fHwxNzYzMjE5NTg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "iced latte",
+      "description": "A homemade iced latte in a tall glass."
+    },
+    {
+      "id": "choose-roast-level",
+      "imageUrl": "https://images.unsplash.com/photo-1682996055064-599bec77fc62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyb2FzdCUyMGxldmVsc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "roast levels",
+      "description": "Different coffee bean roast levels from light to dark."
+    },
+    {
+      "id": "clean-maintain-espresso",
+      "imageUrl": "https://images.unsplash.com/photo-1633420840567-d5c4cbdffe57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjbGVhbiUyMGVzcHJlc3NvfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean espresso",
+      "description": "Cleaning an espresso machine."
+    },
+    {
+      "id": "brew-better-cheap-equipment",
+      "imageUrl": "https://images.unsplash.com/photo-1674668920910-85b8d3c187ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGVhcCUyMGVxdWlwbWVudHxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cheap equipment",
+      "description": "Making great coffee with inexpensive equipment."
+    },
+    {
+      "id": "make-coffee-no-maker",
+      "imageUrl": "https://images.unsplash.com/photo-1762657440624-d0b5cfae5bac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2ZmZWUlMjBuby1tYWtlcnxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee no-maker",
+      "description": "Making coffee using an unconventional method."
+    },
+    {
+      "id": "use-moka-pot",
+      "imageUrl": "https://images.unsplash.com/photo-1452415005154-c06158558480?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb2thJTIwcG90fGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "moka pot",
+      "description": "A moka pot on a stove."
+    },
+    {
+      "id": "use-pour-over-scale",
+      "imageUrl": "https://images.unsplash.com/photo-1585047209652-ab8537bf6d6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwb3VyLW92ZXIlMjBzY2FsZXxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pour-over scale",
+      "description": "Using a scale for precision pour-over brewing."
+    },
+    {
+      "id": "make-flavored-syrups",
+      "imageUrl": "https://images.unsplash.com/photo-1545246909-b4e087f05214?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmbGF2b3JlZCUyMHN5cnVwfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flavored syrup",
+      "description": "Homemade flavored coffee syrups in bottles."
+    },
+    {
+      "id": "choose-beans-beginner",
+      "imageUrl": "https://images.unsplash.com/photo-1672777690170-f296e7005c75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaG9vc2UlMjBiZWFuc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "choose beans",
+      "description": "A beginner looking at different coffee beans."
+    },
+    {
+      "id": "brew-large-groups",
+      "imageUrl": "https://picsum.photos/seed/138/600/400",
+      "imageHint": "large batch",
+      "description": "Brewing a large batch of coffee for a group."
+    },
+    {
+      "id": "fix-brewing-problems",
+      "imageUrl": "https://images.unsplash.com/photo-1663665798497-2932ee5e5f9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxicmV3aW5nJTIwcHJvYmxlbXxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brewing problem",
+      "description": "A person looking quizzically at a bad cup of coffee."
+    },
+    {
+      "id": "light-roast-at-home",
+      "imageUrl": "https://images.unsplash.com/photo-1661669037600-615a42b0a829?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bGlnaHQlMjByb2FzdHxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "light roast",
+      "description": "Lightly roasting coffee beans at home."
+    },
+    {
+      "id": "start-coffee-shop-2025",
+      "imageUrl": "https://images.unsplash.com/photo-1753351052046-8c6818304a4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdGFydCUyMGNvZmZlZS1zaG9wfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "start coffee-shop",
+      "description": "The front of a new, modern coffee shop."
+    },
+    {
+      "id": "coffee-shop-business-plan-template",
+      "imageUrl": "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXNpbmVzcyUyMHBsYW58ZW58MHx8fHwxNzYzMTk4MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business plan",
+      "description": "A coffee shop business plan document."
+    },
+    {
+      "id": "coffee-shop-name-ideas",
+      "imageUrl": "https://images.unsplash.com/photo-1753899094290-e3ad72773800?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bmFtZSUyMGlkZWFzfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "name ideas",
+      "description": "A brainstorm of coffee shop names on a whiteboard."
+    },
+    {
+      "id": "cost-to-start-coffee-shop-2",
+      "imageUrl": "https://images.unsplash.com/photo-1580657018950-c7f7d6a6d990?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzaG9wJTIwY29zdHxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shop cost",
+      "description": "An infographic breaking down the cost to start a coffee shop."
+    },
+    {
+      "id": "market-coffee-shop",
+      "imageUrl": "https://images.unsplash.com/photo-1622076356935-900292e7019a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYXJrZXQlMjBzaG9wfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "market shop",
+      "description": "Marketing materials for a coffee shop."
+    },
+    {
+      "id": "build-coffee-brand",
+      "imageUrl": "https://images.unsplash.com/photo-1719488757644-309df536c17b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2ZmZWUlMjBicmFuZHxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee brand",
+      "description": "Building a coffee brand identity."
+    },
+    {
+      "id": "mobile-coffee-cart",
+      "imageUrl": "https://images.unsplash.com/reserve/DHHQbqc0RrWVf0uDNe5E_The%20Litte%20Cafe.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2ZmZWUlMjBjYXJ0fGVufDB8fHx8MTc2MzEyODExN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee cart",
+      "description": "A mobile coffee cart business in action."
+    },
+    {
+      "id": "price-coffee-drinks",
+      "imageUrl": "https://images.unsplash.com/photo-1758721321641-361492a7af83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcmljZSUyMGRyaW5rc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "price drinks",
+      "description": "A menu with prices for coffee drinks."
+    },
+    {
+      "id": "create-cafe-menu",
+      "imageUrl": "https://images.unsplash.com/photo-1743811929021-38f49208dd8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYWZlJTIwbWVudXxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cafe menu",
+      "description": "Creating an appealing cafe menu."
+    },
+    {
+      "id": "find-bean-suppliers",
+      "imageUrl": "https://images.unsplash.com/photo-1546327740-1d4c4e191b65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiZWFuJTIwc3VwcGxpZXJzfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bean suppliers",
+      "description": "Finding coffee bean suppliers for a cafe."
+    },
+    {
+      "id": "reduce-coffee-costs",
+      "imageUrl": "https://picsum.photos/seed/151/600/400",
+      "imageHint": "reduce costs",
+      "description": "Illustrations about reducing costs in a coffee business."
+    },
+    {
+      "id": "create-loyalty-program",
+      "imageUrl": "https://images.unsplash.com/photo-1590935217281-8f102120d683?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsb3lhbHR5JTIwcHJvZ3JhbXxlbnwwfHx8fDE3NjMxNDk4Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "loyalty program",
+      "description": "A coffee shop loyalty program card."
+    },
+    {
+      "id": "pos-for-small-shops",
+      "imageUrl": "https://images.unsplash.com/photo-1728044849291-69f90d443aea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwb3MlMjBzeXN0ZW18ZW58MHx8fHwxNzYzMTQzNjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pos system",
+      "description": "A point-of-sale system in a small coffee shop."
+    },
+    {
+      "id": "train-baristas-pro",
+      "imageUrl": "https://images.unsplash.com/photo-1635678245617-98c73d566428?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0cmFpbiUyMGJhcmlzdGF8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "train barista",
+      "description": "Training a barista."
+    },
+    {
+      "id": "design-coffee-shop-interior",
+      "imageUrl": "https://images.unsplash.com/photo-1739201080675-20f720aecde9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzaG9wJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shop interior",
+      "description": "The interior design of a coffee shop."
+    },
+    {
+      "id": "social-media-for-coffee-shop",
+      "imageUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3NjMxNzI3MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social media",
+      "description": "Using social media to promote a coffee shop."
+    },
+    {
+      "id": "start-online-coffee-brand",
+      "imageUrl": "https://images.unsplash.com/photo-1696568720371-6d2a535a1ddf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvbmxpbmUlMjBjb2ZmZWUtYnJhbmR8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "online coffee-brand",
+      "description": "An online store for a coffee brand."
+    },
+    {
+      "id": "run-shop-no-experience",
+      "imageUrl": "https://images.unsplash.com/photo-1534381080764-9af56e62d935?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxubyUyMGV4cGVyaWVuY2V8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "no experience",
+      "description": "A person running a coffee shop with a helpful guide."
+    },
+    {
+      "id": "successful-cafe-model",
+      "imageUrl": "https://images.unsplash.com/photo-1724816632044-98f563fbf049?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYWZlJTIwbW9kZWx8ZW58MHx8fHwxNzYzMjI4MTQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cafe model",
+      "description": "A business model for a successful cafe."
+    },
+    {
+      "id": "increase-revenue-no-raise",
+      "imageUrl": "https://images.unsplash.com/photo-1723095816936-fcda04ba0ece?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmNyZWFzZSUyMHJldmVudWV8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "increase revenue",
+      "description": "Strategies to increase revenue without raising prices."
+    },
+    {
+      "id": "coffee-trends-2025",
+      "imageUrl": "https://images.unsplash.com/photo-1760351065294-b069f6bcadc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2ZmZWUlMjB0cmVuZHN8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee trends",
+      "description": "The latest coffee trends for 2025."
+    },
+    {
+      "id": "daily-coffee-benefits",
+      "imageUrl": "https://images.unsplash.com/photo-1587734195342-39d4b9b2ff05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBiZW5lZml0c3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee benefits",
+      "description": "The health benefits of drinking coffee daily."
+    },
+    {
+      "id": "specialty-coffee-popular",
+      "imageUrl": "https://images.unsplash.com/photo-1680381792123-676305af82d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzcGVjaWFsdHklMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "specialty coffee",
+      "description": "Why specialty coffee is becoming popular."
+    },
+    {
+      "id": "beginner-coffee-drinks",
+      "imageUrl": "https://images.unsplash.com/photo-1760351561007-47e20bd56435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWdpbm5lciUyMGRyaW5rc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beginner drinks",
+      "description": "A selection of coffee drinks for beginners."
+    },
+    {
+      "id": "hot-weather-drinks",
+      "imageUrl": "https://images.unsplash.com/photo-1633311152092-76540be6fdd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob3Qtd2VhdGhlciUyMGRyaW5rc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hot-weather drinks",
+      "description": "Refreshing coffee drinks for hot weather."
+    },
+    {
+      "id": "winter-cozy-drinks",
+      "imageUrl": "https://images.unsplash.com/photo-1730190980694-c6a34d2f6b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2ludGVyJTIwZHJpbmtzfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "winter drinks",
+      "description": "Cozy coffee drinks for winter."
+    },
+    {
+      "id": "barista-skills-art",
+      "imageUrl": "https://images.unsplash.com/photo-1621865091587-42f462729948?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiYXJpc3RhJTIwYXJ0fGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "barista art",
+      "description": "Barista skills as a form of modern art."
+    },
+    {
+      "id": "origin-regions-explained",
+      "imageUrl": "https://images.unsplash.com/photo-1713098965471-d324f294a71d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvcmlnaW4lMjByZWdpb25zfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "origin regions",
+      "description": "Explaining coffee origin regions."
+    },
+    {
+      "id": "coffee-creativity-productivity",
+      "imageUrl": "https://images.unsplash.com/photo-1702961891852-6991bebff76b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcmVhdGl2aXR5JTIwcHJvZHVjdGl2aXR5fGVufDB8fHx8MTc2MzIyODE0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "creativity productivity",
+      "description": "How coffee shapes creativity and productivity."
+    },
+    {
+      "id": "coffee-quotes-inspire",
+      "imageUrl": "https://images.unsplash.com/photo-1579675102859-33dda38cc553?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBxdW90ZXN8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee quotes",
+      "description": "Inspirational coffee quotes."
+    },
+    {
+      "id": "coffee-gifts-2025",
+      "imageUrl": "https://images.unsplash.com/photo-1622647306301-176abdc3f209?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2ZmZWUlMjBnaWZ0c3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee gifts",
+      "description": "Coffee gifts for coffee lovers."
+    },
+    {
+      "id": "zero-calorie-drinks",
+      "imageUrl": "https://images.unsplash.com/photo-1659352155545-34145aeb8993?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx6ZXJvLWNhbG9yaWV8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "zero-calorie",
+      "description": "Zero-calorie coffee drinks."
+    },
+    {
+      "id": "coffee-mental-health",
+      "imageUrl": "https://images.unsplash.com/photo-1604480132736-44c188fe4d20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtZW50YWwlMjBoZWFsdGh8ZW58MHx8fHwxNzYzMjIwNTY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mental health",
+      "description": "The link between coffee and mental health."
+    },
+    {
+      "id": "coffee-recipes-at-home",
+      "imageUrl": "https://images.unsplash.com/photo-1572544518668-c8ae48ac9eb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjByZWNpcGVzfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee recipes",
+      "description": "Coffee drink recipes to make at home."
+    },
+    {
+      "id": "beans-for-espresso-lovers",
+      "imageUrl": "https://images.unsplash.com/photo-1706039451959-54b85e7d2b1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlc3ByZXNzbyUyMGxvdmVyc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "espresso lovers",
+      "description": "Coffee beans for espresso lovers."
+    },
+    {
+      "id": "beans-for-light-roast-fans",
+      "imageUrl": "https://images.unsplash.com/photo-1602094689189-a7cb72dc1ff9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsaWdodC1yb2FzdHxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "light-roast",
+      "description": "Coffee beans for light roast fans."
+    },
+    {
+      "id": "beans-for-cold-brew-2",
+      "imageUrl": "https://images.unsplash.com/photo-1625126590447-cb769384e1f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2xkLWJyZXclMjBiZWFuc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cold-brew beans",
+      "description": "Coffee beans for cold brew."
+    },
+    {
+      "id": "coffee-accessories-lover",
+      "imageUrl": "https://images.unsplash.com/photo-1758887255513-9752751dfd4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2ZmZWUlMjBhY2Nlc3Nvcmllc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee accessories",
+      "description": "Coffee accessories for coffee lovers."
+    },
+    {
+      "id": "coffee-culture-drink",
+      "imageUrl": "https://images.unsplash.com/photo-1762390157744-128c1460ae2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29mZmVlJTIwY3VsdHVyZXxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee culture",
+      "description": "Coffee as a culture, not just a drink."
+    },
+    {
+      "id": "coffee-myths-debunked",
+      "imageUrl": "https://images.unsplash.com/photo-1620815498155-a09c73b5fce1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2ZmZWUlMjBteXRoc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee myths",
+      "description": "Debunking common coffee myths."
+    },
+    {
       "id": "pour-over-guide",
       "description": "A person making pour-over coffee.",
       "imageUrl": "https://images.unsplash.com/photo-1657340281158-0ee4bf385f1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cG91ci1vdmVyJTIwY29mZmVlfGVufDB8fHx8MTc2MzE2MTI0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -356,19 +836,19 @@
     },
     {
       "id": "grinder-cleaning",
-      "imageUrl": "https://images.unsplash.com/photo-1672209962122-4e38cd353163?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjbGVhbiUyMGdyaW5kZXJ8ZW58MHx8fHwxNzYzMjI2MzgwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1672209962122-4e38cd353163?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjbGVhbiUyMGdyaW5kZXJ8ZW58MHx8fHwxNzYzMjI2MzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "clean grinder",
       "description": "A person cleaning a coffee grinder with a brush."
     },
     {
       "id": "portable-grinders",
-      "imageUrl": "https://images.unsplash.com/photo-1760648311436-d18d39f499bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0cmF2ZWwlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1760648311436-d18d39f499bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0cmF2ZWwlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "travel grinder",
       "description": "A portable coffee grinder next to a travel mug."
     },
     {
       "id": "electric-vs-manual-grinders",
-      "imageUrl": "https://images.unsplash.com/photo-1613626318906-68be0aef3334?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxncmluZGVyJTIwZHVlbHxlbnwwfHx8fDE3NjMyMjYzODB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1613626318906-68be0aef3334?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxncmluZGVyJTIwZHVlbHxlbnwwfHx8fDE3NjMyMjYzODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "grinder duel",
       "description": "An electric grinder and a manual grinder facing off."
     },
@@ -380,7 +860,7 @@
     },
     {
       "id": "arabica-vs-robusta",
-      "imageUrl": "https://images.unsplash.com/photo-1614631379963-33927c73796d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiZWFucyUyMHNvcnRlZHxlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1614631379963-33927c73796d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiZWFucyUyMHNvcnRlZHxlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "beans sorted",
       "description": "Two types of coffee beans, Arabica and Robusta, side-by-side."
     },
@@ -416,139 +896,139 @@
     },
     {
       "id": "cold-brew-beans",
-      "imageUrl": "https://images.unsplash.com/photo-1592663527359-a9941f659038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2xkJTIwYnJldyUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1592663527359-a9941f659038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2xkJTIwYnJldyUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cold brew",
       "description": "Coarsely ground coffee beans ready for cold brewing."
     },
     {
       "id": "beans-origin",
-      "imageUrl": "https://images.unsplash.com/photo-1507135943934-95ab66373b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBmYXJtfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1507135943934-95ab66373b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBmYXJtfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee farm",
       "description": "A coffee plant with red coffee cherries on a farm."
     },
     {
       "id": "beans-storage",
-      "imageUrl": "https://images.unsplash.com/photo-1511082264588-6c8413a4365f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzdG9yYWdlfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1511082264588-6c8413a4365f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzdG9yYWdlfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee storage",
       "description": "Coffee beans being stored in an airtight container."
     },
     {
       "id": "cold-brew-at-home",
-      "imageUrl": "https://images.unsplash.com/photo-1592663527359-cf6642f54cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2xkJTIwYnJld3xlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1592663527359-cf6642f54cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2xkJTIwYnJld3xlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cold brew",
       "description": "A pitcher of cold brew coffee steeping in a kitchen."
     },
     {
       "id": "iced-coffee-starbucks",
-      "imageUrl": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpY2VkJTIwY29mZmVlfGVufDB8fHx8MTc2MzE5OTAwNnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpY2VkJTIwY29mZmVlfGVufDB8fHx8MTc2MzE5OTAwNnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "iced coffee",
       "description": "A tall glass of iced coffee with a straw, resembling a Starbucks drink."
     },
     {
       "id": "dalgona-coffee",
-      "imageUrl": "https://images.unsplash.com/photo-1589638895165-e80df3583854?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYWxnb25hJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNjgxMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1589638895165-e80df3583854?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYWxnb25hJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNjgxMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dalgona coffee",
       "description": "A glass of dalgona coffee, showing the distinct whipped coffee and milk layers."
     },
     {
       "id": "homemade-mocha",
-      "imageUrl": "https://images.unsplash.com/photo-1576521528238-eedd3602b8a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2NoYSUyMHJlY2lwZXxlbnwwfHx8fDE3NjMyMjY4MTF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1576521528238-eedd3602b8a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2NoYSUyMHJlY2lwZXxlbnwwfHx8fDE3NjMyMjY4MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mocha recipe",
       "description": "A warm mug of homemade mocha, topped with whipped cream and chocolate drizzle."
     },
     {
       "id": "pumpkin-spice-latte",
-      "imageUrl": "https://images.unsplash.com/photo-1569383893830-b73dc4a03af0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwdW1wa2luJTIwc3BpY2V8ZW58MHx8fHwxNzYzMjI2ODEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1569383893830-b73dc4a03af0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwdW1wa2luJTIwc3BpY2V8ZW58MHx8fHwxNzYzMjI2ODEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pumpkin spice",
       "description": "A pumpkin spice latte in a mug, surrounded by autumn decorations."
     },
     {
       "id": "frappuccino-at-home",
-      "imageUrl": "https://images.unsplash.com/photo-1661499102718-aebb4886a0bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmcmFwcHVjY2lubyUyMHJlY2lwZXxlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1661499102718-aebb4886a0bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmcmFwcHVjY2lubyUyMHJlY2lwZXxlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "frappuccino recipe",
       "description": "A blender full of coffee, ice, and milk, ready to be made into a frappuccino."
     },
     {
       "id": "coffee-smoothie",
-      "imageUrl": "https://images.unsplash.com/photo-1586601399668-cd0c1484cd44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzbW9vdGhpZXxlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1586601399668-cd0c1484cd44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzbW9vdGhpZXxlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee smoothie",
       "description": "A thick and creamy coffee smoothie in a glass, with a banana and coffee beans nearby."
     },
     {
       "id": "zero-sugar-coffee",
-      "imageUrl": "https://images.unsplash.com/photo-1623133106725-1e3d77acb7f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdWdhci1mcmVlJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNjgxMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1623133106725-1e3d77acb7f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdWdhci1mcmVlJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNjgxMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sugar-free coffee",
       "description": "A cup of black coffee with various natural sweeteners on the side, like cinnamon and stevia."
     },
     {
       "id": "protein-coffee",
-      "imageUrl": "https://images.unsplash.com/photo-1558022231-4d796744622e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm90ZWluJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNjgxMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1558022231-4d796744622e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm90ZWluJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNjgxMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "protein coffee",
       "description": "A shaker bottle next to a cup of coffee, with a scoop of protein powder."
     },
     {
       "id": "barista-at-home",
-      "imageUrl": "https://images.unsplash.com/photo-1714415632229-6c31557634cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob21lJTIwYmFyaXN0YXxlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1714415632229-6c31557634cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob21lJTIwYmFyaXN0YXxlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "home barista",
       "description": "A person using a home espresso machine to make a latte, focused on the portafilter."
     },
     {
       "id": "coffee-good-for-you",
-      "imageUrl": "https://images.unsplash.com/photo-1720356778285-74818d6d7919?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFsdGh5JTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1720356778285-74818d6d7919?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFsdGh5JTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "healthy coffee",
       "description": "A cup of coffee surrounded by healthy items like fruits and nuts."
     },
     {
       "id": "coffee-bad-for-you",
-      "imageUrl": "https://images.unsplash.com/photo-1645356894529-8c3b231fbbbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBteXRofGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1645356894529-8c3b231fbbbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBteXRofGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee myth",
       "description": "A coffee cup with a question mark and a cross over it."
     },
     {
       "id": "coffee-weight-loss",
-      "imageUrl": "https://images.unsplash.com/photo-1680172050645-50b668379959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2ZmZWUlMjBkaWV0fGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1680172050645-50b668379959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2ZmZWUlMjBkaWV0fGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee diet",
       "description": "A cup of black coffee next to a measuring tape."
     },
     {
       "id": "black-coffee-benefits",
-      "imageUrl": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibGFjayUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjcwNzZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibGFjayUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjcwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "black coffee",
       "description": "A simple, elegant cup of black coffee."
     },
     {
       "id": "coffee-vs-energy-drink",
-      "imageUrl": "https://images.unsplash.com/photo-1598146635303-dd566d5e3ac2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBlbmVyZ3ktZHJpbmt8ZW58MHx8fHwxNzYzMjI3MDc2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1598146635303-dd566d5e3ac2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBlbmVyZ3ktZHJpbmt8ZW58MHx8fHwxNzYzMjI3MDc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee energy-drink",
       "description": "A cup of coffee next to a can of an energy drink."
     },
     {
       "id": "coffee-blood-pressure",
-      "imageUrl": "https://images.unsplash.com/photo-1631815584191-0ed1723f0ead?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxibG9vZCUyMHByZXNzdXJlfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1631815584191-0ed1723f0ead?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxibG9vZCUyMHByZXNzdXJlfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "blood pressure",
       "description": "A blood pressure monitor next to a cup of coffee."
     },
     {
       "id": "caffeine-sleep-impact",
-      "imageUrl": "https://images.unsplash.com/photo-1758874383822-0e63bdadd37a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYWZmZWluZSUyMHNsZWVwfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758874383822-0e63bdadd37a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYWZmZWluZSUyMHNsZWVwfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "caffeine sleep",
       "description": "A clock showing a late time next to a cup of coffee on a bedside table."
     },
     {
       "id": "healthy-coffee-alternatives",
-      "imageUrl": "https://images.unsplash.com/photo-1758599543195-259390d42a50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxoZWFsdGh5JTIwYWx0ZXJuYXRpdmVzfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758599543195-259390d42a50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxoZWFsdGh5JTIwYWx0ZXJuYXRpdmVzfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "healthy alternatives",
       "description": "A variety of healthy drinks like herbal tea, matcha, and chicory coffee."
     },
     {
       "id": "decaf-caffeine",
-      "imageUrl": "https://images.unsplash.com/photo-1719488757646-6c214c8315b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkZWNhZiUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjcwNzZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1719488757646-6c214c8315b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkZWNhZiUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjcwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "decaf coffee",
       "description": "A cup of decaf coffee with a small question mark."
     },
     {
       "id": "coffee-heart-race",
-      "imageUrl": "https://images.unsplash.com/photo-1723401697770-a6693eb921a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFydCUyMHJhY2V8ZW58MHx8fHwxNzYzMjI3MDc2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1723401697770-a6693eb921a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFydCUyMHJhY2V8ZW58MHx8fHwxNzYzMjI3MDc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "heart race",
       "description": "An EKG line showing a fast heart rate next to a cup of coffee."
     },
