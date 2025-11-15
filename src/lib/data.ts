@@ -70,8 +70,6 @@ export const blogPosts = [
       <p>This guide is here to eliminate that intimidation. The machines on this list are chosen specifically to solve these problems, providing a bridge into the world of delicious home espresso without the stress.</p>
       
       <h2 class="text-3xl font-headline mt-8 mb-4" id="product-recommendations">Best Beginner Espresso Machines of 2025: Recommendations</h2>
-      <p>We've researched, tested, and analyzed the market to find the best espresso machines that offer the perfect balance of performance, ease of use, and value for beginners. We'll break down our top picks, from ultimate convenience to hands-on learning.</p>
-      <p><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
       
       <h3 class="text-2xl font-headline mt-6 mb-3">1. Nespresso Vertuo Pop+ Deluxe by Breville</h3>
       <h4 class="text-xl font-headline mt-4 mb-2">Best for Ultimate Convenience & Variety</h4>
@@ -101,7 +99,7 @@ export const blogPosts = [
           </ul>
         </div>
       </div>
-      <p class="text-center my-4">This machine is an excellent choice for those who value speed, convenience, and consistency above all else. Available on Amazon.</p>
+      <p class="text-center my-4">This machine is an excellent choice for those who value speed, convenience, and consistency above all else. <a href="https://amzn.to/44cg1cW" target="_blank" rel="noopener noreferrer sponsored">Available on Amazon.</a></p>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">2. KitchenAid Fully Automatic Espresso Machine KF8</h3>
       <h4 class="text-xl font-headline mt-4 mb-2">Best for One-Touch Automation</h4>
@@ -131,7 +129,7 @@ export const blogPosts = [
           </ul>
         </div>
       </div>
-      <p class="text-center my-4">This is the perfect machine for the beginner who has a bigger budget and wants the quality of fresh beans and the convenience of automation. Find this item on Amazon.</p>
+      <p class="text-center my-4">This is the perfect machine for the beginner who has a bigger budget and wants the quality of fresh beans and the convenience of automation. <a href="https://amzn.to/3LFcTjz" target="_blank" rel="noopener noreferrer sponsored">Find this item on Amazon.</a></p>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">3. Artkoff 20 Bar Espresso Machine</h3>
       <h4 class="text-xl font-headline mt-4 mb-2">Best for Budget with Manual Control</h4>
@@ -161,7 +159,7 @@ export const blogPosts = [
           </ul>
         </div>
       </div>
-      <p class="text-center my-4">This machine is for the true beginner enthusiast on a budget who is excited by the idea of learning a new skill. See product details on Amazon.</p>
+      <p class="text-center my-4">This machine is for the true beginner enthusiast on a budget who is excited by the idea of learning a new skill. <a href="https://amzn.to/47IHq8J" target="_blank" rel="noopener noreferrer sponsored">See product details on Amazon.</a></p>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">4. CASABREWS CM5418 Espresso Machine</h3>
       <h4 class="text-xl font-headline mt-4 mb-2">Best for Compact Manual Brewing</h4>
@@ -191,7 +189,7 @@ export const blogPosts = [
           </ul>
         </div>
       </div>
-      <p class="text-center my-4">A fantastic choice for beginners who are short on space but big on ambition to learn the art of espresso. Available on Amazon.</p>
+      <p class="text-center my-4">A fantastic choice for beginners who are short on space but big on ambition to learn the art of espresso. <a href="https://amzn.to/47YH3pg" target="_blank" rel="noopener noreferrer sponsored">Available on Amazon.</a></p>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="comparison-table">Beginner Espresso Machine Comparison</h2>
       <table class="w-full text-left border-collapse mt-4">
@@ -263,7 +261,7 @@ export const blogPosts = [
     ...findImage('cold-brew-at-home'),
     excerpt: 'Learn the simple, patient art of making smooth and rich cold brew concentrate right in your own kitchen.',
     content: `
-      
+      <p><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
       <p>Tired of bitter, acidic coffee that upsets your stomach? Do you crave a smooth, rich, and deeply flavorful coffee experience that you can grab straight from your fridge? Welcome to the wonderful world of cold brew. Learning <strong>how to make cold brew coffee at home</strong> is a game-changer, and it's shockingly simple.</p>
       <p>This ultimate guide will walk you through everything you need to know, from the basic cold brew recipe to advanced techniques, troubleshooting common issues, and choosing the best gear. By the end, you'll be a home-brewing cold brew connoisseur, saving money and enjoying café-quality coffee every day.</p>
       <h3 class="text-xl font-headline mt-4 mb-2">Who This Guide Is For:</h3>
@@ -399,7 +397,7 @@ export const blogPosts = [
       </ol>
       <h2 class="text-3xl font-headline mt-8 mb-4" id="product-recommendations">Product Recommendations for the Home Cold Brewer</h2>
       
-      <p><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
+      
       <h3 class="text-xl font-headline mt-4 mb-2">1. All-in-One Pitcher Systems</h3>
       <p>These are the most popular and user-friendly options. They typically consist of a pitcher with a long, cylindrical filter basket that holds the grounds.</p>
       <ul class="list-disc list-inside space-y-2 my-4">
