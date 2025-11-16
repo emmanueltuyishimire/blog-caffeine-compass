@@ -112,6 +112,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             fill
             className="object-cover"
             priority
+            sizes="100vw"
             data-ai-hint={post.imageHint}
           />
         </div>
