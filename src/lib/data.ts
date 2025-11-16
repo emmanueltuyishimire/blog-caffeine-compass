@@ -19,7 +19,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee',
     author: 'Caffeine Compass Staff',
     date: 'July 11, 2025',
-    imageUrl: '/ryze-mushroom-coffee.webp',
+    imageUrl: 'https://images.unsplash.com/photo-1629577364686-a5135a392a8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtdXNocm9vbSUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjU1NTl8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'mushroom coffee',
     excerpt: "A complete beginner's guide to Ryze Mushroom Coffee. Understand what it is, the superfood ingredients inside, and how it can transform your morning ritual.",
     content: `
@@ -88,7 +88,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Review (2025): Worth the Hype?',
     author: 'Caffeine Compass Staff',
     date: 'July 10, 2025',
-    imageUrl: '/Ryze-Mushroom-Coffee-Review.webp',
+    imageUrl: 'https://images.unsplash.com/photo-1670508183158-d1a3cbf5239a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtdXNocm9vbSUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjU1NTl8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'mushroom coffee',
     excerpt: "This comprehensive Ryze Mushroom Coffee review for 2025 dives into the popular coffee alternative that promises all-day energy without jitters, improved focus, and gut health. Is it the future of your morning ritual?",
     content: `
@@ -267,7 +267,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Side Effects: A Complete Guide',
     author: 'Caffeine Compass Staff',
     date: 'July 12, 2025',
-    imageUrl: '/ryze-mushroom-coffee-side-effects.webp',
+    imageUrl: 'https://images.unsplash.com/photo-1615129563398-d97c2d6f0cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYXV0aW9uJTIwc2lnbnxlbnwwfHx8fDE3NjMxNjA4NzF8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'caution sign',
     excerpt: "A balanced and honest look at the potential side effects of Ryze mushroom coffee. Learn about digestive adjustments, medication interactions, and who should be cautious before trying this popular coffee alternative.",
     content: `
@@ -388,7 +388,7 @@ export const blogPosts = [
     title: 'Best Espresso Machines for Beginners in 2025',
     author: 'Caffeine Compass Staff',
     date: 'July 1, 2025',
-    imageUrl: '/best-espresso-machines-for-beginners-in-2025.webp',
+    imageUrl: 'https://images.unsplash.com/photo-1689164255885-d172a4f5fc4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZXNwcmVzc28lMjBiZWdpbm5lcnxlbnwwfHx8fDE3NjMyMjgxNDF8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'espresso beginner',
     excerpt: "Compare the top beginner-friendly espresso machines to brew café-quality coffee at home.",
     content: `

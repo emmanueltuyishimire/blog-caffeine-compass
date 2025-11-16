@@ -69,7 +69,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
       {pageNumber === 1 && (
         <section className="relative h-[60vh] w-full bg-slate-900 text-white flex items-center justify-center">
             <Image
-                src="/caffeine-calculation-site-background-image.webp"
+                src="https://images.unsplash.com/photo-1579265898841-79c7890d69cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsYXR0ZSUyMGFydHxlbnwwfHx8fDE3NjMyMTA2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
                 alt="A cup of perfectly crafted latte art"
                 fill
                 className="object-cover opacity-30"
