@@ -88,7 +88,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Review (2025): Worth the Hype?',
     author: 'Caffeine Compass Staff',
     date: 'July 10, 2025',
-    imageUrl: '/Ryze-Mushroom-Coffee-Review.webp',
+    imageUrl: '/Ryze Mushroom Coffee Review.webp',
     imageHint: 'mushroom coffee',
     excerpt: 'This comprehensive Ryze Mushroom Coffee review for 2025 dives into the popular coffee alternative that promises all-day energy without jitters, improved focus, and gut health. Is it the future of your morning ritual?',
     content: `
@@ -192,7 +192,7 @@ export const blogPosts = [
         <li><strong>Scoop:</strong> Add one tablespoon of the RYZE mix to your favorite mug.</li>
         <li><strong>Add Hot Water:</strong> Pour 8-10 oz of hot water (not boiling, to protect the delicate mushroom compounds) over the mix.</li>
         <li><strong>Stir & Enjoy:</strong> Stir well until the powder is fully dissolved. A small battery-powered frother works wonders to create a perfect, creamy texture.</li>
-      ol>
+      </ol>
       <p><strong>Pro Tips for the Perfect Cup:</strong></p>
       <ul class="list-disc list-inside space-y-1 my-4">
           <li><strong>For Iced RYZE:</strong> Dissolve the powder in a small amount (2-3 oz) of hot water first. Once it's a smooth liquid, add your favorite cold milk or water and pour over ice. This is a quicker alternative to our guide on <a href="/blog/how-to-make-cold-brew-coffee-at-home">how to make cold brew at home</a>.</li>
@@ -672,7 +672,7 @@ export const blogPosts = [
       </div>
 
       <h3 class="text-2xl font-headline mt-6 mb-3"><a href="https://www.amazon.com/s?k=burr+coffee+grinder" target="_blank" rel="noopener noreferrer sponsored">2. A Quality Burr Grinder</a></h3>
-      <p>This is the single most important accessory for upgrading your coffee game, for cold brew or any other method. A <strong>coarse, even grind is non-negotiable</strong> for delicious cold brew. Blade grinders produce a mix of dust and boulders, leading to a brew that is simultaneously bitter and weak. A burr grinder mills the beans to a consistent size, ensuring a smooth, balanced extraction. The <a href="/reviews">Baratza Encore</a> is the gold standard for an entry-level home grinder that will last for years, which we've reviewed in our <a href="/reviews">product reviews section</a>.</p>
+      <p>This is the single most important accessory for upgrading your coffee game, for cold brew or any other method. A <strong>coarse, even grind is non-negotiable</strong> for delicious cold brew. Blade grinders produce a mix of dust and boulders, leading to a brew that is simultaneously bitter and weak. A burr grinder mills the beans to a consistent size, ensuring a smooth, balanced extraction. The <a href="/reviews/baratza-encore-review">Baratza Encore</a> is the gold standard for an entry-level home grinder that will last for years, which we've reviewed in our <a href="/reviews">product reviews section</a>.</p>
       <div class="text-center my-6">
         <a href="https://www.amazon.com/s?k=burr+coffee+grinder" target="_blank" rel="noopener noreferrer sponsored" class="font-semibold text-primary hover:underline">
           Shop Burr Grinders on Amazon
@@ -724,7 +724,7 @@ export const blogPosts = [
           This is the most important part of getting a clean, sediment-free brew. Here are a few filtering methods, from simple to more advanced:
           <ul class="list-disc list-inside ml-4 space-y-2 mt-2">
             <li><strong>Method A (Good): Cheesecloth.</strong> Line a fine-mesh sieve with a few layers of cheesecloth and place it over your storage container. Slowly pour the coffee mixture through it. This works, but may let some fine sediment through.</li>
-            <li><strong>Method B (Better): Paper Filter.</strong> Place a standard paper coffee filter inside a pour-over dripper (or a sieve) and pour the concentrate through that. This is very effective at catching fine particles but can be slow. Wetting the paper filter first helps. A <a href="/reviews">Chemex</a> with its thick filter is also excellent for this step.</li>
+            <li><strong>Method B (Better): Paper Filter.</strong> Place a standard paper coffee filter inside a pour-over dripper (or a sieve) and pour the concentrate through that. This is very effective at catching fine particles but can be slow. Wetting the paper filter first helps. A <a href="/reviews/chemex-classic-review">Chemex</a> with its thick filter is also excellent for this step.</li>
             <li><strong>Method C (Easiest): French Press.</strong> If you brewed in a French press, simply press the plunger down slowly and pour the concentrate out. You may want to filter it a second time to remove any fine silt.</li>
           </ul>
           <em>Pro Tip: Don't squeeze the grounds! This will force bitter compounds and fine particles into your brew. Let it drip naturally.</em>
