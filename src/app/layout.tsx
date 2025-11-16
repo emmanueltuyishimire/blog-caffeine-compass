@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: 'Caffeine Compass',
     images: [
       {
-        url: '/og-image.png', // Update with your actual OG image path
+        url: '/caffeine-calculation-site-background-image.webp',
         width: 1200,
         height: 630,
       },
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Caffeine Compass',
     description: 'Your daily dose of coffee culture, reviews, and science.',
-    images: ['/og-image.png'], // Update with your actual OG image path
+    images: ['/caffeine-calculation-site-background-image.webp'],
   },
 };
 
@@ -68,7 +68,7 @@ export default function RootLayout({
     '@type': 'Organization',
     name: 'Caffeine Compass',
     url: siteUrl,
-    logo: `${siteUrl}/logo.png`,
+    logo: `${siteUrl}/caffeine-calculation-site-background-image.webp`,
     sameAs: [],
   };
 
@@ -88,6 +88,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-pt-[3.5rem] ${fontBody.variable} ${fontHeadline.variable}`}>
       <head>
+        <link rel="preload" href="/_next/static/media/243423918451f786-s.p.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/_next/static/media/916213b353846a2a-s.p.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLdJson) }}

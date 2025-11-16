@@ -85,7 +85,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       name: 'Caffeine Compass',
       logo: {
         '@type': 'ImageObject',
-        url: `${siteUrl}/logo.png`,
+        url: `${siteUrl}/caffeine-calculation-site-background-image.webp`,
       },
     },
     datePublished: post.date,
