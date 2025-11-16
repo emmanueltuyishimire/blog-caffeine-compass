@@ -22,7 +22,6 @@ const fontHeadline = Space_Grotesk({
 const siteUrl = 'https://blog.calculation.site';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
   title: {
     default: 'Caffeine Compass',
     template: '%s | Caffeine Compass',
