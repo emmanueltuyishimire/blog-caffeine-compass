@@ -1,5 +1,4 @@
 
-
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const findImage = (id: string) => {
@@ -20,7 +19,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee',
     author: 'Caffeine Compass Staff',
     date: 'July 11, 2025',
-    imageUrl: '/ryze mushroom coffee.webp',
+    imageUrl: '/ryze%20mushroom%20coffee.webp',
     imageHint: 'mushroom coffee',
     excerpt: "A complete beginner's guide to Ryze Mushroom Coffee. Understand what it is, the superfood ingredients inside, and how it can transform your morning ritual.",
     content: `
@@ -29,7 +28,7 @@ export const blogPosts = [
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="what-is-ryze">What Is Ryze Mushroom Coffee?</h2>
       <p>Ryze Mushroom Coffee is a powdered instant drink that blends organic Arabica coffee with a potent mix of six adaptogenic mushrooms and MCT oil. Think of it not as a replacement for coffee's flavor, but as an upgrade to coffee's function. The entire goal is to give you a balanced and sustained energy boost, helping you feel alert, focused, and calm.</p>
-      <p>It achieves this by using a much smaller amount of caffeine than a regular cup of coffee (about 48mg per serving) and supplementing it with functional ingredients that support your body and mind in different ways. You can use our <a href="https://calculation.site/calculators/caffeine-intake" target="_blank" rel="noopener">Caffeine Intake Calculator</a> to see how this fits into your daily total. Because it's an instant mix, it's incredibly convenient—just add hot water, stir, and enjoy. No machines, no cleanup.</p>
+      <p>It achieves this by using a much smaller amount of caffeine than a regular cup of coffee (about 48mg per serving) and supplementing it with functional ingredients that support your body and mind in different ways. You can use our <a href="https://calculation.site/calculators/caffeine-intake" target="_blank" rel="noopener noreferrer">Caffeine Intake Calculator</a> to see how this fits into your daily total. Because it's an instant mix, it's incredibly convenient—just add hot water, stir, and enjoy. No machines, no cleanup.</p>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="key-ingredients">The Key Ingredients: What's Inside Your Cup?</h2>
       <p>The power of Ryze comes from its synergistic blend of well-chosen ingredients. Each component has a specific job in creating a more balanced morning ritual.</p>
@@ -45,8 +44,8 @@ export const blogPosts = [
       <h2 class="text-3xl font-headline mt-8 mb-4" id="how-it-solves-problems">How Ryze Solves Common Coffee Problems</h2>
       <p>Ryze was specifically formulated to address the negative side effects that many people experience with traditional coffee. It's a problem-solver in a mug.</p>
       <ul class="list-disc list-inside space-y-2 my-4">
-        <li><strong>The Problem: Jitters & Anxiety.</strong><br/><strong>The Ryze Solution:</strong> The low caffeine dose combined with the calming properties of Reishi mushroom creates a "calm-alert" state, giving you focus without the nervous energy. If you're particularly prone to jitters, it might be worth taking our <a href="https://calculation.site/calculators/caffeine-sensitivity-test" target="_blank" rel="noopener">Caffeine Sensitivity Test</a> to better understand your genetic tolerance.</li>
-        <li><strong>The Problem: The Afternoon Crash.</strong><br/><strong>The Ryze Solution:</strong> The MCT oil provides a long-lasting, stable energy source, while Cordyceps supports your body's own energy production. This results in a smooth curve of energy that gently tapers off, rather than a sharp drop. To optimize your intake for productivity, check out our <a href="https://calculation.site/calculators/caffeine-timing-optimizer" target="_blank" rel="noopener">Caffeine Timing Optimizer</a>.</li>
+        <li><strong>The Problem: Jitters & Anxiety.</strong><br/><strong>The Ryze Solution:</strong> The low caffeine dose combined with the calming properties of Reishi mushroom creates a "calm-alert" state, giving you focus without the nervous energy. If you're particularly prone to jitters, it might be worth taking our <a href="https://calculation.site/calculators/caffeine-sensitivity-test" target="_blank" rel="noopener noreferrer">Caffeine Sensitivity Test</a> to better understand your genetic tolerance.</li>
+        <li><strong>The Problem: The Afternoon Crash.</strong><br/><strong>The Ryze Solution:</strong> The MCT oil provides a long-lasting, stable energy source, while Cordyceps supports your body's own energy production. This results in a smooth curve of energy that gently tapers off, rather than a sharp drop. To optimize your intake for productivity, check out our <a href="https://calculation.site/calculators/caffeine-timing-optimizer" target="_blank" rel="noopener noreferrer">Caffeine Timing Optimizer</a>.</li>
         <li><strong>The Problem: Digestive Discomfort.</strong><br/><strong>The Ryze Solution:</strong> The blend is less acidic than regular coffee. Furthermore, the mushrooms act as prebiotics, which can help nourish the good bacteria in your gut, supporting better digestive health over time.</li>
       </ul>
       <p>Our comprehensive <a href="/blog/ryze-mushroom-coffee-review-2025">in-depth review</a> explores these solutions and more in greater detail.</p>
@@ -89,7 +88,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Review (2025): Worth the Hype?',
     author: 'Caffeine Compass Staff',
     date: 'July 10, 2025',
-    imageUrl: '/Ryze Mushroom Coffee Review.webp',
+    imageUrl: '/Ryze%20Mushroom%20Coffee%20Review.webp',
     imageHint: 'mushroom coffee',
     excerpt: "This comprehensive Ryze Mushroom Coffee review for 2025 dives into the popular coffee alternative that promises all-day energy without jitters, improved focus, and gut health. Is it the future of your morning ritual?",
     content: `
@@ -111,14 +110,14 @@ export const blogPosts = [
       <h2 class="text-3xl font-headline mt-8 mb-4" id="what-is-ryze">What Is RYZE Mushroom Coffee? A Clear Definition</h2>
       <p>At its core, RYZE Mushroom Coffee is an instant coffee blend designed to be a healthier, more balanced alternative to traditional coffee. It's not just coffee with some mushroom powder sprinkled in; it's a carefully formulated functional beverage.</p>
       <p>The product combines shade-grown, organic Arabica coffee with a proprietary mix of six different adaptogenic mushrooms and a dose of Medium-Chain Triglyceride (MCT) oil powder. The entire blend is instant, meaning it dissolves completely in hot water, requiring no brewing, machines, or cleanup.</p>
-      <p>The central idea behind RYZE is a "less but better" approach to caffeine. Each serving contains only <strong>48mg of caffeine</strong>, which is less than half the amount in a typical 8-ounce cup of coffee (which can range from 95-200mg). You can see how this compares to other beverages with our <a href="https://calculation.site/calculators/caffeine-drink-comparison" target="_blank" rel="noopener">Caffeine Drink Comparison Tool</a>. The reduced caffeine is intended to provide a gentle lift, while the functional mushrooms and MCT oil work synergistically to provide sustained energy, enhanced focus, and other health benefits without the negative side effects of a high-caffeine dose.</p>
+      <p>The central idea behind RYZE is a "less but better" approach to caffeine. Each serving contains only <strong>48mg of caffeine</strong>, which is less than half the amount in a typical 8-ounce cup of coffee (which can range from 95-200mg). You can see how this compares to other beverages with our <a href="https://calculation.site/calculators/caffeine-drink-comparison" target="_blank" rel="noopener noreferrer">Caffeine Drink Comparison Tool</a>. The reduced caffeine is intended to provide a gentle lift, while the functional mushrooms and MCT oil work synergistically to provide sustained energy, enhanced focus, and other health benefits without the negative side effects of a high-caffeine dose.</p>
       
       <h2 class="text-3xl font-headline mt-8 mb-4" id="pain-points">The Core Problem: Why Your Morning Coffee Might Be Failing You</h2>
       <p>Let's get real. For millions of us, the love affair with traditional coffee has a dark side. It starts as a warm, comforting ritual but can quickly become a dependency that leaves us feeling worse, not better. You're likely reading this because you're experiencing one or more of these common issues that RYZE claims to solve:</p>
       <h3 class="text-xl font-headline mt-4 mb-2">Pain Point 1: The Jitters and Anxiety</h3>
-      <p>You drink coffee for focus, but what you get is a racing heart and a scattered mind. The high dose of caffeine in regular coffee overstimulates the central nervous system, triggering the "fight or flight" response. This floods your body with adrenaline and cortisol, leading to that shaky, on-edge feeling that makes it impossible to concentrate. Instead of laser focus, you're left with a general sense of unease and anxiety. If this sounds familiar, our <a href="https://calculation.site/calculators/caffeine-sensitivity-test" target="_blank" rel="noopener">Caffeine Sensitivity Test</a> can offer insights into why you react this way.</p>
+      <p>You drink coffee for focus, but what you get is a racing heart and a scattered mind. The high dose of caffeine in regular coffee overstimulates the central nervous system, triggering the "fight or flight" response. This floods your body with adrenaline and cortisol, leading to that shaky, on-edge feeling that makes it impossible to concentrate. Instead of laser focus, you're left with a general sense of unease and anxiety. If this sounds familiar, our <a href="https://calculation.site/calculators/caffeine-sensitivity-test" target="_blank" rel="noopener noreferrer">Caffeine Sensitivity Test</a> can offer insights into why you react this way.</p>
       <h3 class="text-xl font-headline mt-4 mb-2">Pain Point 2: The Dreaded Afternoon Crash</h3>
-      <p>The 2 PM slump is a classic symptom of the caffeine rollercoaster. The powerful initial spike in energy from a morning coffee is inevitably followed by a sharp drop. As the caffeine wears off, your blood sugar can dip, and adenosine (the neurotransmitter that makes you feel sleepy) comes rushing back with a vengeance. This leaves you feeling groggy, irritable, and desperately reaching for another cup of coffee or a sugary snack, perpetuating a vicious cycle of highs and lows. Learning to time your intake with our <a href="https://calculation.site/calculators/caffeine-timing-optimizer" target="_blank" rel="noopener">Caffeine Timing Optimizer</a> can help manage this.</p>
+      <p>The 2 PM slump is a classic symptom of the caffeine rollercoaster. The powerful initial spike in energy from a morning coffee is inevitably followed by a sharp drop. As the caffeine wears off, your blood sugar can dip, and adenosine (the neurotransmitter that makes you feel sleepy) comes rushing back with a vengeance. This leaves you feeling groggy, irritable, and desperately reaching for another cup of coffee or a sugary snack, perpetuating a vicious cycle of highs and lows. Learning to time your intake with our <a href="https://calculation.site/calculators/caffeine-timing-optimizer" target="_blank" rel="noopener noreferrer">Caffeine Timing Optimizer</a> can help manage this.</p>
       <h3 class="text-xl font-headline mt-4 mb-2">Pain Point 3: Poor Digestion and Gut Health</h3>
       <p>Is your morning coffee a recipe for heartburn or an upset stomach? You're not alone. Coffee is highly acidic, which can irritate the lining of your stomach and esophagus, leading to acid reflux, indigestion, and general discomfort. For those with sensitive systems or conditions like IBS, this daily acid bath can be a major source of chronic pain and bloating.</p>
       <h3 class="text-xl font-headline mt-4 mb-2">Pain Point 4: Broken Focus and Brain Fog</h3>
@@ -158,9 +157,9 @@ export const blogPosts = [
           <li><strong>MCT Oil (from Coconuts):</strong> Medium-Chain Triglycerides are a type of healthy fat that your body can process with remarkable efficiency. Unlike other fats, MCTs are sent directly to the liver, where they are converted into ketones—a fast and clean source of energy for your brain and body. This promotes mental clarity and provides sustained fuel, helping to prevent the "crash" as the caffeine wears off.</li>
           <li><strong>Lion's Mane (Hericium erinaceus):</strong> Often called the "brain mushroom" or the "smart mushroom." This is perhaps the most exciting ingredient for anyone seeking better focus. Lion's Mane contains compounds called hericenones and erinacines, which studies suggest can stimulate the production of Nerve Growth Factor (NGF). NGF is a crucial protein for the growth, maintenance, and survival of brain neurons. The result? Potential improvements in memory, focus, and overall cognitive function, helping to cut through brain fog.</li>
           <li><strong>Cordyceps (Cordyceps militaris):</strong> Known as the "energy mushroom" or the "Olympic mushroom." Traditionally used by athletes to boost performance, Cordyceps is believed to improve the body's production of adenosine triphosphate (ATP), the primary carrier of energy in cells. It also helps improve oxygen utilization. This translates to increased stamina and physical energy, providing a natural, non-jittery power source that complements the caffeine.</li>
-          <li><strong>Reishi (Ganoderma lucidum):</strong> Nicknamed the "chill-out mushroom" or the "mushroom of immortality." Reishi is a powerful adaptogen, which means it helps your body adapt to and manage stress. It contains compounds called triterpenes, which have a calming effect on the nervous system. By helping to regulate cortisol levels (the stress hormone), Reishi counteracts the anxiety-inducing effects of caffeine and promotes a sense of calm balance and well-being. It's also linked to improved sleep quality when taken over time. See how it might affect your rest with our <a href="https://calculation.site/articles/how-long-before-bed-to-stop-caffeine" target="_blank" rel="noopener">article on caffeine and sleep</a>.</li>
+          <li><strong>Reishi (Ganoderma lucidum):</strong> Nicknamed the "chill-out mushroom" or the "mushroom of immortality." Reishi is a powerful adaptogen, which means it helps your body adapt to and manage stress. It contains compounds called triterpenes, which have a calming effect on the nervous system. By helping to regulate cortisol levels (the stress hormone), Reishi counteracts the anxiety-inducing effects of caffeine and promotes a sense of calm balance and well-being. It's also linked to improved sleep quality when taken over time. See how it might affect your rest with our <a href="https://calculation.site/articles/how-long-before-bed-to-stop-caffeine" target="_blank" rel="noopener noreferrer">article on caffeine and sleep</a>.</li>
           <li><strong>Shiitake, Turkey Tail, & King Trumpet:</strong> This is the immune-boosting trio.
-              <ul>
+              <ul class="list-disc list-inside ml-4 space-y-1 mt-2">
                   <li><strong>Shiitake</strong> is not just for stir-fries; it's packed with polysaccharides that have been shown to support immune function.</li>
                   <li><strong>Turkey Tail</strong> is one of the most-studied medicinal mushrooms, renowned for its high concentration of two specific polysaccharides (PSK and PSP) that are potent immune-modulators.</li>
                   <li><strong>King Trumpet</strong> is a powerful antioxidant, helping to fight free radical damage and reduce inflammation in the body. Together, this blend provides a daily dose of support for your body's natural defense system.</li>
@@ -268,7 +267,7 @@ export const blogPosts = [
           </div>
           <div>
               <dt class="font-bold">How much caffeine is in Ryze mushroom coffee?</dt>
-              <dd>Each serving contains approximately 48mg of caffeine, which is less than half the amount in a standard cup of coffee. You can track your total consumption using our <a href="https://calculation.site/calculators/caffeine-intake" target="_blank" rel="noopener">Caffeine Intake Calculator</a>.</dd>
+              <dd>Each serving contains approximately 48mg of caffeine, which is less than half the amount in a standard cup of coffee. You can track your total consumption using our <a href="https://calculation.site/calculators/caffeine-intake" target="_blank" rel="noopener noreferrer">Caffeine Intake Calculator</a>.</dd>
           </div>
           <div>
               <dt class="font-bold">What are the benefits of Ryze mushroom coffee?</dt>
@@ -322,6 +321,7 @@ export const blogPosts = [
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="tier-1-side-effects">Tier 1: The Adjustment Phase - Common & Mild Side Effects</h2>
       <p>If you experience any side effects from Ryze, they will most likely fall into this category. Think of this as an onboarding period for your digestive system. The introduction of new, powerful fibers and fats can cause a temporary stir. The key word here is <em>temporary</em>.</p>
+      
       <h3 class="text-xl font-headline mt-4 mb-2">1. Digestive Discomfort: Gas, Bloating, or Changes in Bowel Habits</h3>
       <p><strong>The Pain Point:</strong> You started Ryze to feel better, but now your stomach feels gurgly, bloated, or you're running to the bathroom more (or less) than usual.</p>
       <p><strong>The Culprits:</strong></p>
@@ -342,7 +342,7 @@ export const blogPosts = [
       <p><strong>The Pain Point:</strong> You're drinking Ryze for focus, but you're getting a dull, nagging headache instead.</p>
       <p><strong>The Culprits:</strong></p>
       <ul class="list-disc list-inside space-y-2 my-4">
-          <li><strong>Caffeine Withdrawal (Ironically):</strong> If you are switching from a high-caffeine habit (e.g., 2-3 cups of strong coffee, or 200-300mg+ daily) to Ryze's modest 48mg, you are likely experiencing a classic caffeine withdrawal headache. Your brain's blood vessels, which were constricted by high doses of caffeine, are now expanding back to their normal size, causing this temporary pain. This is a sign your body is recalibrating. Our <a href="https://calculation.site/calculators/caffeine-intake" target="_blank" rel="noopener">Caffeine Intake Calculator</a> can help you see just how much you're cutting back.</li>
+          <li><strong>Caffeine Withdrawal (Ironically):</strong> If you are switching from a high-caffeine habit (e.g., 2-3 cups of strong coffee, or 200-300mg+ daily) to Ryze's modest 48mg, you are likely experiencing a classic caffeine withdrawal headache. Your brain's blood vessels, which were constricted by high doses of caffeine, are now expanding back to their normal size, causing this temporary pain. This is a sign your body is recalibrating. Our <a href="https://calculation.site/calculators/caffeine-intake" target="_blank" rel="noopener noreferrer">Caffeine Intake Calculator</a> can help you see just how much you're cutting back.</li>
           <li><strong>Dehydration:</strong> Coffee, even Ryze, is a mild diuretic. If you aren't drinking enough water alongside your new ritual, you can become dehydrated, which is a very common cause of headaches.</li>
       </ul>
       <h4 class="font-bold mt-4">The Problem-Solving Strategy: Bridge and Hydrate</h4>
@@ -370,12 +370,13 @@ export const blogPosts = [
       <h4 class="font-bold mt-4">The Problem-Solving Strategy: Timing and Assessment</h4>
       <ol class="list-decimal list-inside space-y-2 my-4">
           <li><strong>Assess the Feeling:</strong> Is it a groggy, "can't wake up" feeling, or is it a calm, "I'm not stressed" feeling? They can be confused. True drowsiness is when you feel you could fall asleep.</li>
-          <li><strong>Switch to an Afternoon Drink:</strong> If you find Ryze makes you drowsy, it may not be your ideal morning drink. Try using it in the mid-afternoon (around 2-3 PM) as a replacement for a second coffee. Its stress-reducing properties might be perfect for winding down the workday without adding too much caffeine that will disrupt sleep. For more on this, see our article on <a href="https://calculation.site/articles/how-long-before-bed-to-stop-caffeine" target="_blank" rel="noopener">how long before bed to stop caffeine</a>.</li>
+          <li><strong>Switch to an Afternoon Drink:</strong> If you find Ryze makes you drowsy, it may not be your ideal morning drink. Try using it in the mid-afternoon (around 2-3 PM) as a replacement for a second coffee. Its stress-reducing properties might be perfect for winding down the workday without adding too much caffeine that will disrupt sleep. For more on this, see our article on <a href="https://calculation.site/articles/how-long-before-bed-to-stop-caffeine" target="_blank" rel="noopener noreferrer">how long before bed to stop caffeine</a>.</li>
           <li><strong>Acknowledge Mismatch:</strong> If it consistently makes you sleepy even in the afternoon, Ryze may simply not be the right functional blend for your body. Products with a higher ratio of Cordyceps or Lion's Mane and less Reishi might be a better fit.</li>
       </ol>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="tier-3-side-effects">Tier 3: The Critical Safety Check - Medication & Condition Interactions</h2>
       <p>This is the most important section of this guide. While Ryze is safe for most, the active compounds in functional mushrooms can have real physiological effects. If you have a pre-existing medical condition or take prescription medication, you <strong>must</strong> discuss Ryze with your doctor before starting. Do not rely on internet guides alone.</p>
+      
       <h3 class="text-xl font-headline mt-4 mb-2">1. Blood Thinners & Bleeding Disorders</h3>
       <p><strong>Who is at risk:</strong> Individuals taking anticoagulant/antiplatelet drugs (e.g., Warfarin/Coumadin, Plavix, Xarelto, Eliquis, Aspirin) or those with bleeding disorders like hemophilia.</p>
       <p><strong>Ingredient of Concern: Reishi Mushroom.</strong> Reishi contains compounds that can inhibit platelet aggregation, which is a key step in blood clotting. This is a mild "blood-thinning" effect.</p>
@@ -398,7 +399,7 @@ export const blogPosts = [
       
       <h3 class="text-xl font-headline mt-4 mb-2">5. Pregnancy and Breastfeeding</h3>
       <p><strong>Who is at risk:</strong> Expecting or currently breastfeeding mothers.</p>
-      <p><strong>The Concern: Lack of Data.</strong> While the ingredients in Ryze are natural, there is insufficient high-quality scientific research on the effects of concentrated functional mushroom extracts on fetal development or their passage into breast milk. The caffeine content is low (48mg), which is well below the generally accepted 200mg daily limit for pregnancy, which you can track with our <a href="https://calculation.site/calculators/pregnancy-caffeine-safe-limit" target="_blank" rel="noopener">Pregnancy Caffeine Safe Limit Calculator</a>. However, the mushroom extracts are the unknown variable.</p>
+      <p><strong>The Concern: Lack of Data.</strong> While the ingredients in Ryze are natural, there is insufficient high-quality scientific research on the effects of concentrated functional mushroom extracts on fetal development or their passage into breast milk. The caffeine content is low (48mg), which is well below the generally accepted 200mg daily limit for pregnancy, which you can track with our <a href="https://calculation.site/calculators/pregnancy-caffeine-safe-limit" target="_blank" rel="noopener noreferrer">Pregnancy Caffeine Safe Limit Calculator</a>. However, the mushroom extracts are the unknown variable.</p>
       <p><strong>The Verdict:</strong> The most prudent and widely recommended course of action is to err on the side of caution and <strong>avoid Ryze and other functional mushroom supplements during pregnancy and breastfeeding</strong> unless you have explicit approval from your OB-GYN.</p>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="conclusion">Conclusion: A Safe Choice For the Informed User</h2>
@@ -422,7 +423,7 @@ export const blogPosts = [
     title: 'Best Espresso Machines for Beginners in 2025',
     author: 'Caffeine Compass Staff',
     date: 'July 1, 2025',
-    imageUrl: '/Best Espresso Machines for Beginners in 2025.webp',
+    imageUrl: '/Best%20Espresso%20Machines%20for%20Beginners%20in%202025.webp',
     imageHint: 'espresso beginner',
     excerpt: "Compare the top beginner-friendly espresso machines to brew café-quality coffee at home.",
     content: `
@@ -751,14 +752,7 @@ export const blogPosts = [
     content: `
       <p>Tired of bitter, acidic coffee that upsets your stomach? Do you crave a smooth, rich, and deeply flavorful coffee experience that you can grab straight from your fridge? Welcome to the wonderful world of cold brew. Learning <strong>how to make cold brew coffee at home</strong> is a game-changer, and it's shockingly simple.</p>
       <p>This ultimate guide will walk you through everything you need to know, from the basic cold brew recipe to advanced techniques, troubleshooting common issues, and choosing the best gear. By the end, you'll be a home-brewing cold brew connoisseur, saving money and enjoying café-quality coffee every day.</p>
-      <h3 class="text-xl font-headline mt-4 mb-2">Who This Guide Is For:</h3>
-      <ul class="list-disc list-inside space-y-1 mb-4">
-        <li>Coffee lovers who find hot-brewed coffee too acidic or bitter.</li>
-        <li>Busy individuals who want a ready-to-drink coffee solution waiting in their fridge.</li>
-        <li>Budget-conscious consumers tired of paying $5+ for a cup of cold brew at a café.</li>
-        <li>Aspiring home baristas who want to master a new, delicious brewing method.</li>
-        <li>Anyone curious about why cold brew has become one of the most popular coffee trends.</li>
-      </ul>
+      
       <h2 class="text-3xl font-headline mt-8 mb-4" id="what-is-cold-brew">What Is Cold Brew Coffee? A Clear Definition</h2>
       <p>First, let's clear up a common misconception: cold brew is <strong>not</strong> the same as iced coffee. Iced coffee is simply regular coffee that has been brewed hot and then cooled down, often by pouring it over ice. This process can lead to a diluted and often bitter taste as the delicate flavor compounds are shocked by the rapid temperature change.</p>
       <p><strong>Cold brew</strong>, on the other hand, is a method of extraction. It involves steeping coarse-ground coffee beans in cold or room-temperature water for an extended period—typically 12 to 24 hours. Instead of using heat to extract oils, acids, and sugars from the beans, cold brew uses time.</p>
@@ -769,7 +763,7 @@ export const blogPosts = [
         <li><strong>Naturally Sweet:</strong> With less bitterness to mask the flavors, the inherent sweetness of the coffee beans shines through.</li>
         <li><strong>Incredibly Smooth:</strong> The lower acidity makes it remarkably smooth and easy on the palate.</li>
         <li><strong>Less Acidic:</strong> Studies show cold brew can be up to 67% less acidic than hot-brewed coffee, making it a fantastic option for those with sensitive stomachs.</li>
-        <li><strong>Highly Caffeinated:</strong> Because of the high coffee-to-water ratio and long steep time, the resulting concentrate is typically much higher in caffeine than drip coffee. However, since you dilute it, you can track your final consumption using our <a href="https://calculation.site/calculators/caffeine-intake" target="_blank" rel="noopener">Caffeine Intake Calculator</a> and check your limits with the <a href="https://calculation.site/calculators/caffeine-overdose-risk" target="_blank" rel="noopener">Caffeine Overdose Risk Calculator</a> to be safe.</li>
+        <li><strong>Highly Caffeinated:</strong> Because of the high coffee-to-water ratio and long steep time, the resulting concentrate is typically much higher in caffeine than drip coffee. However, since you dilute it, you can track your final consumption using our <a href="https://calculation.site/calculators/caffeine-intake" target="_blank" rel="noopener noreferrer">Caffeine Intake Calculator</a> and check your limits with the <a href="https://calculation.site/calculators/caffeine-overdose-risk" target="_blank" rel="noopener noreferrer">Caffeine Overdose Risk Calculator</a> to be safe.</li>
       </ul>
       <h2 class="text-3xl font-headline mt-8 mb-4" id="pain-points">The Core Problem: Why You're Searching for a Better Cold Brew Solution</h2>
       <p>Let's be honest. You're here because your current coffee routine isn't cutting it, especially when you want a cold, refreshing drink. The pain points are real and frustrating.</p>
@@ -867,7 +861,7 @@ export const blogPosts = [
       <dl class="space-y-4">
         <div>
           <dt class="font-bold">1. How much caffeine is in cold brew coffee?</dt>
-          <dd>Cold brew concentrate is significantly higher in caffeine than drip coffee due to the high coffee-to-water ratio. However, after you dilute it (typically 1:2 or 1:3), a final glass of cold brew can have a similar or slightly higher caffeine content than a cup of hot coffee, depending on your dilution. Use our <a href="https://calculation.site/calculators/caffeine-intake" target="_blank" rel="noopener">Caffeine Intake Calculator</a> to track your consumption and our <a href="https://calculation.site/calculators/caffeine-overdose-risk" target="_blank" rel="noopener">Caffeine Overdose Risk Calculator</a> to understand safe limits.</dd>
+          <dd>Cold brew concentrate is significantly higher in caffeine than drip coffee due to the high coffee-to-water ratio. However, after you dilute it (typically 1:2 or 1:3), a final glass of cold brew can have a similar or slightly higher caffeine content than a cup of hot coffee, depending on your dilution. Use our <a href="https://calculation.site/calculators/caffeine-intake" target="_blank" rel="noopener noreferrer">Caffeine Intake Calculator</a> to track your consumption and our <a href="https://calculation.site/calculators/caffeine-overdose-risk" target="_blank" rel="noopener noreferrer">Caffeine Overdose Risk Calculator</a> to understand safe limits.</dd>
         </div>
         <div>
           <dt class="font-bold">2. Is cold brew stronger than regular coffee?</dt>
@@ -942,3 +936,5 @@ export const productReviews = [
     content: 'A review of the best drip coffee makers available in 2025.',
   },
 ];
+
+    
