@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { blogPosts } from '@/lib/data';
 
-const URL = 'https://calculation.site';
+const URL = process.env.URL || 'http://localhost:3000';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = blogPosts.map((post) => ({

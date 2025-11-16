@@ -8,6 +8,8 @@ interface BlogPageProps {
   searchParams: { [key: string]: string | string[] | undefined };
 }
 
+const siteUrl = process.env.URL || 'http://localhost:3000';
+
 export async function generateMetadata({ searchParams }: BlogPageProps): Promise<Metadata> {
   const page = searchParams['page'] ?? '1';
   const pageUrl = `/blog${page !== '1' ? `?page=${page}` : ''}`;
@@ -36,7 +38,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
   
   const paginatedPosts = blogPosts.slice(offset, offset + postsToShow);
 
-  const pageUrl = `/blog`;
+  const pageUrl = `${siteUrl}/blog`;
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -49,7 +51,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
       itemListElement: blogPosts.map((post, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        url: `${pageUrl}/${post.slug}`,
+        url: `${siteUrl}/blog/${post.slug}`,
         name: post.title,
       })),
     },

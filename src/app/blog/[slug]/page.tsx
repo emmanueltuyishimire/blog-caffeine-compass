@@ -9,6 +9,8 @@ interface BlogPostPageProps {
   };
 }
 
+const siteUrl = process.env.URL || 'http://localhost:3000';
+
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
   const post = blogPosts.find((p) => p.slug === params.slug);
 
@@ -62,7 +64,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     notFound();
   }
   
-  const url = `/blog/${post.slug}`;
+  const url = `${siteUrl}/blog/${post.slug}`;
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -83,7 +85,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       name: 'Caffeine Compass',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://calculation.site/logo.png',
+        url: `${siteUrl}/logo.png`,
       },
     },
     datePublished: post.date,

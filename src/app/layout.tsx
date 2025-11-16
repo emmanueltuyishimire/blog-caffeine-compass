@@ -18,10 +18,10 @@ const fontHeadline = Space_Grotesk({
   variable: '--font-headline',
 });
 
-const url = 'https://www.calculation.site/blog';
+const siteUrl = process.env.URL || 'http://localhost:3000';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(url),
+  metadataBase: new URL(siteUrl),
   title: {
     default: 'Caffeine Compass',
     template: '%s | Caffeine Compass',
@@ -66,8 +66,8 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Caffeine Compass',
-    url: 'https://calculation.site',
-    logo: 'https://calculation.site/logo.png',
+    url: siteUrl,
+    logo: `${siteUrl}/logo.png`,
     sameAs: [],
   };
 
@@ -75,10 +75,10 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Caffeine Compass',
-    url: url,
+    url: siteUrl,
     potentialAction: {
       '@type': 'SearchAction',
-      target: `${url}/search?q={search_term_string}`,
+      target: `${siteUrl}/search?q={search_term_string}`,
       'query-input': 'required name=search_term_string',
     },
   };
