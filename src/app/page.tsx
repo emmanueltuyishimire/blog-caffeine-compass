@@ -69,7 +69,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
       {pageNumber === 1 && (
         <section className="relative h-[60vh] w-full bg-slate-900 text-white flex items-center justify-center">
             <Image
-                src="/hero-image.webp"
+                src="/caffeine-calculation-site-background-image.webp"
                 alt="A cup of perfectly crafted latte art"
                 fill
                 className="object-cover opacity-30"
