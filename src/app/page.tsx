@@ -34,12 +34,12 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
 
   return (
     <div>
-      <section className="relative h-[60vh] w-full bg-slate-900 text-white flex items-center justify-center">
+      <section className="relative h-[60vh] w-full bg-slate-900 flex items-center justify-center">
             <div className="relative z-10 text-center p-4">
-                <h1 className="text-4xl md:text-6xl font-headline font-bold text-outline">
+                <h1 className="text-4xl md:text-6xl font-headline font-bold text-white">
                 Caffeine Compass
                 </h1>
-                <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-slate-200 text-outline-thin">
+                <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-slate-300">
                 Your daily dose of coffee culture, brewing techniques, and our love for the bean.
                 </p>
             </div>
