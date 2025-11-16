@@ -1,17 +1,4 @@
-
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-
-const findImage = (id: string) => {
-  const image = PlaceHolderImages.find((img) => img.id === id);
-  if (!image) {
-    // Return a default or handle the error
-    return {
-      imageUrl: 'https://picsum.photos/seed/error/600/400',
-      imageHint: 'placeholder',
-    };
-  }
-  return { imageUrl: image.imageUrl, imageHint: image.imageHint };
-};
 
 export const blogPosts = [
   {
@@ -208,7 +195,8 @@ export const blogPosts = [
       <p>It successfully provides a gentler, more focused energy boost than traditional coffee by intelligently combining a low dose of caffeine with a potent blend of adaptogenic mushrooms and MCT oil. For users whose primary pain points are jitters, crashes, anxiety, and digestive issues, RYZE is often a game-changing solution.</p>
       <p>However, if your definition of "working" is a powerful, high-caffeine jolt to blast you through the morning, then RYZE will likely feel weak and ineffective. It's not designed to replicate that experience; it's designed to replace it with something more balanced and sustainable.</p>
       <h2 class="text-3xl font-headline mt-8 mb-4" id="conclusion">Conclusion: Is RYZE Worth It in 2025? Your Final Buying Guide</h2>
-      <p>This entire Ryze Mushroom Coffee review comes down to one question: should you spend your money on it? The answer depends entirely on what you're trying to solve.</p>
+      <p>This entire Ryze Mushroom Coffee review comes down to one question: should you spend your money on it?</p>
+      <p>The answer depends entirely on what you're trying to solve.</p>
       <div class="border-t border-b divide-y my-6">
         <div class="p-4">
           <h4 class="text-xl font-bold text-green-600 dark:text-green-400">✅ You SHOULD buy RYZE if:</h4>
@@ -692,7 +680,6 @@ export const blogPosts = [
         <div>
           <dt class="font-bold">4. Can I use pre-ground coffee from the store?</dt>
           <dd>While you technically can, it's not recommended for semi-automatic machines. Most pre-ground coffee is too coarse for espresso and is also stale. Freshly ground coffee is essential for the best flavor and creating crema.</dd>
-        </div>
          <div>
           <dt class="font-bold">5. How long does an espresso machine take to warm up?</dt>
           <dd>This varies by machine. Modern beginner machines with thermocoil or thermoblock heaters, like the CASABREWS and Artkoff models, can be ready in under a minute. Older or more traditional machines can take 10-15 minutes.</dd>
@@ -895,13 +882,9 @@ export const productReviews = [
     category: 'Coffee Makers',
     date: 'June 27, 2025',
     rating: 4.6,
-    imageUrl: 'https://images.unsplash.com/photo-1610874150308-a1e6f8c905d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkcmlwJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib.rb-4.1.0&q=80&w=1080',
+    imageUrl: 'https://images.unsplash.com/photo-1610874150308-a1e6f8c905d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkcmlwJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib-rb-4.1.0&q=80&w=1080',
     imageHint: 'drip-makers-home-office',
     excerpt: "We rank the top drip coffee makers that deliver consistently delicious coffee for your home or office environment.",
     content: 'A review of the best drip coffee makers available in 2025.',
   },
 ];
-
-    
-
-    
