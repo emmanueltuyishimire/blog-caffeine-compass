@@ -18,11 +18,11 @@ export function PaginationControls({ currentPage, perPage, totalPosts }: Paginat
   const hasNextPage = currentPage < totalPages;
 
   const handlePrev = () => {
-    router.push(`/?page=${currentPage - 1}`);
+    router.push(`/blog?page=${currentPage - 1}`);
   };
 
   const handleNext = () => {
-    router.push(`/?page=${currentPage + 1}`);
+    router.push(`/blog?page=${currentPage + 1}`);
   };
 
   return (

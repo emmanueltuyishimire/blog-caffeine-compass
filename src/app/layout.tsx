@@ -19,7 +19,7 @@ const fontHeadline = Space_Grotesk({
   variable: '--font-headline',
 });
 
-const siteUrl = process.env.URL || 'http://localhost:3000';
+const siteUrl = 'https://blog.calculation.site';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

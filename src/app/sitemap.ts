@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { blogPosts } from '@/lib/data';
 
-const URL = process.env.URL || 'http://localhost:3000';
+const URL = 'https://blog.calculation.site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = blogPosts.map((post) => ({
@@ -11,8 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const routes = ['/'].map((route) => ({
-    url: `${URL}/blog${route === '/' ? '' : route}`,
+  const routes = ['/blog'].map((route) => ({
+    url: `${URL}${route}`,
     lastModified: new Date().toISOString(),
     changeFrequency: 'weekly' as const,
     priority: 0.9,
