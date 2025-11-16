@@ -19,7 +19,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee',
     author: 'Caffeine Compass Staff',
     date: 'July 11, 2025',
-    imageUrl: '/ryze-mushroom-coffee.webp',
+    imageUrl: '/ryze mushroom coffee.webp',
     imageHint: 'mushroom coffee',
     excerpt: "A complete beginner's guide to Ryze Mushroom Coffee. Understand what it is, the superfood ingredients inside, and how it can transform your morning ritual.",
     content: `
@@ -88,7 +88,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Review (2025): Worth the Hype?',
     author: 'Caffeine Compass Staff',
     date: 'July 10, 2025',
-    imageUrl: '/Ryze-Mushroom-Coffee-Review.webp',
+    imageUrl: '/Ryze Mushroom Coffee Review.webp',
     imageHint: 'mushroom coffee',
     excerpt: "This comprehensive Ryze Mushroom Coffee review for 2025 dives into the popular coffee alternative that promises all-day energy without jitters, improved focus, and gut health. Is it the future of your morning ritual?",
     content: `
@@ -267,7 +267,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Side Effects: A Complete Guide',
     author: 'Caffeine Compass Staff',
     date: 'July 12, 2025',
-    imageUrl: '/ryze-mushroom-coffee-side-effects.webp',
+    imageUrl: '/ryze mushroom coffee side effects.webp',
     imageHint: 'caution sign',
     excerpt: "A balanced and honest look at the potential side effects of Ryze mushroom coffee. Learn about digestive adjustments, medication interactions, and who should be cautious before trying this popular coffee alternative.",
     content: `
@@ -356,7 +356,7 @@ export const blogPosts = [
       <h3 class="text-xl font-headline mt-4 mb-2">2. Blood Pressure Medications</h3>
       <p><strong>Who is at risk:</strong> Individuals taking medication for hypertension (high blood pressure), such as beta-blockers, ACE inhibitors, etc.</p>
       <p><strong>Ingredients of Concern: Reishi and Cordyceps.</strong> Both of these mushrooms have been studied for their potential to help lower blood pressure naturally.</p>
-      <p><strong>The Risk:</strong> While this is a benefit for many, if you are on medication designed to do the same thing, the combined effect could cause your blood pressure to drop too low (hypotension). Symptoms include dizziness, lightheadedness, and fainting. You must speak with your doctor, who may need to monitor your blood pressure more closely if you start taking Ryze.</p>
+      <p><strong>The Risk:</strong> While this is a benefit for many, if you are on medication designed to do the same thing, the combined effect could cause your blood pressure to drop too low (hypotension). Symptoms include dizziness, lightheadedness, and fainting. You must speak with your doctor, who may need to monitor your blood pressure more closely if you get approval to try Ryze.</p>
       <h3 class="text-xl font-headline mt-4 mb-2">3. Immunosuppressant Drugs & Autoimmune Conditions</h3>
       <p><strong>Who is at risk:</strong> Organ transplant recipients, or individuals with autoimmune conditions (e.g., Rheumatoid Arthritis, Lupus, Multiple Sclerosis, Crohn's Disease) who are on immunosuppressive medication.</p>
       <p><strong>Ingredients of Concern: Turkey Tail, Shiitake, Reishi, Cordyceps.</strong> These mushrooms are famed for being "immune-modulators" or "immune-stimulants."</p>
@@ -388,7 +388,7 @@ export const blogPosts = [
     title: 'Best Espresso Machines for Beginners in 2025',
     author: 'Caffeine Compass Staff',
     date: 'July 1, 2025',
-    imageUrl: '/Best-Espresso-Machines-for-Beginners-in-2025.webp',
+    imageUrl: '/Best Espresso Machines for Beginners in 2025.webp',
     imageHint: 'espresso beginner',
     excerpt: "Compare the top beginner-friendly espresso machines to brew café-quality coffee at home.",
     content: `
@@ -834,7 +834,7 @@ export const blogPosts = [
         </div>
         <div>
           <dt class="font-bold">3. Can I make cold brew in a French press?</dt>
-          <dd>Absolutely! A French press is a fantastic tool for making cold brew. Simply add your coarse grounds and water, let it steep on the counter with the plunger up, and when it's done, press the plunger down and pour. You may want to filter it a second time to remove fines.</dd>
+          <dd>Absolutely! A French press is a fantastic tool for making cold brew. Simply add your coarse grounds and water, let it steep on the counter with the plunger up, and when it's done, press the plunger down and pour.</dd>
         </div>
         <div>
           <dt class="font-bold">4. What is the best coffee-to-water ratio for cold brew?</dt>
@@ -901,5 +901,7 @@ export const productReviews = [
     content: 'A review of the best drip coffee makers available in 2025.',
   },
 ];
+
+    
 
     
