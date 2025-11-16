@@ -11,8 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const routes = ['/blog'].map((route) => ({
-    url: `${URL}${route}`,
+  const routes = ['/'].map((route) => ({
+    url: `${URL}/blog${route === '/' ? '' : route}`,
     lastModified: new Date().toISOString(),
     changeFrequency: 'weekly' as const,
     priority: 0.9,
