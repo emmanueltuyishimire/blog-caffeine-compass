@@ -22,7 +22,7 @@ export const blogPosts = [
     date: 'July 11, 2025',
     imageUrl: '/ryze mushroom coffee.webp',
     imageHint: 'mushroom coffee',
-    excerpt: 'A complete beginner\'s guide to Ryze Mushroom Coffee. Understand what it is, the superfood ingredients inside, and how it can transform your morning ritual.',
+    excerpt: "A complete beginner's guide to Ryze Mushroom Coffee. Understand what it is, the superfood ingredients inside, and how it can transform your morning ritual.",
     content: `
       <p>If you've been anywhere near social media or wellness circles recently, you've likely encountered <strong>Ryze Mushroom Coffee</strong>. It's the drink that promises the energy and focus of coffee but without the jitters, anxiety, or dreaded afternoon crash. But what exactly is it? Is it real coffee? And what do the mushrooms do?</p>
       <p>This guide is your straightforward introduction to Ryze. We'll break down everything you need to know about this "superfood" beverage, explaining the science behind its ingredients and helping you understand if it's the right choice for your morning routine. For a much deeper dive, be sure to read our full <a href="/blog/ryze-mushroom-coffee-review-2025">Ryze Mushroom Coffee Review for 2025</a>.</p>
@@ -91,7 +91,7 @@ export const blogPosts = [
     date: 'July 10, 2025',
     imageUrl: '/Ryze Mushroom Coffee Review.webp',
     imageHint: 'mushroom coffee',
-    excerpt: 'This comprehensive Ryze Mushroom Coffee review for 2025 dives into the popular coffee alternative that promises all-day energy without jitters, improved focus, and gut health. Is it the future of your morning ritual?',
+    excerpt: "This comprehensive Ryze Mushroom Coffee review for 2025 dives into the popular coffee alternative that promises all-day energy without jitters, improved focus, and gut health. Is it the future of your morning ritual?",
     content: `
       <p>Welcome to our definitive <strong>Ryze Mushroom Coffee review</strong> for 2025. If you're here, you've likely seen the ads flooding your social media feeds: smiling faces sipping a dark, frothy drink while promising a life free from coffee-induced jitters, afternoon crashes, and stomach upset. It sounds almost too good to be true. Can a coffee made with fungi really deliver on these claims?</p>
       <p>In the ever-evolving world of wellness, mushroom coffee has exploded from a niche health-food curiosity into a mainstream phenomenon. Leading the charge is RYZE, a brand that has built a massive following by positioning itself as the solution to the dark side of our beloved morning brew. But is it genuinely a revolutionary "superfood" or just clever marketing? We're here to cut through the hype and give you the real story.</p>
@@ -283,14 +283,14 @@ export const blogPosts = [
       <p class="mt-8"><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, we may earn a small commission at no extra cost to you. This helps support our work in bringing you honest, in-depth reviews.</em></p>
     `,
   },
-    {
+  {
     slug: 'ryze-mushroom-coffee-side-effects',
     title: 'Ryze Mushroom Coffee Side Effects: A Complete Guide',
     author: 'Caffeine Compass Staff',
     date: 'July 12, 2025',
     imageUrl: '/ryze%20mushroom%20coffee%20side%20effects.webp',
     imageHint: 'caution sign',
-    excerpt: 'A balanced and honest look at the potential side effects of Ryze mushroom coffee. Learn about digestive adjustments, medication interactions, and who should be cautious before trying this popular coffee alternative.',
+    excerpt: "A balanced and honest look at the potential side effects of Ryze mushroom coffee. Learn about digestive adjustments, medication interactions, and who should be cautious before trying this popular coffee alternative.",
     content: `
       <h2 class="text-3xl font-headline mt-8 mb-4" id="introduction">Introduction: Is Ryze Safe For YOU? A Guide to Peace of Mind</h2>
       <p>You've seen the ads, you've read the glowing reviews, and you're intrigued. <strong><a href="/blog/ryze-mushroom-coffee-review-2025">Ryze mushroom coffee</a></strong> promises a world of jitter-free energy, laser focus, and stress-free mornings. It sounds like the perfect upgrade to your daily ritual. But a smart, health-conscious part of you is asking the most important question: "What's the catch? What are the side effects?"</p>
@@ -424,7 +424,7 @@ export const blogPosts = [
     date: 'July 1, 2025',
     imageUrl: '/Best Espresso Machines for Beginners in 2025.webp',
     imageHint: 'espresso beginner',
-    excerpt: 'Compare the top beginner-friendly espresso machines to brew café-quality coffee at home.',
+    excerpt: "Compare the top beginner-friendly espresso machines to brew café-quality coffee at home.",
     content: `
       
       <p>Dreaming of pulling rich, aromatic shots of espresso at home but intimidated by the complex, chrome-plated machines you see in cafés? You're not alone. The world of espresso can feel like a private club with a high barrier to entry. But in 2025, brewing café-quality espresso at home has never been more accessible, thanks to a new generation of beginner-friendly machines.</p>
@@ -747,7 +747,7 @@ export const blogPosts = [
     date: 'April 10, 2025',
     imageUrl: 'https://images.unsplash.com/photo-1592663527359-cf6642f54cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2xkJTIwYnJld3xlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'cold brew',
-    excerpt: 'Learn the simple, patient art of making smooth and rich cold brew concentrate right in your own kitchen.',
+    excerpt: "Learn the simple, patient art of making smooth and rich cold brew concentrate right in your own kitchen.",
     content: `
       <p>Tired of bitter, acidic coffee that upsets your stomach? Do you crave a smooth, rich, and deeply flavorful coffee experience that you can grab straight from your fridge? Welcome to the wonderful world of cold brew. Learning <strong>how to make cold brew coffee at home</strong> is a game-changer, and it's shockingly simple.</p>
       <p>This ultimate guide will walk you through everything you need to know, from the basic cold brew recipe to advanced techniques, troubleshooting common issues, and choosing the best gear. By the end, you'll be a home-brewing cold brew connoisseur, saving money and enjoying café-quality coffee every day.</p>
@@ -905,7 +905,7 @@ export const productReviews = [
     rating: 4.5,
     imageUrl: findImage('budget-espresso-200').imageUrl,
     imageHint: findImage('budget-espresso-200').imageHint,
-    excerpt: 'Find the perfect budget-friendly espresso machine to kickstart your home barista journey without breaking the bank.',
+    excerpt: "Find the perfect budget-friendly espresso machine to kickstart your home barista journey without breaking the bank.",
     content: 'A detailed review of the top 5 espresso machines under $200 for 2025.',
   },
   {
@@ -916,7 +916,7 @@ export const productReviews = [
     rating: 4.8,
     imageUrl: findImage('top-coffee-grinders').imageUrl,
     imageHint: findImage('top-coffee-grinders').imageHint,
-    excerpt: 'From manual to electric, we review the best coffee grinders to unlock the full flavor of your beans.',
+    excerpt: "From manual to electric, we review the best coffee grinders to unlock the full flavor of your beans.",
     content: 'A comprehensive review of coffee grinders across different price points.',
   },
   {
@@ -927,7 +927,7 @@ export const productReviews = [
     rating: 4.3,
     imageUrl: findImage('single-serve-makers').imageUrl,
     imageHint: findImage('single-serve-makers').imageHint,
-    excerpt: 'Discover the most convenient and high-quality single-serve coffee makers for a quick, perfect cup every time.',
+    excerpt: "Discover the most convenient and high-quality single-serve coffee makers for a quick, perfect cup every time.",
     content: 'Reviewing the best single-serve coffee makers for speed and convenience.',
   },
   {
@@ -938,7 +938,7 @@ export const productReviews = [
     rating: 4.6,
     imageUrl: findImage('drip-makers-home-office').imageUrl,
     imageHint: findImage('drip-makers-home-office').imageHint,
-    excerpt: 'We rank the top drip coffee makers that deliver consistently delicious coffee for your home or office environment.',
+    excerpt: "We rank the top drip coffee makers that deliver consistently delicious coffee for your home or office environment.",
     content: 'A review of the best drip coffee makers available in 2025.',
   },
 ];
