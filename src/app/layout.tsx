@@ -87,8 +87,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-pt-[3.5rem] ${fontBody.variable} ${fontHeadline.variable}`}>
       <head>
-        <link rel="preload" href="/_next/static/media/243423918451f786-s.p.woff2" as="font" type="font/woff2" />
-        <link rel="preload" href="/_next/static/media/916213b353846a2a-s.p.woff2" as="font" type="font/woff2" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLdJson) }}
@@ -97,7 +96,8 @@ export default function RootLayout({
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLdJson) }}
           />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3042243846300811"
+        crossOrigin="anonymous"></script>
       </head>
       <body className={cn('min-h-screen bg-background font-body antialiased')} suppressHydrationWarning={true}>
         <Analytics />
