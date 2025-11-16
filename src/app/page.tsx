@@ -9,8 +9,6 @@ interface BlogPageProps {
   searchParams: { [key: string]: string | string[] | undefined };
 }
 
-const siteUrl = 'https://blog.calculation.site';
-
 export async function generateMetadata({ searchParams }: BlogPageProps): Promise<Metadata> {
   const page = searchParams['page'] ?? '1';
   const pageUrl = page === '1' ? '/' : `/?page=${page}`;
@@ -42,30 +40,8 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
   
   const paginatedPosts = blogPosts.slice(offset, offset + postsToShow);
 
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'CollectionPage',
-    name: 'Caffeine Compass Blog',
-    description: 'The latest articles on coffee culture, brewing techniques, and our love for the bean.',
-    url: siteUrl,
-    mainEntity: {
-      '@type': 'ItemList',
-      itemListElement: blogPosts.map((post, index) => ({
-        '@type': 'ListItem',
-        position: index + 1,
-        url: `${siteUrl}/blog/${post.slug}`,
-        name: post.title,
-      })),
-    },
-  };
-
   return (
     <div>
-       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-
       {pageNumber === 1 && (
         <section className="relative h-[60vh] w-full bg-slate-900 text-white flex items-center justify-center">
             <Image
