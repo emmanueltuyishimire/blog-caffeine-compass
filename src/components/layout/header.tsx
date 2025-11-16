@@ -5,6 +5,7 @@ const navItems = [
   { href: 'https://calculation.site', label: 'Home' },
   { href: '/blog', label: 'Blog' },
   { href: 'https://calculation.site/calculators', label: 'Calculators' },
+  { href: 'https://calculation.site/business', label: 'CoffeeBizz' },
 ];
 
 export function Header() {
