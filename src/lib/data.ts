@@ -89,7 +89,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Review (2025): Worth the Hype?',
     author: 'Caffeine Compass Staff',
     date: 'July 10, 2025',
-    imageUrl: '/Ryze-Mushroom-Coffee-Review.webp',
+    imageUrl: '/Ryze Mushroom Coffee Review 2025.webp',
     imageHint: 'mushroom coffee',
     excerpt: 'This comprehensive Ryze Mushroom Coffee review for 2025 dives into the popular coffee alternative that promises all-day energy without jitters, improved focus, and gut health. Is it the future of your morning ritual?',
     content: `
@@ -198,7 +198,6 @@ export const blogPosts = [
       <ul class="list-disc list-inside space-y-1 my-4">
           <li><strong>For Iced RYZE:</strong> Dissolve the powder in a small amount (2-3 oz) of hot water first. Once it's a smooth liquid, add your favorite cold milk or water and pour over ice. This is a quicker alternative to our guide on <a href="/blog/how-to-make-cold-brew-coffee-at-home">how to make cold brew at home</a>.</li>
           <li><strong>For a Creamier Latte:</strong> Use steamed milk or a non-dairy alternative instead of water. The built-in coconut milk powder in the blend already provides creaminess, but this takes it to the next level.</li>
-          <li><strong>For a Smoothie Boost:</strong> Add a scoop of RYZE directly into your blender with your other smoothie ingredients for an energy and focus kick.</li>
       </ul>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="customer-reviews">What Are Customers Saying? A Balanced View of Ryze Reviews</h2>
@@ -295,7 +294,7 @@ export const blogPosts = [
     title: 'Best Espresso Machines for Beginners in 2025',
     author: 'Caffeine Compass Staff',
     date: 'July 1, 2025',
-    imageUrl: '/espresso-beginners.webp',
+    imageUrl: '/Best Espresso Machines for Beginners in 2025.webp',
     imageHint: 'espresso beginner',
     excerpt: 'Compare the top beginner-friendly espresso machines to brew café-quality coffee at home.',
     content: `
@@ -673,7 +672,7 @@ export const blogPosts = [
       </div>
 
       <h3 class="text-2xl font-headline mt-6 mb-3"><a href="https://www.amazon.com/s?k=burr+coffee+grinder" target="_blank" rel="noopener noreferrer sponsored">2. A Quality Burr Grinder</a></h3>
-      <p>This is the single most important accessory for upgrading your coffee game, for cold brew or any other method. A <strong>coarse, even grind is non-negotiable</strong> for delicious cold brew. Blade grinders produce a mix of dust and boulders, leading to a brew that is simultaneously bitter and weak. A burr grinder mills the beans to a consistent size, ensuring a smooth, balanced extraction. The <a href="/reviews/baratza-encore-review">Baratza Encore</a> is the gold standard for an entry-level home grinder that will last for years, which we've reviewed in our <a href="/reviews">product reviews section</a>.</p>
+      <p>This is the single most important accessory for upgrading your coffee game, for cold brew or any other method. A <strong>coarse, even grind is non-negotiable</strong> for delicious cold brew. Blade grinders produce a mix of dust and boulders, leading to a brew that is simultaneously bitter and weak. A burr grinder mills the beans to a consistent size, ensuring a smooth, balanced extraction. The <a href="/reviews">Baratza Encore</a> is the gold standard for an entry-level home grinder that will last for years, which we've reviewed in our <a href="/reviews">product reviews section</a>.</p>
       <div class="text-center my-6">
         <a href="https://www.amazon.com/s?k=burr+coffee+grinder" target="_blank" rel="noopener noreferrer sponsored" class="font-semibold text-primary hover:underline">
           Shop Burr Grinders on Amazon
@@ -769,6 +768,7 @@ export const blogPosts = [
   }
 ];
 
+
 export const productReviews = [
   {
     slug: 'aeropress-go-review',
@@ -795,11 +795,3 @@ export const productReviews = [
     imageHint: 'chemex coffee',
   }
 ];
-
-    
-
-    
-
-    
-
-    
