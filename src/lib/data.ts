@@ -553,7 +553,7 @@ export const blogPosts = [
       <h3 class="text-2xl font-headline mt-6 mb-3">2. Do You Need a Built-in Grinder?</h3>
       <p>The grinder is just as important as the espresso machine itself. Freshly ground coffee is non-negotiable for great espresso.</p>
       <ul class="list-disc list-inside space-y-2 my-4">
-          <li><strong>If you choose a semi-automatic machine,</strong> you MUST budget for a separate burr grinder. A cheap blade grinder won't work—it produces an inconsistent grind that makes pulling a good shot impossible. An entry-level burr grinder like the <a href="/reviews">Baratza Encore</a> is a great starting point, which you can find in our <a href="/reviews">product reviews section</a>.</li>
+          <li><strong>If you choose a semi-automatic machine,</strong> you MUST budget for a separate burr grinder. A cheap blade grinder won't work—it produces an inconsistent grind that makes pulling a good shot impossible. An entry-level burr grinder like the Baratza Encore is a great starting point.</li>
           <li><strong>If you choose a super-automatic machine,</strong> the grinder is built-in. This is a major part of its convenience and cost.</li>
           <li><strong>If you choose a capsule machine,</strong> you don't need a grinder at all.</li>
       </ul>
@@ -672,7 +672,7 @@ export const blogPosts = [
       </div>
 
       <h3 class="text-2xl font-headline mt-6 mb-3"><a href="https://www.amazon.com/s?k=burr+coffee+grinder" target="_blank" rel="noopener noreferrer sponsored">2. A Quality Burr Grinder</a></h3>
-      <p>This is the single most important accessory for upgrading your coffee game, for cold brew or any other method. A <strong>coarse, even grind is non-negotiable</strong> for delicious cold brew. Blade grinders produce a mix of dust and boulders, leading to a brew that is simultaneously bitter and weak. A burr grinder mills the beans to a consistent size, ensuring a smooth, balanced extraction. The <a href="/reviews">Baratza Encore</a> is the gold standard for an entry-level home grinder that will last for years, which we've reviewed in our <a href="/reviews">product reviews section</a>.</p>
+      <p>This is the single most important accessory for upgrading your coffee game, for cold brew or any other method. A <strong>coarse, even grind is non-negotiable</strong> for delicious cold brew. Blade grinders produce a mix of dust and boulders, leading to a brew that is simultaneously bitter and weak. A burr grinder mills the beans to a consistent size, ensuring a smooth, balanced extraction. The Baratza Encore is the gold standard for an entry-level home grinder that will last for years.</p>
       <div class="text-center my-6">
         <a href="https://www.amazon.com/s?k=burr+coffee+grinder" target="_blank" rel="noopener noreferrer sponsored" class="font-semibold text-primary hover:underline">
           Shop Burr Grinders on Amazon
@@ -724,7 +724,7 @@ export const blogPosts = [
           This is the most important part of getting a clean, sediment-free brew. Here are a few filtering methods, from simple to more advanced:
           <ul class="list-disc list-inside ml-4 space-y-2 mt-2">
             <li><strong>Method A (Good): Cheesecloth.</strong> Line a fine-mesh sieve with a few layers of cheesecloth and place it over your storage container. Slowly pour the coffee mixture through it. This works, but may let some fine sediment through.</li>
-            <li><strong>Method B (Better): Paper Filter.</strong> Place a standard paper coffee filter inside a pour-over dripper (or a sieve) and pour the concentrate through that. This is very effective at catching fine particles but can be slow. Wetting the paper filter first helps. A <a href="/reviews">Chemex</a> with its thick filter is also excellent for this step.</li>
+            <li><strong>Method B (Better): Paper Filter.</strong> Place a standard paper coffee filter inside a pour-over dripper (or a sieve) and pour the concentrate through that. This is very effective at catching fine particles but can be slow. Wetting the paper filter first helps. A Chemex with its thick filter is also excellent for this step.</li>
             <li><strong>Method C (Easiest): French Press.</strong> If you brewed in a French press, simply press the plunger down slowly and pour the concentrate out. You may want to filter it a second time to remove any fine silt.</li>
           </ul>
           <em>Pro Tip: Don't squeeze the grounds! This will force bitter compounds and fine particles into your brew. Let it drip naturally.</em>
@@ -769,29 +769,4 @@ export const blogPosts = [
 ];
 
 
-export const productReviews = [
-  {
-    slug: 'aeropress-go-review',
-    productName: 'Aeropress Go',
-    rating: 5,
-    summary: 'The Aeropress Go is the perfect companion for coffee lovers on the move. It packs all the brewing power of the original into a brilliantly designed, self-contained travel mug.',
-    imageUrl: 'https://images.unsplash.com/photo-1666877674033-28172f3a0c5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhZXJvcHJlc3MlMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjIzOTE2fDA&ixlib=rb-4.1.0&q=80&w=600',
-    imageHint: 'aeropress coffee',
-  },
-  {
-    slug: 'baratza-encore-review',
-    productName: 'Baratza Encore Grinder',
-    rating: 4,
-    summary: "A fantastic entry-level burr grinder that offers consistency and durability. It's the go-to recommendation for anyone starting their home brewing journey.",
-    imageUrl: 'https://images.unsplash.com/photo-1646346834998-5b610ec21d12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2ZmZWUlMjBncmluZGVyfGVufDB8fHx8MTc2MzE4NjIzNHww&ixlib=rb-4.1.0&q=80&w=600',
-    imageHint: 'coffee grinder',
-  },
-  {
-    slug: 'chemex-classic-review',
-    productName: 'Chemex Classic (6-cup)',
-    rating: 4,
-    summary: "Not just a beautiful piece of design, the Chemex brews an exceptionally clean cup of coffee thanks to its thick, proprietary filters. A bit more hands-on, but worth the effort.",
-    imageUrl: 'https://images.unsplash.com/photo-1694440851401-63e8f8bcd61f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGVtZXglMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjIzOTE3fDA&ixlib.rb-4.1.0&q=80&w=600',
-    imageHint: 'chemex coffee',
-  }
-];
+
