@@ -1,4 +1,5 @@
 
+
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const findImage = (id: string) => {
@@ -88,7 +89,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Review (2025): Worth the Hype?',
     author: 'Caffeine Compass Staff',
     date: 'July 10, 2025',
-    imageUrl: '/Ryze Mushroom Coffee Review.webp',
+    imageUrl: '/Ryze-Mushroom-Coffee-Review.webp',
     imageHint: 'mushroom coffee',
     excerpt: 'This comprehensive Ryze Mushroom Coffee review for 2025 dives into the popular coffee alternative that promises all-day energy without jitters, improved focus, and gut health. Is it the future of your morning ritual?',
     content: `
@@ -294,7 +295,7 @@ export const blogPosts = [
     title: 'Best Espresso Machines for Beginners in 2025',
     author: 'Caffeine Compass Staff',
     date: 'July 1, 2025',
-    imageUrl: 'https://images.unsplash.com/photo-1689164255885-d172a4f5fc4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZXNwcmVzc28lMjBiZWdpbm5lcnxlbnwwfHx8fDE3NjMyMjgxNDF8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    imageUrl: '/espresso-beginners.webp',
     imageHint: 'espresso beginner',
     excerpt: 'Compare the top beginner-friendly espresso machines to brew café-quality coffee at home.',
     content: `
@@ -724,7 +725,7 @@ export const blogPosts = [
           This is the most important part of getting a clean, sediment-free brew. Here are a few filtering methods, from simple to more advanced:
           <ul class="list-disc list-inside ml-4 space-y-2 mt-2">
             <li><strong>Method A (Good): Cheesecloth.</strong> Line a fine-mesh sieve with a few layers of cheesecloth and place it over your storage container. Slowly pour the coffee mixture through it. This works, but may let some fine sediment through.</li>
-            <li><strong>Method B (Better): Paper Filter.</strong> Place a standard paper coffee filter inside a pour-over dripper (or a sieve) and pour the concentrate through that. This is very effective at catching fine particles but can be slow. Wetting the paper filter first helps. A <a href="/reviews/chemex-classic-review">Chemex</a> with its thick filter is also excellent for this step.</li>
+            <li><strong>Method B (Better): Paper Filter.</strong> Place a standard paper coffee filter inside a pour-over dripper (or a sieve) and pour the concentrate through that. This is very effective at catching fine particles but can be slow. Wetting the paper filter first helps. A <a href="/reviews">Chemex</a> with its thick filter is also excellent for this step.</li>
             <li><strong>Method C (Easiest): French Press.</strong> If you brewed in a French press, simply press the plunger down slowly and pour the concentrate out. You may want to filter it a second time to remove any fine silt.</li>
           </ul>
           <em>Pro Tip: Don't squeeze the grounds! This will force bitter compounds and fine particles into your brew. Let it drip naturally.</em>
