@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const routes = ['/blog'].map((route) => ({
+  const routes = ['/'].map((route) => ({
     url: `${URL}${route}`,
     lastModified: new Date().toISOString(),
     changeFrequency: 'weekly' as const,

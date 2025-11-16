@@ -18,12 +18,16 @@ export function PaginationControls({ currentPage, perPage, totalPosts }: Paginat
   const hasNextPage = currentPage < totalPages;
 
   const handlePrev = () => {
-    router.push(`/blog?page=${currentPage - 1}`);
+    router.push(`/?page=${currentPage - 1}`);
   };
 
   const handleNext = () => {
-    router.push(`/blog?page=${currentPage + 1}`);
+    router.push(`/?page=${currentPage + 1}`);
   };
+
+  if (totalPages <= 1) {
+    return null;
+  }
 
   return (
     <div className="flex justify-center items-center gap-4 mt-12">

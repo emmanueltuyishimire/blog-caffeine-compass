@@ -2,8 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const navItems = [
-  { href: 'https://calculation.site', label: 'Home' },
-  { href: '/blog', label: 'Blog' },
+  { href: '/', label: 'Home' },
   { href: 'https://calculation.site/calculators', label: 'Calculators' },
   { href: 'https://calculation.site/business', label: 'CoffeeBizz' },
 ];
