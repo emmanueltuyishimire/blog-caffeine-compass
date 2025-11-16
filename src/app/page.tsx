@@ -44,14 +44,6 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
     <div>
       {pageNumber === 1 && (
         <section className="relative h-[60vh] w-full bg-slate-900 text-white flex items-center justify-center">
-            <Image
-                src="/caffeine-calculation-site-background-image.webp"
-                alt="A cup of perfectly crafted latte art"
-                fill
-                className="object-cover opacity-30"
-                priority
-                data-ai-hint="latte art"
-            />
             <div className="relative z-10 text-center p-4">
                 <h1 className="text-4xl md:text-6xl font-headline font-bold text-outline">
                 Caffeine Compass
