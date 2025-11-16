@@ -2,8 +2,6 @@ import { blogPosts } from '@/lib/data';
 import { PostCard } from '@/components/blog/post-card';
 import type { Metadata } from 'next';
 import { PaginationControls } from '@/components/blog/pagination-controls';
-import { FeaturedPostCard } from '@/components/blog/featured-post-card';
-import Image from 'next/image';
 
 interface BlogPageProps {
   searchParams: { [key: string]: string | string[] | undefined };
@@ -31,19 +29,12 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
   const perPage = 9;
   const totalPosts = blogPosts.length;
   
-  const featuredPost = pageNumber === 1 ? blogPosts[0] : null;
-  
-  // On page 1, we show 1 featured + 8 regular posts.
-  // On subsequent pages, we show 9 regular posts.
-  const postsToShow = pageNumber === 1 ? 8 : perPage;
-  const offset = pageNumber === 1 ? 1 : (pageNumber - 1) * perPage;
-  
-  const paginatedPosts = blogPosts.slice(offset, offset + postsToShow);
+  const offset = (pageNumber - 1) * perPage;
+  const paginatedPosts = blogPosts.slice(offset, offset + perPage);
 
   return (
     <div>
-      {pageNumber === 1 && (
-        <section className="relative h-[60vh] w-full bg-slate-900 text-white flex items-center justify-center">
+      <section className="relative h-[60vh] w-full bg-slate-900 text-white flex items-center justify-center">
             <div className="relative z-10 text-center p-4">
                 <h1 className="text-4xl md:text-6xl font-headline font-bold text-outline">
                 Caffeine Compass
@@ -53,15 +44,8 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
                 </p>
             </div>
         </section>
-      )}
 
       <div className="container py-12 md:py-20">
-        {featuredPost && (
-          <div className="mb-12">
-            <FeaturedPostCard post={featuredPost} />
-          </div>
-        )}
-
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {paginatedPosts.map((post) => (
             <PostCard key={post.slug} post={post} />
