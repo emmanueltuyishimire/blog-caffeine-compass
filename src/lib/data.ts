@@ -288,7 +288,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Side Effects: A Complete Guide',
     author: 'Caffeine Compass Staff',
     date: 'July 12, 2025',
-    imageUrl: '/ryze%20mushroomcoffee%20side%20effects.webp',
+    imageUrl: '/ryze%20mushroom%20coffee%20side%20effects.webp',
     imageHint: 'caution sign',
     excerpt: 'A balanced and honest look at the potential side effects of Ryze mushroom coffee. Learn about digestive adjustments, medication interactions, and who should be cautious before trying this popular coffee alternative.',
     content: `
@@ -845,6 +845,7 @@ export const blogPosts = [
     `,
   }
 ];
+
 
 
 
