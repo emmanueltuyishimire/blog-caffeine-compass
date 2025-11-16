@@ -89,7 +89,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Review (2025): Worth the Hype?',
     author: 'Caffeine Compass Staff',
     date: 'July 10, 2025',
-    imageUrl: '/Ryze Mushroom Coffee Review 2025.webp',
+    imageUrl: '/Ryze Mushroom Coffee Review.webp',
     imageHint: 'mushroom coffee',
     excerpt: 'This comprehensive Ryze Mushroom Coffee review for 2025 dives into the popular coffee alternative that promises all-day energy without jitters, improved focus, and gut health. Is it the future of your morning ritual?',
     content: `
