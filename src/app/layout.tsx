@@ -87,8 +87,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-pt-[3.5rem] ${fontBody.variable} ${fontHeadline.variable}`}>
       <head>
-        <link rel="preload" href="/_next/static/media/243423918451f786-s.p.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
-        <link rel="preload" href="/_next/static/media/916213b353846a2a-s.p.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/_next/static/media/243423918451f786-s.p.woff2" as="font" type="font/woff2" />
+        <link rel="preload" href="/_next/static/media/916213b353846a2a-s.p.woff2" as="font" type="font/woff2" />
         <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLdJson) }}

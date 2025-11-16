@@ -21,7 +21,6 @@ export function PostCard({ post }: PostCardProps) {
             width={1200}
             height={800}
             className="aspect-[3/2] object-cover w-full group-hover:scale-105 transition-transform duration-300"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             data-ai-hint={post.imageHint}
           />
         </Link>
