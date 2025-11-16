@@ -11,7 +11,7 @@ export function Footer() {
     <footer className="py-6 md:px-8 md:py-0 border-t">
       <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
         <p className="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
-          © {new Date().getFullYear()} Caffeine Compass. All rights reserved.
+          Copyright © {new Date().getFullYear()} Caffeine Compass. All rights reserved.
         </p>
         <nav className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm">
           {footerLinks.map((item) => (
