@@ -38,7 +38,7 @@ const allPosts = [
       <p class="mb-4">Beyond removing the negatives, Ryze is formulated to add functional benefits that go far beyond a simple caffeine boost. This is where it transitions from a coffee alternative to a genuine wellness beverage.</p>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">1. It's Good for Your Brain: Enhanced Focus & Cognitive Support</h3>
-      <p class="mb-4">The star ingredient here is <strong>Lion's Mane mushroom</strong>, a well-researched nootropic. It contains unique compounds that have been shown to stimulate Nerve Growth Factor (NGF), a protein essential for brain cell health, growth, and repair. This is why so many users report a significant reduction in "brain fog" and an improvement in focus and memory. By supporting long-term brain health, Ryze is actively good for your most important organ. To learn more about the specifics, our <a href="/ryze-mushroom-coffee-ingredients-deep-dive">4,000-word ingredient deep-dive on Ryze ingredients</a> is the ultimate resource.</p>
+      <p class="mb-4">The star ingredient here is <strong>Lion's Mane mushroom</strong>, a well-researched nootropic. It contains unique compounds that have been shown to stimulate Nerve Growth Factor (NGF), a protein essential for brain cell health, growth, and repair. This is why so many users report a significant reduction in "brain fog" and an improvement in focus and memory. By supporting long-term brain health, Ryze is actively good for your most important organ. To learn more about the specifics, our <a href="/ryze-mushroom-coffee-ingredients-deep-dive">ultimate guide to Ryze Mushroom Coffee ingredients</a> is the ultimate resource.</p>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">2. It's Good for Your Immune System: Daily Defense</h3>
       <p class="mb-4">Ryze turns your morning ritual into an act of immune support. The blend includes a trio of powerful immune-modulating mushrooms: <strong>Turkey Tail, Shiitake, and King Trumpet</strong>. These fungi are rich in beta-glucans and antioxidants, compounds known to help regulate and strengthen the body's natural defense systems. Consistent, daily support for your immune system is a cornerstone of long-term health.</p>
@@ -78,15 +78,15 @@ const allPosts = [
   },
   {
     slug: 'ryze-mushroom-coffee-ingredients-deep-dive',
-    title: 'Ryze Mushroom Coffee Ingredients: A 4000-Word Deep Dive (2025)',
+    title: 'Ryze Mushroom Coffee Ingredients: The Ultimate Guide (2025)',
     author: 'Caffeine Compass Staff',
     date: 'July 14, 2025',
     imageId: 'ryze-ingredients',
-    excerpt: 'Our ultimate 4000-word guide to every ingredient in Ryze Mushroom Coffee. We break down the science behind Lion\'s Mane, Cordyceps, Reishi, MCT Oil, and more. Is it a superfood blend that delivers on its promises? We investigate.',
+    excerpt: 'Our ultimate guide to every ingredient in Ryze Mushroom Coffee. We break down the science behind Lion\'s Mane, Cordyceps, Reishi, MCT Oil, and more. Is it a superfood blend that delivers on its promises? We investigate.',
     content: `
       <h2 class="text-3xl font-headline mt-8 mb-4" id="introduction">Introduction: Beyond the Hype—What’s *Really* Inside Your Cup of Ryze?</h2>
       <p>You’ve been targeted. Relentlessly. Your social media feeds are a constant parade of smiling, energetic people holding a dark, frothy mug, all evangelizing the life-changing magic of Ryze Mushroom Coffee. They promise a world without coffee jitters, without afternoon crashes, and without the stomach-churning acidity of your morning joe. It sounds incredible. But a healthy, skeptical part of your brain is asking the most important question: “This all sounds great, but what am I *actually* drinking?”</p>
-      <p class="mb-4">Welcome to the ultimate, no-stone-unturned guide to <strong>Ryze mushroom coffee ingredients</strong>. This isn’t a surface-level list. This is a 4,000-word deep dive into the science, history, and purpose of every single component in the blend. We’re going to peel back the marketing layer and look at the evidence behind the six functional mushrooms, the MCT oil, and even the coffee itself. Why were these specific ingredients chosen? What do they do on their own, and more importantly, how do they work together?</p>
+      <p class="mb-4">Welcome to the ultimate, no-stone-unturned guide to <strong>Ryze mushroom coffee ingredients</strong>. This isn’t a surface-level list. This is a deep dive into the science, history, and purpose of every single component in the blend. We’re going to peel back the marketing layer and look at the evidence behind the six functional mushrooms, the MCT oil, and even the coffee itself. Why were these specific ingredients chosen? What do they do on their own, and more importantly, how do they work together?</p>
       
       <h3 class="text-xl font-headline mt-4 mb-2">Who This Definitive Ingredient Guide Is For:</h3>
       <ul class="list-disc list-inside space-y-1 mb-4">
@@ -208,7 +208,7 @@ const allPosts = [
       <p class="mb-4">It's important to remember that some individuals may have sensitivities or conditions that could be affected by these ingredients. For a detailed safety overview, please read our <a href="/ryze-mushroom-coffee-side-effects">guide on Ryze mushroom coffee side effects</a>.</p>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="conclusion">Conclusion: A Thoughtfully Engineered Superfood Blend</h2>
-      <p>After this exhaustive 4,000-word deep dive, one thing is abundantly clear: the <strong>Ryze mushroom coffee ingredients</strong> are not a random assortment of trendy powders. This is a thoughtfully engineered, synergistic formula where each component serves a distinct and complementary purpose. It is a system designed from the ground up to solve the most common problems of traditional coffee while adding a host of additional benefits for brain health, physical stamina, and immune resilience.</p>
+      <p>After this exhaustive deep dive, one thing is abundantly clear: the <strong>Ryze mushroom coffee ingredients</strong> are not a random assortment of trendy powders. This is a thoughtfully engineered, synergistic formula where each component serves a distinct and complementary purpose. It is a system designed from the ground up to solve the most common problems of traditional coffee while adding a host of additional benefits for brain health, physical stamina, and immune resilience.</p>
       
       <div class="border-t border-b divide-y my-6">
         <div class="p-4">
@@ -516,7 +516,7 @@ const allPosts = [
       </div>
       
       <h2 class="text-3xl font-headline mt-8 mb-4" id="ingredients">Breaking Down the RYZE Mushroom Coffee Ingredients</h2>
-      <p class="mb-4">The magic of RYZE isn't in a single ingredient, but in how the components work together. Each one is chosen for a specific purpose, contributing to the overall goal of balanced energy and wellness. For an exhaustive analysis, read our <a href="/ryze-mushroom-coffee-ingredients-deep-dive">4000-word deep dive into Ryze ingredients</a>.</p>
+      <p class="mb-4">The magic of RYZE isn't in a single ingredient, but in how the components work together. Each one is chosen for a specific purpose, contributing to the overall goal of balanced energy and wellness. For an exhaustive analysis, read our <a href="/ryze-mushroom-coffee-ingredients-deep-dive">ultimate guide to Ryze Mushroom Coffee ingredients</a>.</p>
       
       <h2 class="text-3xl font-headline mt-8 mb-4" id="benefits">What Are the Benefits of Ryze Mushroom Coffee?</h2>
       <p>So, when you combine all these ingredients, what are the tangible benefits? <strong>Is RYZE mushroom coffee good for you?</strong> Based on the scientific properties of its ingredients and a wealth of user testimonials, here are the primary benefits RYZE aims to deliver.</p>
