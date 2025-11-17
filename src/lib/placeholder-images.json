@@ -8,7 +8,7 @@
     },
     {
       "id": "ryze-ingredients",
-      "imageUrl": "https://images.unsplash.com/photo-1735623102116-910500bc5445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnbG93aW5nJTIwbXVzaHJvb218ZW58MHx8fHwxNzYzMjI1NTU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/Ryze Mushroom Coffee Ingredients.webp",
       "imageHint": "glowing mushroom",
       "description": "A glowing mushroom representing the power of Ryze ingredients."
     },
@@ -20,7 +20,7 @@
     },
     {
       "id": "ryze-good-for-you",
-      "imageUrl": "https://images.unsplash.com/photo-1575468130797-aa950b68aeec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFsdGh5JTIwY29mZmVlfGVufDB8fHx8MTc2MzIyNzA3Nnww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/Is Ryze Mushroom Coffee Good for You.webp",
       "imageHint": "healthy coffee",
       "description": "A cup of coffee surrounded by healthy items, representing the health benefits of Ryze."
     },
@@ -32,67 +32,67 @@
     },
     {
       "id": "top-coffee-grinders",
-      "imageUrl": "https://images.unsplash.com/photo-1611854778859-3ee00caf1ea5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBncmluZGVyc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1611854778859-3ee00caf1ea5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBncmluZGVyc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee grinders",
       "description": "A lineup of various coffee grinders."
     },
     {
       "id": "single-serve-makers",
-      "imageUrl": "https://images.unsplash.com/photo-1720762223716-ed06ab1142cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzaW5nbGUtc2VydmUlMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1720762223716-ed06ab1142cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzaW5nbGUtc2VydmUlMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "single-serve coffee",
       "description": "A sleek single-serve coffee maker brewing a cup."
     },
     {
       "id": "budget-espresso-200",
-      "imageUrl": "https://images.unsplash.com/photo-1575724494215-e1baede6fa4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidWRnZXQlMjBlc3ByZXNzb3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1575724494215-e1baede6fa4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidWRnZXQlMjBlc3ByZXNzb3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "budget espresso",
       "description": "An affordable espresso machine under $200 making espresso."
     },
     {
       "id": "manual-grinders-travelers",
-      "imageUrl": "https://images.unsplash.com/photo-1573066516618-70e8e69506e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW51YWwlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1573066516618-70e8e69506e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW51YWwlMjBncmluZGVyfGVufDB8fHx8MTc2MzIyNjM4MHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "manual grinder",
       "description": "A manual coffee grinder being used outdoors."
     },
     {
       "id": "drip-makers-home-office",
-      "imageUrl": "https://images.unsplash.com/photo-1610874150308-a1e6f8c905d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkcmlwJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1610874150308-a1e6f8c905d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkcmlwJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "drip coffee",
       "description": "A drip coffee maker suitable for home and office use."
     },
     {
       "id": "milk-frothers-latte",
-      "imageUrl": "https://images.unsplash.com/photo-1604946326434-8dd1a3b6098b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtaWxrJTIwZnJvdGhlcnxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1604946326434-8dd1a3b6098b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtaWxrJTIwZnJvdGhlcnxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "milk frother",
       "description": "A high-pressure milk frother creating foam for a latte."
     },
     {
       "id": "smart-makers-app",
-      "imageUrl": "https://images.unsplash.com/photo-1615400924742-67293aae4257?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzbWFydCUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1615400924742-67293aae4257?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzbWFydCUyMGNvZmZlZS1tYWtlcnxlbnwwfHx8fDE3NjMyMjU5NDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "smart coffee-maker",
       "description": "A coffee maker being controlled by a smartphone app."
     },
     {
       "id": "cold-brew-makers-summer",
-      "imageUrl": "https://images.unsplash.com/photo-1733860443209-7d5733b654d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2xkLWJyZXclMjBtYWtlcnxlbnwwfHx8fDE3NjMyMjgxNDF8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1733860443209-7d5733b654d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2xkLWJyZXclMjBtYWtlcnxlbnwwfHx8fDE3NjMyMjgxNDF8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "cold-brew maker",
       "description": "A cold brew coffee maker on a sunny patio."
     },
     {
       "id": "french-press-makers",
-      "imageUrl": "https://images.unsplash.com/photo-1609902980959-8fc750449b73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmcmVuY2glMjBwcmVzc3xlbnwwfHx8fDE3NjMxMzUxMTJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1609902980959-8fc750449b73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmcmVuY2glMjBwcmVzc3xlbnwwfHx8fDE3NjMxMzUxMTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "french press",
       "description": "A classic French press coffee maker."
     },
     {
       "id": "reusable-filters",
-      "imageUrl": "https://images.unsplash.com/photo-1667568977136-2375252124cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZXVzYWJsZSUyMGZpbHRlcnxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1667568977136-2375252124cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZXVzYWJsZSUyMGZpbHRlcnxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "reusable filter",
       "description": "A reusable metal coffee filter."
     },
     {
       "id": "gooseneck-kettles-pour-over",
-      "imageUrl": "https://images.unsplash.com/photo-1749467738056-bd7078383ca9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnb29zZW5lY2slMjBrZXR0bGV8ZW58MHx8fHwxNzYzMTQzNjEyfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1749467738056-bd7078383ca9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnb29zZW5lY2slMjBrZXR0bGV8ZW58MHx8fHwxNzYzMTQzNjEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "gooseneck kettle",
       "description": "A gooseneck kettle being used for pour-over coffee."
     },
@@ -788,7 +788,7 @@
     },
     {
       "id": "jura-espresso",
-      "imageUrl": "https://images.unsplash.com/photo-1646903258752-d9653a996abe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBlc3ByZXNzbyUyMG1hY2hpbmV8ZW58MHx8fHwxNzYzMzI1NDA2fDA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1646903258752-d9653a996abe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBlc3ByZXNzbyUyMG1hY2hpbmV8ZW58MHx8fHwxNzYzMzI1NDA2fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "luxury espresso",
       "description": "A high-end Jura espresso machine."
     },
@@ -908,7 +908,7 @@
     },
     {
       "id": "beans-freshness",
-      "imageUrl": "https://images.unsplash.com/photo-1585574503370-109467886475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYWclMjBvZiUyMGNvZmZlZSUyMGJlYW5zfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1585574503370-109467886475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibmFnJTIwb2YlMjBjb2ZmZWUlMjBiZWFuc3xlbnwwfHx8fDE3NjMyMjg0MjJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "bag coffee-beans",
       "description": "A bag of fresh coffee beans with a one-way valve."
     },
