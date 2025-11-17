@@ -2,7 +2,7 @@
   "placeholderImages": [
     {
       "id": "ryze-cup",
-      "imageUrl": "/ryze-mushroom-coffee.webp",
+      "imageUrl": "/ryze mushroom coffee.webp",
       "imageHint": "mushroom coffee",
       "description": "A prepared cup of Ryze mushroom coffee in a white mug."
     },
@@ -14,7 +14,7 @@
     },
     {
       "id": "ryze-review",
-      "imageUrl": "/Ryze-Mushroom-Coffee-Review.webp",
+      "imageUrl": "/Ryze Mushroom Coffee Review.webp",
       "imageHint": "mushroom coffee",
       "description": "A cup of Ryze mushroom coffee."
     },
@@ -26,7 +26,7 @@
     },
     {
       "id": "espresso-beginners-2025",
-      "imageUrl": "/Best-Espresso-Machines-for-Beginners-in-2025.webp",
+      "imageUrl": "/Best Espresso Machines for Beginners in 2025.webp",
       "imageHint": "espresso beginner",
       "description": "A person learning to use a simple espresso machine."
     },
@@ -566,13 +566,13 @@
     },
     {
       "id": "mushroom-benefits",
-      "imageUrl": "/ryze-mushroom-coffee-benefits.webp",
+      "imageUrl": "/ryze mushroom coffee benefits.webp",
       "imageHint": "science health",
       "description": "A scientific diagram of a mushroom's benefits."
     },
     {
       "id": "mushroom-side-effects",
-      "imageUrl": "/ryze-mushroom-coffee-side-effects.webp",
+      "imageUrl": "/ryze mushroom coffee side effects.webp",
       "imageHint": "caution sign",
       "description": "A person looking concerned at a cup of coffee."
     },
