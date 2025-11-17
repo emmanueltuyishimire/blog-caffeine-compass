@@ -56,8 +56,8 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     description: post.excerpt,
     image: `${siteUrl}${post.imageUrl}`,
     author: {
-      '@type': 'Organization',
-      name: 'Caffeine Compass',
+      '@type': 'Person',
+      name: 'T.Emmanuel',
       url: siteUrl,
     },
     publisher: {

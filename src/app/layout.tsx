@@ -85,6 +85,7 @@ export const metadata: Metadata = {
   },
   other: {
     'google-adsense-account': 'ca-pub-3042243846300811',
+    'script-ld-json': JSON.stringify([organizationLdJson, websiteLdJson]),
   },
   icons: {
     icon: '/favicon.ico',
@@ -101,14 +102,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-pt-[3.5rem] ${fontBody.variable} ${fontHeadline.variable}`}>
       <head>
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLdJson) }}
-          />
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLdJson) }}
-          />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3042243846300811"
