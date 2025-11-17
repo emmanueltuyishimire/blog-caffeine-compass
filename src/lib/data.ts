@@ -1,15 +1,13 @@
 
-
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
-export const blogPosts = [
+const allPosts = [
   {
     slug: 'is-ryze-mushroom-coffee-good-for-you',
     title: 'Is Ryze Mushroom Coffee Good for You? An Honest Review (2025)',
     author: 'Caffeine Compass Staff',
     date: 'July 15, 2025',
-    imageUrl: '/ryze good for you.webp',
-    imageHint: 'glowing mushroom',
+    imageId: 'ryze-good-for-you',
     excerpt: 'An honest, science-backed look at whether Ryze mushroom coffee is truly good for you. We analyze the ingredients, benefits, and potential drawbacks to give you the definitive answer.',
     content: `
       <h2 class="text-3xl font-headline mt-8 mb-4" id="introduction">Introduction: The Million-Dollar Question</h2>
@@ -25,31 +23,31 @@ export const blogPosts = [
       </div>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="part1">Part 1: What Ryze Takes Away (The "Good by Omission")</h2>
-      <p>A huge part of what makes Ryze "good for you" is what it helps you avoid. It directly addresses the most common pain points of a traditional high-caffeine coffee habit.</p>
+      <p class="mb-4">A huge part of what makes Ryze "good for you" is what it helps you avoid. It directly addresses the most common pain points of a traditional high-caffeine coffee habit.</p>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">1. It's Good for Your Nerves: No Jitters or Anxiety</h3>
-      <p>The primary reason Ryze is beneficial is its significantly lower caffeine content (48mg vs. 100-200mg in regular coffee). This gentle dose is then paired with the adaptogen <strong>Reishi mushroom</strong>, which is famous for its ability to calm the nervous system and regulate cortisol (the primary stress hormone). This combination is specifically engineered to prevent the anxiety, jitters, and racing heart that many people experience with coffee. Feeling energized without feeling on-edge is a major health positive.</p>
+      <p class="mb-4">The primary reason Ryze is beneficial is its significantly lower caffeine content (48mg vs. 100-200mg in regular coffee). This gentle dose is then paired with the adaptogen <strong>Reishi mushroom</strong>, which is famous for its ability to calm the nervous system and regulate cortisol (the primary stress hormone). This combination is specifically engineered to prevent the anxiety, jitters, and racing heart that many people experience with coffee. Feeling energized without feeling on-edge is a major health positive.</p>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">2. It's Good for Your Energy Levels: No Afternoon Crash</h3>
-      <p>Regular coffee gives you borrowed energy, leading to the infamous "afternoon crash." Ryze builds a more sustainable energy curve. The <strong>MCT oil</strong> provides fast-acting ketone fuel for your brain, while the <strong>Cordyceps mushroom</strong> helps your body's cells produce their own energy (ATP) more efficiently. This creates a smooth, long-lasting energy supply that prevents the drastic dip in vitality, which is undeniably good for your productivity and overall well-being.</p>
+      <p class="mb-4">Regular coffee gives you borrowed energy, leading to the infamous "afternoon crash." Ryze builds a more sustainable energy curve. The <strong>MCT oil</strong> provides fast-acting ketone fuel for your brain, while the <strong>Cordyceps mushroom</strong> helps your body's cells produce their own energy (ATP) more efficiently. This creates a smooth, long-lasting energy supply that prevents the drastic dip in vitality, which is undeniably good for your productivity and overall well-being.</p>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">3. It's Good for Your Stomach: Low Acidity</h3>
-      <p>Is your morning coffee a recipe for heartburn or an upset stomach? Coffee is highly acidic, which can irritate the digestive tract. Ryze is significantly less acidic, making it much gentler on your stomach lining. For anyone who struggles with acid reflux or digestive sensitivity, this is a clear and immediate health benefit. We cover this in more detail in our <a href="/ryze-mushroom-coffee-side-effects">guide to Ryze Mushroom Coffee side effects</a>.</p>
+      <p class="mb-4">Is your morning coffee a recipe for heartburn or an upset stomach? Coffee is highly acidic, which can irritate the digestive tract. Ryze is significantly less acidic, making it much gentler on your stomach lining. For anyone who struggles with acid reflux or digestive sensitivity, this is a clear and immediate health benefit. We cover this in more detail in our <a href="/ryze-mushroom-coffee-side-effects">guide to Ryze Mushroom Coffee side effects</a>.</p>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="part2">Part 2: What Ryze Adds (The "Good by Addition")</h2>
-      <p>Beyond removing the negatives, Ryze is formulated to add functional benefits that go far beyond a simple caffeine boost. This is where it transitions from a coffee alternative to a genuine wellness beverage.</p>
+      <p class="mb-4">Beyond removing the negatives, Ryze is formulated to add functional benefits that go far beyond a simple caffeine boost. This is where it transitions from a coffee alternative to a genuine wellness beverage.</p>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">1. It's Good for Your Brain: Enhanced Focus & Cognitive Support</h3>
-      <p>The star ingredient here is <strong>Lion's Mane mushroom</strong>, a well-researched nootropic. It contains unique compounds that have been shown to stimulate Nerve Growth Factor (NGF), a protein essential for brain cell health, growth, and repair. This is why so many users report a significant reduction in "brain fog" and an improvement in focus and memory. By supporting long-term brain health, Ryze is actively good for your most important organ. To learn more about the specifics, our <a href="/ryze-mushroom-coffee-ingredients-deep-dive">4,000-word ingredient deep-dive on Ryze ingredients</a> is the ultimate resource.</p>
+      <p class="mb-4">The star ingredient here is <strong>Lion's Mane mushroom</strong>, a well-researched nootropic. It contains unique compounds that have been shown to stimulate Nerve Growth Factor (NGF), a protein essential for brain cell health, growth, and repair. This is why so many users report a significant reduction in "brain fog" and an improvement in focus and memory. By supporting long-term brain health, Ryze is actively good for your most important organ. To learn more about the specifics, our <a href="/ryze-mushroom-coffee-ingredients-deep-dive">4,000-word ingredient deep-dive on Ryze ingredients</a> is the ultimate resource.</p>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">2. It's Good for Your Immune System: Daily Defense</h3>
-      <p>Ryze turns your morning ritual into an act of immune support. The blend includes a trio of powerful immune-modulating mushrooms: <strong>Turkey Tail, Shiitake, and King Trumpet</strong>. These fungi are rich in beta-glucans and antioxidants, compounds known to help regulate and strengthen the body's natural defense systems. Consistent, daily support for your immune system is a cornerstone of long-term health.</p>
+      <p class="mb-4">Ryze turns your morning ritual into an act of immune support. The blend includes a trio of powerful immune-modulating mushrooms: <strong>Turkey Tail, Shiitake, and King Trumpet</strong>. These fungi are rich in beta-glucans and antioxidants, compounds known to help regulate and strengthen the body's natural defense systems. Consistent, daily support for your immune system is a cornerstone of long-term health.</p>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">3. It's Good for Your Gut: Prebiotic Power</h3>
-      <p>The mushrooms in Ryze are also a source of prebiotic fiber. These fibers act as food for the beneficial bacteria in your gut. A healthy and diverse gut microbiome is linked to everything from better digestion and a stronger immune system to improved mood. So, while being gentle on your stomach, Ryze is also actively working to make it healthier over time.</p>
+      <p class="mb-4">The mushrooms in Ryze are also a source of prebiotic fiber. These fibers act as food for the beneficial bacteria in your gut. A healthy and diverse gut microbiome is linked to everything from better digestion and a stronger immune system to improved mood. So, while being gentle on your stomach, Ryze is also actively working to make it healthier over time.</p>
       
       <h2 class="text-3xl font-headline mt-8 mb-4" id="part3">The Verdict: Who Is Ryze Good For?</h2>
-      <p>After analyzing what it removes and what it adds, the conclusion is clear. Ryze is good for a specific type of person:</p>
+      <p class="mb-4">After analyzing what it removes and what it adds, the conclusion is clear. Ryze is good for a specific type of person:</p>
       <div class="border-t border-b divide-y my-6">
         <div class="p-4">
           <h4 class="text-xl font-bold text-green-600 dark:text-green-400">✅ Ryze is exceptionally good for you if:</h4>
@@ -83,13 +81,12 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Ingredients: A 4000-Word Deep Dive (2025)',
     author: 'Caffeine Compass Staff',
     date: 'July 14, 2025',
-    imageUrl: '/ryze ingredients deep dive.webp',
-    imageHint: 'glowing mushroom',
+    imageId: 'ryze-ingredients',
     excerpt: 'Our ultimate 4000-word guide to every ingredient in Ryze Mushroom Coffee. We break down the science behind Lion\'s Mane, Cordyceps, Reishi, MCT Oil, and more. Is it a superfood blend that delivers on its promises? We investigate.',
     content: `
       <h2 class="text-3xl font-headline mt-8 mb-4" id="introduction">Introduction: Beyond the Hype—What’s *Really* Inside Your Cup of Ryze?</h2>
       <p>You’ve been targeted. Relentlessly. Your social media feeds are a constant parade of smiling, energetic people holding a dark, frothy mug, all evangelizing the life-changing magic of Ryze Mushroom Coffee. They promise a world without coffee jitters, without afternoon crashes, and without the stomach-churning acidity of your morning joe. It sounds incredible. But a healthy, skeptical part of your brain is asking the most important question: “This all sounds great, but what am I *actually* drinking?”</p>
-      <p>Welcome to the ultimate, no-stone-unturned guide to <strong>Ryze mushroom coffee ingredients</strong>. This isn’t a surface-level list. This is a 4,000-word deep dive into the science, history, and purpose of every single component in the blend. We’re going to peel back the marketing layer and look at the evidence behind the six functional mushrooms, the MCT oil, and even the coffee itself. Why were these specific ingredients chosen? What do they do on their own, and more importantly, how do they work together?</p>
+      <p class="mb-4">Welcome to the ultimate, no-stone-unturned guide to <strong>Ryze mushroom coffee ingredients</strong>. This isn’t a surface-level list. This is a 4,000-word deep dive into the science, history, and purpose of every single component in the blend. We’re going to peel back the marketing layer and look at the evidence behind the six functional mushrooms, the MCT oil, and even the coffee itself. Why were these specific ingredients chosen? What do they do on their own, and more importantly, how do they work together?</p>
       
       <h3 class="text-xl font-headline mt-4 mb-2">Who This Definitive Ingredient Guide Is For:</h3>
       <ul class="list-disc list-inside space-y-1 mb-4">
@@ -112,7 +109,7 @@ export const blogPosts = [
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="philosophy">The Ryze Ingredient Philosophy: Synergy Over Stimulation</h2>
       <p>Before we break down each ingredient, it's crucial to understand the philosophy behind the formula. Traditional coffee is a blunt instrument. It delivers a large dose of a single stimulant—caffeine—which overwhelms your central nervous system. This leads to the classic spike-and-crash cycle.</p>
-      <p>Ryze operates on a different principle: <strong>synergy</strong>. It uses a small amount of caffeine as a gentle "activator" and then relies on a team of other ingredients to create a more complex, balanced, and sustained effect. It’s not about hitting you with a hammer of stimulation; it’s about providing your body and brain with a toolkit of resources they can use to create their own clean energy and focus. Every ingredient is chosen to either enhance a benefit or counteract a potential negative. It’s a holistic system in a cup.</p>
+      <p class="mb-4">Ryze operates on a different principle: <strong>synergy</strong>. It uses a small amount of caffeine as a gentle "activator" and then relies on a team of other ingredients to create a more complex, balanced, and sustained effect. It’s not about hitting you with a hammer of stimulation; it’s about providing your body and brain with a toolkit of resources they can use to create their own clean energy and focus. Every ingredient is chosen to either enhance a benefit or counteract a potential negative. It’s a holistic system in a cup.</p>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="coffee-component">Part 1: The Foundation - Coffee & Fat</h2>
       <p>The base of Ryze isn't mushroom-flavored water; it's a carefully considered blend of coffee and a specific type of fat, designed to provide flavor and a clean energy platform.</p>
@@ -121,7 +118,7 @@ export const blogPosts = [
       <p><strong>Its Purpose in the Blend:</strong></p>
       <ul class="list-disc list-inside space-y-2 my-4">
         <li><strong>Familiar Flavor:</strong> This is the crucial bridge for coffee lovers. It ensures the drink tastes like coffee, not just mushrooms, making the transition from a traditional brew much easier.</li>
-        <li><strong>Gentle Stimulation:</strong> The key is the dose. At just 48mg of caffeine per serving, it's less than half of what you’d find in a typical 8oz cup of coffee (95mg+). This amount is just enough to provide a noticeable lift and increase alertness without over-stimulating your adrenal system. It’s the difference between a gentle nudge and a hard shove. This low dose is fundamental to preventing jitters and anxiety. You can visualize this difference with our <a href="https://calculation.site/calculators/caffeine-drink-comparison">caffeine comparison tool for different drinks</a>.</li>
+        <li><strong>Gentle Stimulation:</strong> The key is the dose. At just 48mg of caffeine per serving, it's less than half of what you’d find in a typical 8oz cup of coffee (95mg+). This amount is just enough to provide a noticeable lift and increase alertness without over-stimulating your adrenal system. It’s the difference between a gentle nudge and a hard shove. This low dose is fundamental to preventing jitters and anxiety. You can visualize this difference with our <a href="https://calculation.site/calculators/caffeine-drink-comparison" target="_blank" rel="noopener noreferrer">caffeine comparison tool for different drinks</a>.</li>
         <li><strong>Carrier for Other Ingredients:</strong> The warm, familiar coffee base serves as the perfect delivery system for the functional mushrooms and MCT oil.</li>
       </ul>
 
@@ -154,7 +151,7 @@ export const blogPosts = [
         <li><strong>Memory and Recall Support:</strong> By supporting the health of the hippocampus—the brain region responsible for memory—Lion’s Mane is believed to aid in both short-term and long-term memory formation and recall.</li>
         <li><strong>Mood Support:</strong> Some research suggests that Lion's Mane's anti-inflammatory properties and its role in hippocampal function may also contribute to reduced feelings of anxiety and depression.</li>
       </ul>
-      <p>In the Ryze formula, Lion’s Mane is the cornerstone of the "focus" promise, working to build a healthier, more resilient brain over the long term while providing immediate benefits in clarity and concentration.</p>
+      <p class="mb-4">In the Ryze formula, Lion’s Mane is the cornerstone of the "focus" promise, working to build a healthier, more resilient brain over the long term while providing immediate benefits in clarity and concentration.</p>
 
       <h3 class="text-2xl font-headline mt-6 mb-3">Ingredient 4: Organic Cordyceps (Cordyceps militaris)</h3>
       <p><strong>What It Is:</strong> If Lion's Mane is for the brain, Cordyceps is for the body. Nicknamed the "Olympic Mushroom," it gained fame when Chinese track and field athletes shattered world records in 1993, crediting Cordyceps as part of their training regimen. (Note: Ryze uses the cultivated, vegan-friendly *Cordyceps militaris* strain, not the wild version that grows on insects).</p>
@@ -165,7 +162,7 @@ export const blogPosts = [
         <li><strong>Improving Oxygen Utilization:</strong> Cordyceps has been shown to improve the body's ability to take up and use oxygen, a measure known as VO2 max. Better oxygen efficiency means your muscles and organs can work harder for longer before fatiguing. This contributes to improved stamina during physical activity and a general feeling of vitality throughout the day.</li>
         <li><strong>Fighting Fatigue:</strong> By enhancing cellular energy and reducing oxidative stress, Cordyceps helps combat physical and mental fatigue, providing a clean, sustainable energy source that perfectly complements the crash-free energy from MCT oil.</li>
       </ul>
-      <p>In Ryze, Cordyceps works in concert with caffeine and MCT oil. Caffeine gives you the initial spark, MCT oil provides the long-burning fuel, and Cordyceps improves the efficiency of your body's own engine.</p>
+      <p class="mb-4">In Ryze, Cordyceps works in concert with caffeine and MCT oil. Caffeine gives you the initial spark, MCT oil provides the long-burning fuel, and Cordyceps improves the efficiency of your body's own engine.</p>
       
       <h2 class="text-3xl font-headline mt-8 mb-4" id="adaptogenic-mushrooms">Part 3: The Adaptogenic Shield - For Stress & Immunity</h2>
       <p>This group of mushrooms forms the wellness core of the Ryze blend. Their primary job is to help your body manage stress and support its natural defense systems. The star of this group is Reishi.</p>
@@ -177,14 +174,14 @@ export const blogPosts = [
       <ul class="list-disc list-inside space-y-2 my-4">
         <li><strong>Cortisol Regulation:</strong> Reishi is a powerful adaptogen, meaning it helps your body adapt to physical and mental stress. It works by modulating the hypothalamic-pituitary-adrenal (HPA) axis, which is your body's central stress response system. Specifically, it helps to balance cortisol levels. High cortisol is what triggers the "fight-or-flight" response, anxiety, and a racing mind. By promoting balanced cortisol, Reishi induces a state of calm without causing drowsiness.</li>
         <li><strong>Anxiety and Jitter Reduction:</strong> This cortisol-balancing effect directly counteracts the anxiety that caffeine can produce. It allows you to enjoy the alertness from caffeine without the negative, on-edge feeling. This creates the signature "calm-alert" state that Ryze users often describe.</li>
-        <li><strong>Sleep Support:</strong> While it doesn't make you drowsy, the triterpene compounds in Reishi have been shown to support better sleep quality over time by calming the nervous system. Drinking Ryze in the morning won't put you to sleep, but its cumulative effect can lead to more restful nights. A good night's sleep is critical, and you can learn more about caffeine's impact with our guide on <a href="https://calculation.site/articles/caffeine-half-life-sleep">caffeine's half-life and its effect on sleep</a>.</li>
+        <li><strong>Sleep Support:</strong> While it doesn't make you drowsy, the triterpene compounds in Reishi have been shown to support better sleep quality over time by calming the nervous system. Drinking Ryze in the morning won't put you to sleep, but its cumulative effect can lead to more restful nights. A good night's sleep is critical, and you can learn more about caffeine's impact with our guide on <a href="https://calculation.site/articles/caffeine-half-life-sleep" target="_blank" rel="noopener noreferrer">caffeine's half-life and its effect on sleep</a>.</li>
         <li><strong>Immune Modulation:</strong> Like the other mushrooms, Reishi is also rich in beta-glucans that help support and balance the immune system.</li>
       </ul>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="immune-mushrooms">Part 4: The Wellness Trio - For Immune Defense</h2>
       <p>The final three mushrooms in the blend form a powerful synergistic team dedicated to one primary goal: supporting and strengthening your body's immune system. This turns your daily cup of Ryze from a simple energy drink into a proactive wellness ritual.</p>
 
-      <h3 class="text-2xl font-headline mt-6 mb-3">Ingredient 6: Organic Turkey Tail (Trametes versicolor)</h3>
+      <h3 class="text-2xl font-headline mt-6 mb-3">Ingredient 7: Organic Turkey Tail (Trametes versicolor)</h3>
       <p><strong>What It Is:</strong> Named for its colorful, fan-like shape resembling a turkey's tail, this mushroom is one of the most researched functional mushrooms in the world, especially for its immune-boosting properties.</p>
       <p><strong>Its Purpose in the Blend: The Immune Powerhouse</strong></p>
       <p>Turkey Tail is packed with powerful compounds, most notably two unique polysaccharides: Polysaccharide-K (PSK) and Polysaccharide Peptides (PSP). These compounds have been extensively studied and are even used as adjunct cancer treatments in Japan.</p>
@@ -193,7 +190,7 @@ export const blogPosts = [
         <li><strong>Prebiotic Action:</strong> Like other mushrooms, it acts as a prebiotic, feeding beneficial gut bacteria. A healthy gut is the foundation of a strong immune system.</li>
       </ul>
 
-      <h3 class="text-2xl font-headline mt-6 mb-3">Ingredient 7: Organic Shiitake (Lentinula edodes)</h3>
+      <h3 class="text-2xl font-headline mt-6 mb-3">Ingredient 8: Organic Shiitake (Lentinula edodes)</h3>
       <p><strong>What It Is:</strong> More than just a delicious culinary ingredient, Shiitake has been prized in traditional medicine for centuries as a "longevity" tonic. It contains a specific beta-glucan called Lentinan.</p>
       <p><strong>Its Purpose in the Blend: The Immune Modulator</strong></p>
       <ul class="list-disc list-inside space-y-2 my-4">
@@ -201,7 +198,7 @@ export const blogPosts = [
         <li><strong>Rich in Nutrients:</strong> Shiitake is also a good source of B vitamins and essential minerals, adding to the overall nutritional profile of the blend.</li>
       </ul>
 
-      <h3 class="text-2xl font-headline mt-6 mb-3">Ingredient 8: Organic King Trumpet (Pleurotus eryngii)</h3>
+      <h3 class="text-2xl font-headline mt-6 mb-3">Ingredient 9: Organic King Trumpet (Pleurotus eryngii)</h3>
       <p><strong>What It Is:</strong> The largest of the oyster mushroom family, King Trumpet is not only a gourmet edible but also a potent source of antioxidants and other beneficial compounds.</p>
       <p><strong>Its Purpose in the Blend: The Antioxidant Protector</strong></p>
       <ul class="list-disc list-inside space-y-2 my-4">
@@ -243,8 +240,7 @@ export const blogPosts = [
     title: '5 Science-Backed Ryze Mushroom Coffee Benefits (2025 Guide)',
     author: 'Caffeine Compass Staff',
     date: 'July 13, 2025',
-    imageUrl: '/ryze mushroom coffee benefits.webp',
-    imageHint: 'glowing mushroom',
+    imageId: 'mushroom-benefits',
     excerpt: 'Explore the top 5 Ryze mushroom coffee benefits, from jitter-free energy and enhanced focus to stress reduction. Is this superfood coffee the upgrade your morning needs?',
     content: `
       <h2 class="text-3xl font-headline mt-8 mb-4" id="introduction">Introduction: Is This the Coffee Upgrade You've Been Searching For?</h2>
@@ -264,10 +260,10 @@ export const blogPosts = [
       <p><strong>The Problem It Solves:</strong> The spike-and-crash cycle of regular coffee.</p>
       <p>The number one reason people seek out coffee alternatives is to escape the rollercoaster of high-caffeine drinks. Ryze tackles this with a brilliant two-pronged approach:</p>
       <ul class="list-disc list-inside space-y-2 my-4">
-        <li><strong>Low Caffeine, High Impact:</strong> With only 48mg of caffeine per serving (less than half a normal cup), Ryze gives you a gentle lift without overstimulating your nervous system. This is key to avoiding jitters and anxiety. You can compare this to other drinks with our <a href="https://calculation.site/calculators/caffeine-drink-comparison">Caffeine Drink Comparison Tool</a>.</li>
+        <li><strong>Low Caffeine, High Impact:</strong> With only 48mg of caffeine per serving (less than half a normal cup), Ryze gives you a gentle lift without overstimulating your nervous system. This is key to avoiding jitters and anxiety. You can compare this to other drinks with our <a href="https://calculation.site/calculators/caffeine-drink-comparison" target="_blank" rel="noopener noreferrer">Caffeine Drink Comparison Tool</a>.</li>
         <li><strong>Cordyceps & MCT Oil for Endurance:</strong> This is the secret weapon against the afternoon crash. The <strong>Cordyceps mushroom</strong> is famed for its ability to help the body produce ATP (the body's energy currency) and improve oxygen utilization. Paired with <strong>MCT oil</strong>, a type of fat that provides quick, clean ketone energy for your brain, you get a long, smooth energy curve that lasts for hours and tapers off gently.</li>
       </ul>
-      <p><strong>The result:</strong> You feel alert, energized, and productive all day, not just for the 90 minutes after your first cup.</p>
+      <p class="mb-4"><strong>The result:</strong> You feel alert, energized, and productive all day, not just for the 90 minutes after your first cup.</p>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="benefit-2">Benefit #2: Enhanced Focus & Mental Clarity</h2>
       <p><strong>The Problem It Solves:</strong> Brain fog and a scattered mind.</p>
@@ -278,12 +274,12 @@ export const blogPosts = [
         <li>Improve memory and recall.</li>
         <li>Achieve a state of "flow" and deep concentration.</li>
       </ul>
-      <p>This isn't a hyperactive, caffeine-fueled buzz; it's a calm, clear-headed focus that feels natural and sustainable.</p>
+      <p class="mb-4">This isn't a hyperactive, caffeine-fueled buzz; it's a calm, clear-headed focus that feels natural and sustainable.</p>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="benefit-3">Benefit #3: Stress & Anxiety Reduction</h2>
       <p><strong>The Problem It Solves:</strong> The anxious, on-edge feeling from too much caffeine.</p>
       <p>If coffee makes you feel more stressed than supported, this Ryze benefit is for you. The hero here is the <strong>Reishi mushroom</strong>, a potent adaptogen often referred to as the "mushroom of tranquility."</p>
-      <p>Adaptogens work by helping your body adapt to and manage physical and mental stressors. Reishi specifically helps to regulate your body's cortisol levels. Cortisol is your primary stress hormone; high levels are responsible for that "fight or flight" anxiety. By helping to balance cortisol, Reishi counteracts the anxiety-inducing effects of caffeine, promoting a sense of calm and well-being. It's the perfect partner to caffeine, giving you alertness without the alarm bells. If you're curious about your own sensitivity, our <a href="https://calculation.site/calculators/caffeine-sensitivity-test">Caffeine Sensitivity Test</a> can provide some insights.</p>
+      <p class="mb-4">Adaptogens work by helping your body adapt to and manage physical and mental stressors. Reishi specifically helps to regulate your body's cortisol levels. Cortisol is your primary stress hormone; high levels are responsible for that "fight or flight" anxiety. By helping to balance cortisol, Reishi counteracts the anxiety-inducing effects of caffeine, promoting a sense of calm and well-being. It's the perfect partner to caffeine, giving you alertness without the alarm bells. If you're curious about your own sensitivity, our <a href="https://calculation.site/calculators/caffeine-sensitivity-test" target="_blank" rel="noopener noreferrer">Caffeine Sensitivity Test</a> can provide some insights.</p>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="benefit-4">Benefit #4: Improved Digestion & Gut Health</h2>
       <p><strong>The Problem It Solves:</strong> Acid reflux, stomach-churn, and coffee-related digestive discomfort.</p>
@@ -292,7 +288,7 @@ export const blogPosts = [
         <li><strong>Lower Acidity:</strong> The blend is naturally far less acidic than regular coffee, making it much gentler on your digestive system.</li>
         <li><strong>Prebiotic Power:</strong> Mushrooms are a fantastic source of prebiotic fiber. These fibers aren't digested by you; instead, they act as food for the beneficial bacteria in your gut. A thriving gut microbiome is linked to better digestion, reduced bloating, and even improved mood.</li>
       </ul>
-      <p>By making the switch, you're not just avoiding a negative (acidity), you're adding a positive (prebiotics) to your daily gut health routine.</p>
+      <p class="mb-4">By making the switch, you're not just avoiding a negative (acidity), you're adding a positive (prebiotics) to your daily gut health routine.</p>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="benefit-5">Benefit #5: Daily Immune System Support</h2>
       <p><strong>The Problem It Solves:</strong> Turning a daily habit into a wellness ritual.</p>
@@ -302,7 +298,7 @@ export const blogPosts = [
         <li><strong>Shiitake:</strong> Contains polysaccharides that have been shown to bolster the immune system.</li>
         <li><strong>King Trumpet:</strong> A source of powerful antioxidants that help fight cellular damage from free radicals.</li>
       </ul>
-      <p>This blend turns your daily cup into a simple, consistent way to support your body's natural defenses.</p>
+      <p class="mb-4">This blend turns your daily cup into a simple, consistent way to support your body's natural defenses.</p>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="conclusion">Conclusion: More Than Just Coffee</h2>
       <p>The benefits of Ryze Mushroom Coffee go far beyond a simple caffeine kick. By replacing the harsh, one-dimensional jolt of regular coffee with a synergistic blend of adaptogens, nootropics, and clean energy sources, Ryze offers a holistic upgrade to your morning ritual. It solves the most common coffee-related problems—jitters, crashes, anxiety, and digestive upset—while adding significant benefits for your brain, body, and overall well-being.</p>
@@ -339,7 +335,7 @@ export const blogPosts = [
           </div>
           <div>
               <dt class="font-bold">6. Are there any weight loss benefits to Ryze coffee?</dt>
-              <dd>While not a dedicated weight loss product, Ryze can support weight management. The MCT oil can promote satiety, and the balanced energy can reduce cravings for sugary, high-calorie pick-me-ups. We discuss this in our article on <a href="/ryze-mushroom-coffee-side-effects">Ryze side effects and considerations</a>.</dd>
+              <dd>While not a dedicated weight loss product, Ryze can support weight management. The MCT oil can promote satiety, and the balanced energy can reduce cravings for sugary, high-calorie pick-me-ups. We discuss this in our <a href="/ryze-mushroom-coffee-side-effects">article on Ryze side effects and considerations</a>.</dd>
           </div>
           <div>
               <dt class="font-bold">7. How long does it take to feel the benefits of Ryze?</dt>
@@ -366,8 +362,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee',
     author: 'Caffeine Compass Staff',
     date: 'July 11, 2025',
-    imageUrl: '/ryze mushroom coffee.webp',
-    imageHint: 'mushroom coffee',
+    imageId: 'ryze-cup',
     excerpt: "A complete beginner's guide to Ryze Mushroom Coffee. Understand what it is, the superfood ingredients inside, and how it can transform your morning ritual.",
     content: `
       <p>If you've been anywhere near social media or wellness circles recently, you've likely encountered <strong>Ryze Mushroom Coffee</strong>. It's the drink that promises the energy and focus of coffee but without the jitters, anxiety, or dreaded afternoon crash. But what exactly is it? Is it real coffee? And what do the mushrooms do?</p>
@@ -375,7 +370,7 @@ export const blogPosts = [
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="what-is-ryze">What Is Ryze Mushroom Coffee?</h2>
       <p>Ryze Mushroom Coffee is a powdered instant drink that blends organic Arabica coffee with a potent mix of six adaptogenic mushrooms and MCT oil. Think of it not as a replacement for coffee's flavor, but as an upgrade to coffee's function. The entire goal is to give you a balanced and sustained energy boost, helping you feel alert, focused, and calm.</p>
-      <p class="mb-4">It achieves this by using a much smaller amount of caffeine than a regular cup of coffee (about 48mg per serving) and supplementing it with functional ingredients that support your body and mind in different ways. You can use our <a href="https://calculation.site/calculators/caffeine-intake">Caffeine Intake Calculator</a> to see how this fits into your daily total. Because it's an instant mix, it's incredibly convenient—just add hot water, stir, and enjoy. No machines, no cleanup.</p>
+      <p class="mb-4">It achieves this by using a much smaller amount of caffeine than a regular cup of coffee (about 48mg per serving) and supplementing it with functional ingredients that support your body and mind in different ways. You can use our <a href="https://calculation.site/calculators/caffeine-intake" target="_blank" rel="noopener noreferrer">Caffeine Intake Calculator</a> to see how this fits into your daily total. Because it's an instant mix, it's incredibly convenient—just add hot water, stir, and enjoy. No machines, no cleanup.</p>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="key-ingredients">The Key Ingredients: What's Inside Your Cup?</h2>
       <p>The power of Ryze comes from its synergistic blend of well-chosen ingredients. Each component has a specific job in creating a more balanced morning ritual.</p>
@@ -391,8 +386,8 @@ export const blogPosts = [
       <h2 class="text-3xl font-headline mt-8 mb-4" id="how-it-solves-problems">How Ryze Solves Common Coffee Problems</h2>
       <p>Ryze was specifically formulated to address the negative side effects that many people experience with traditional coffee. It's a problem-solver in a mug.</p>
       <ul class="list-disc list-inside space-y-2 my-4">
-        <li><strong>The Problem: Jitters & Anxiety.</strong><br/><strong>The Ryze Solution:</strong> The low caffeine dose combined with the calming properties of Reishi mushroom creates a "calm-alert" state, giving you focus without the nervous energy. If you're particularly prone to jitters, it might be worth taking our <a href="https://calculation.site/calculators/caffeine-sensitivity-test">Caffeine Sensitivity Test</a> to better understand your genetic tolerance.</li>
-        <li><strong>The Problem: The Afternoon Crash.</strong><br/><strong>The Ryze Solution:</strong> The MCT oil provides a long-lasting, stable energy source, while Cordyceps supports your body's own energy production. This results in a smooth curve of energy that gently tapers off, rather than a sharp drop. To optimize your intake for productivity, check out our <a href="https://calculation.site/calculators/caffeine-timing-optimizer">Caffeine Timing Optimizer</a>.</li>
+        <li><strong>The Problem: Jitters & Anxiety.</strong><br/><strong>The Ryze Solution:</strong> The low caffeine dose combined with the calming properties of Reishi mushroom creates a "calm-alert" state, giving you focus without the nervous energy. If you're particularly prone to jitters, it might be worth taking our <a href="https://calculation.site/calculators/caffeine-sensitivity-test" target="_blank" rel="noopener noreferrer">Caffeine Sensitivity Test</a> to better understand your genetic tolerance.</li>
+        <li><strong>The Problem: The Afternoon Crash.</strong><br/><strong>The Ryze Solution:</strong> The MCT oil provides a long-lasting, stable energy source, while Cordyceps supports your body's own energy production. This results in a smooth curve of energy that gently tapers off, rather than a sharp drop. To optimize your intake for productivity, check out our <a href="https://calculation.site/calculators/caffeine-timing-optimizer" target="_blank" rel="noopener noreferrer">Caffeine Timing Optimizer</a>.</li>
         <li><strong>The Problem: Digestive Discomfort.</strong><br/><strong>The Ryze Solution:</strong> The blend is less acidic than regular coffee. Furthermore, the mushrooms act as prebiotics, which can help nourish the good bacteria in your gut, supporting better digestive health over time.</li>
       </ul>
       <p class="mb-4">Our comprehensive <a href="/ryze-mushroom-coffee-review-2025">in-depth Ryze review</a> explores these solutions and more in greater detail.</p>
@@ -478,8 +473,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Review (2025): Worth the Hype?',
     author: 'Caffeine Compass Staff',
     date: 'July 10, 2025',
-    imageUrl: '/Ryze Mushroom Coffee Review.webp',
-    imageHint: 'mushroom coffee',
+    imageId: 'ryze-review',
     excerpt: "This comprehensive Ryze Mushroom Coffee review for 2025 dives into the popular coffee alternative that promises all-day energy without jitters, improved focus, and gut health. Is it the future of your morning ritual?",
     content: `
       <h2 class="text-3xl font-headline mt-8 mb-4" id="introduction">Introduction: Is This Coffee Upgrade Worth the Hype in 2025?</h2>
@@ -495,12 +489,12 @@ export const blogPosts = [
         <li>A "bio-hacker" or wellness enthusiast looking to optimize your morning routine for better focus, energy, and overall health.</li>
         <li>Simply curious if this trendy "mushroom coffee" lives up to its promises and is worth the investment.</li>
       </ul>
-      <p class="mb-4">If you're looking for a quick overview before this deep dive, check out our beginner's guide to <a href="/ryze-mushroom-coffee">Ryze Mushroom Coffee</a>.</p>
+      <p class="mb-4">If you're looking for a quick overview before this deep dive, check out our beginner's guide to <a href="/ryze-mushroom-coffee">what Ryze Mushroom Coffee is</a>.</p>
       
       <h2 class="text-3xl font-headline mt-8 mb-4" id="what-is-ryze">What Is RYZE Mushroom Coffee? A Clear Definition</h2>
       <p>At its core, RYZE Mushroom Coffee is an instant coffee blend designed to be a healthier, more balanced alternative to traditional coffee. It's not just coffee with some mushroom powder sprinkled in; it's a carefully formulated functional beverage.</p>
       <p>The product combines shade-grown, organic Arabica coffee with a proprietary mix of six different adaptogenic mushrooms and a dose of Medium-Chain Triglyceride (MCT) oil powder. The entire blend is instant, meaning it dissolves completely in hot water, requiring no brewing, machines, or cleanup.</p>
-      <p class="mb-4">The central idea behind RYZE is a "less but better" approach to caffeine. Each serving contains only <strong>48mg of caffeine</strong>, which is less than half the amount in a typical 8-ounce cup of coffee (which can range from 95-200mg). You can see how this compares to other beverages with our <a href="https://calculation.site/calculators/caffeine-drink-comparison">Caffeine Drink Comparison Tool</a>. The reduced caffeine is intended to provide a gentle lift, while the functional mushrooms and MCT oil work synergistically to provide sustained energy, enhanced focus, and other health benefits without the negative side effects of a high-caffeine dose.</p>
+      <p class="mb-4">The central idea behind RYZE is a "less but better" approach to caffeine. Each serving contains only <strong>48mg of caffeine</strong>, which is less than half the amount in a typical 8-ounce cup of coffee (which can range from 95-200mg). You can see how this compares to other beverages with our <a href="https://calculation.site/calculators/caffeine-drink-comparison" target="_blank" rel="noopener noreferrer">Caffeine Drink Comparison Tool</a>. The reduced caffeine is intended to provide a gentle lift, while the functional mushrooms and MCT oil work synergistically to provide sustained energy, enhanced focus, and other health benefits without the negative side effects of a high-caffeine dose.</p>
       
       <div class="border rounded-lg p-6 my-4 bg-slate-50 dark:bg-slate-800">
         <h3 class="text-2xl font-headline mb-4"><a href="https://amzn.to/3K1T3hQ" target="_blank" rel="noopener noreferrer sponsored">RYZE SUPERFOODS Mushroom Coffee</a></h3>
@@ -551,7 +545,7 @@ export const blogPosts = [
       <h2 class="text-3xl font-headline mt-8 mb-4" id="the-verdict">The Verdict: Does RYZE Mushroom Coffee Actually Work?</h2>
       <p>After a thorough review of its ingredients, the science behind them, and the overwhelming consensus from user feedback, the answer is a resounding <strong>yes</strong>, but with a crucial caveat: it works for the right person. <strong>Is RYZE mushroom coffee legit?</strong> Absolutely. It is not snake oil; it is a well-designed functional beverage that delivers on its core promises.</p>
       <p>It successfully provides a gentler, more focused energy boost than traditional coffee by intelligently combining a low dose of caffeine with a potent blend of adaptogenic mushrooms and MCT oil. For users whose primary pain points are jitters, crashes, anxiety, and digestive issues, RYZE is often a game-changing solution.</p>
-      <p>However, if your definition of "working" is a powerful, high-caffeine jolt to blast you through the morning, then RYZE will likely feel weak and ineffective. It's not designed to replicate that experience; it's designed to replace it with something more balanced and sustainable.</p>
+      <p class="mb-4">However, if your definition of "working" is a powerful, high-caffeine jolt to blast you through the morning, then RYZE will likely feel weak and ineffective. It's not designed to replicate that experience; it's designed to replace it with something more balanced and sustainable.</p>
 
       <h2 class="text-3xl font-headline mt-8 mb-4" id="conclusion">Conclusion: Is RYZE Worth It in 2025? Your Final Buying Guide</h2>
       <p>This entire Ryze Mushroom Coffee review comes down to one question: should you spend your money on it?</p>
@@ -637,8 +631,7 @@ export const blogPosts = [
     title: 'Ryze Mushroom Coffee Side Effects: A Complete Guide (2025)',
     author: 'Caffeine Compass Staff',
     date: 'July 12, 2025',
-    imageUrl: '/ryze mushroom coffee side effects.webp',
-    imageHint: 'caution sign',
+    imageId: 'mushroom-side-effects',
     excerpt: "A balanced and honest look at the potential side effects of Ryze mushroom coffee. Learn about digestive adjustments, medication interactions, and who should be cautious before trying this popular coffee alternative.",
     content: `
       <h2 class="text-3xl font-headline mt-8 mb-4" id="introduction">Introduction: Is Ryze Safe For YOU? A Guide to Peace of Mind</h2>
@@ -683,12 +676,12 @@ export const blogPosts = [
           <li><strong>Days 5-7:</strong> If you feel good, increase to a <strong>three-quarter scoop</strong>.</li>
           <li><strong>Day 8 and beyond:</strong> Move up to the full, one-tablespoon serving.</li>
       </ol>
-      <p>By gradually increasing your intake, you allow your gut microbiome and digestive enzyme production to adjust gracefully, minimizing or even completely avoiding any discomfort.</p>
+      <p class="mb-4">By gradually increasing your intake, you allow your gut microbiome and digestive enzyme production to adjust gracefully, minimizing or even completely avoiding any discomfort.</p>
       <h3 class="text-xl font-headline mt-4 mb-2">2. Mild Headaches</h3>
       <p><strong>The Pain Point:</strong> You're drinking Ryze for focus, but you're getting a dull, nagging headache instead.</p>
       <p><strong>The Culprits:</strong></p>
       <ul class="list-disc list-inside space-y-2 my-4">
-          <li><strong>Caffeine Withdrawal (Ironically):</strong> If you are switching from a high-caffeine habit (e.g., 2-3 cups of strong coffee, or 200-300mg+ daily) to Ryze's modest 48mg, you are likely experiencing a classic caffeine withdrawal headache. Your brain's blood vessels, which were constricted by high doses of caffeine, are now expanding back to their normal size, causing this temporary pain. This is a sign your body is recalibrating. Our <a href="https://calculation.site/calculators/caffeine-intake">Caffeine Intake Calculator</a> can help you see just how much you're cutting back.</li>
+          <li><strong>Caffeine Withdrawal (Ironically):</strong> If you are switching from a high-caffeine habit (e.g., 2-3 cups of strong coffee, or 200-300mg+ daily) to Ryze's modest 48mg, you are likely experiencing a classic caffeine withdrawal headache. Your brain's blood vessels, which were constricted by high doses of caffeine, are now expanding back to their normal size, causing this temporary pain. This is a sign your body is recalibrating. Our <a href="https://calculation.site/calculators/caffeine-intake" target="_blank" rel="noopener noreferrer">Caffeine Intake Calculator</a> can help you see just how much you're cutting back.</li>
           <li><strong>Dehydration:</strong> Coffee, even Ryze, is a mild diuretic. If you aren't drinking enough water alongside your new ritual, you can become dehydrated, which is a very common cause of headaches.</li>
       </ul>
       <h4 class="font-bold mt-4">The Problem-Solving Strategy: Bridge and Hydrate</h4>
@@ -714,7 +707,7 @@ export const blogPosts = [
       <h4 class="font-bold mt-4">The Problem-Solving Strategy: Timing and Assessment</h4>
       <ol class="list-decimal list-inside space-y-2 my-4">
           <li><strong>Assess the Feeling:</strong> Is it a groggy, "can't wake up" feeling, or is it a calm, "I'm not stressed" feeling? They can be confused. True drowsiness is when you feel you could fall asleep.</li>
-          <li><strong>Switch to an Afternoon Drink:</strong> If you find Ryze makes you drowsy, it may not be your ideal morning drink. Try using it in the mid-afternoon (around 2-3 PM) as a replacement for a second coffee. Its stress-reducing properties might be perfect for winding down the workday without adding too much caffeine that will disrupt sleep. For more on this, see our <a href="https://calculation.site/articles/how-long-before-bed-to-stop-caffeine">guide on how long to wait before sleeping after caffeine</a>.</li>
+          <li><strong>Switch to an Afternoon Drink:</strong> If you find Ryze makes you drowsy, it may not be your ideal morning drink. Try using it in the mid-afternoon (around 2-3 PM) as a replacement for a second coffee. Its stress-reducing properties might be perfect for winding down the workday without adding too much caffeine that will disrupt sleep. For more on this, see our <a href="https://calculation.site/articles/how-long-before-bed-to-stop-caffeine" target="_blank" rel="noopener noreferrer">guide on how long to wait before sleeping after caffeine</a>.</li>
           <li><strong>Acknowledge Mismatch:</strong> If it consistently makes you sleepy even in the afternoon, Ryze may simply not be the right functional blend for your body. Products with a higher ratio of Cordyceps or Lion's Mane and less Reishi might be a better fit.</li>
       </ol>
       <h2 class="text-3xl font-headline mt-8 mb-4" id="tier-3-side-effects">Tier 3: The Critical Safety Check - Medication & Condition Interactions</h2>
@@ -737,8 +730,8 @@ export const blogPosts = [
       <p><strong>The Risk:</strong> If you are on medication to lower your blood sugar, adding other compounds that do the same could lead to hypoglycemia (dangerously low blood sugar). Symptoms include shakiness, sweating, confusion, and dizziness. It is critical to consult your endocrinologist and be prepared to monitor your blood sugar levels very closely if you get approval to try Ryze.</p>
       <h3 class="text-xl font-headline mt-4 mb-2">5. Pregnancy and Breastfeeding</h3>
       <p><strong>Who is at risk:</strong> Expecting or currently breastfeeding mothers.</p>
-      <p><strong>The Concern: Lack of Data.</strong> While the ingredients in Ryze are natural, there is insufficient high-quality scientific research on the effects of concentrated functional mushroom extracts on fetal development or their passage into breast milk. The caffeine content is low (48mg), which is well below the generally accepted 200mg daily limit for pregnancy, which you can track with our <a href="https://calculation.site/calculators/pregnancy-caffeine-safe-limit">Pregnancy Caffeine Safe Limit Calculator</a>. However, the mushroom extracts are the unknown variable.</p>
-      <p><strong>The Verdict:</strong> The most prudent and widely recommended course of action is to err on the side of caution and <strong>avoid Ryze and other functional mushroom supplements during pregnancy and breastfeeding</strong> unless you have explicit approval from your OB-GYN.</p>
+      <p><strong>The Concern: Lack of Data.</strong> While the ingredients in Ryze are natural, there is insufficient high-quality scientific research on the effects of concentrated functional mushroom extracts on fetal development or their passage into breast milk. The caffeine content is low (48mg), which is well below the generally accepted 200mg daily limit for pregnancy, which you can track with our <a href="https://calculation.site/calculators/pregnancy-caffeine-safe-limit" target="_blank" rel="noopener noreferrer">Pregnancy Caffeine Safe Limit Calculator</a>. However, the mushroom extracts are the unknown variable.</p>
+      <p class="mb-4"><strong>The Verdict:</strong> The most prudent and widely recommended course of action is to err on the side of caution and <strong>avoid Ryze and other functional mushroom supplements during pregnancy and breastfeeding</strong> unless you have explicit approval from your OB-GYN.</p>
       <h2 class="text-3xl font-headline mt-8 mb-4" id="conclusion">Conclusion: A Safe Choice For the Informed User</h2>
       <p>Navigating the world of wellness supplements requires a healthy dose of skepticism and a commitment to personal research. When it comes to <strong>Ryze mushroom coffee side effects</strong>, the evidence is clear: this is a remarkably safe product for the majority of the population. The most common issues are mild, temporary, and easily managed by starting with a smaller dose.</p>
       <p>The true risks lie not with the average consumer, but with those who have specific, pre-existing health conditions. For these individuals, the very mechanisms that make the mushrooms "functional" can interfere with their medical treatments. For this group, a conversation with a doctor is not just recommended—it's non-negotiable.</p>
@@ -801,8 +794,7 @@ export const blogPosts = [
     title: 'Best Espresso Machines for Beginners in 2025',
     author: 'Caffeine Compass Staff',
     date: 'July 1, 2025',
-    imageUrl: '/Best Espresso Machines for Beginners in 2025.webp',
-    imageHint: 'espresso beginner',
+    imageId: 'espresso-beginners-2025',
     excerpt: "Compare the top beginner-friendly espresso machines to brew café-quality coffee at home.",
     content: `
       
@@ -1144,8 +1136,7 @@ export const blogPosts = [
     title: 'How to Make Cold Brew Coffee at Home',
     author: 'Caffeine Compass Staff',
     date: 'April 10, 2025',
-    imageUrl: 'https://images.unsplash.com/photo-1592663527359-cf6642f54cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2xkJTIwYnJld3xlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib.rb-4.1.0&q=80&w=1080',
-    imageHint: 'cold brew',
+    imageId: 'cold-brew-at-home',
     excerpt: "Learn the simple, patient art of making smooth and rich cold brew concentrate right in your own kitchen.",
     content: `
       <h2 class="text-3xl font-headline mt-8 mb-4" id="introduction">The Ultimate Guide to Making Smooth, Rich Cold Brew at Home</h2>
@@ -1162,7 +1153,7 @@ export const blogPosts = [
         <li><strong>Naturally Sweet:</strong> With less bitterness to mask the flavors, the inherent sweetness of the coffee beans shines through.</li>
         <li><strong>Incredibly Smooth:</strong> The lower acidity makes it remarkably smooth and easy on the palate.</li>
         <li><strong>Less Acidic:</strong> Studies show cold brew can be up to 67% less acidic than hot-brewed coffee, making it a fantastic option for those with sensitive stomachs.</li>
-        <li><strong>Highly Caffeinated:</strong> Because of the high coffee-to-water ratio and long steep time, the resulting concentrate is typically much higher in caffeine than drip coffee. However, since you dilute it, you can track your final consumption using our <a href="https://calculation.site/calculators/caffeine-intake">Caffeine Intake Calculator</a> and check your limits with the <a href="https://calculation.site/calculators/caffeine-overdose-risk">Caffeine Overdose Risk Calculator</a> to be safe.</li>
+        <li><strong>Highly Caffeinated:</strong> Because of the high coffee-to-water ratio and long steep time, the resulting concentrate is typically much higher in caffeine than drip coffee. However, since you dilute it, you can track your final consumption using our <a href="https://calculation.site/calculators/caffeine-intake" target="_blank" rel="noopener noreferrer">Caffeine Intake Calculator</a> and check your limits with the <a href="https://calculation.site/calculators/caffeine-overdose-risk" target="_blank" rel="noopener noreferrer">Caffeine Overdose Risk Calculator</a> to be safe.</li>
       </ul>
       
       <h2 class="text-3xl font-headline mt-8 mb-4" id="gear">Cold Brew Gear Recommendations: Your Path to an Easier Brew</h2>
@@ -1282,11 +1273,16 @@ export const blogPosts = [
       <p class="mt-8 text-sm text-muted-foreground"><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
     `,
   },
-]
-
-    
-
-    
+];
 
 
+type BlogPost = (typeof allPosts)[0] & { imageUrl: string; imageHint: string };
 
+export const blogPosts: BlogPost[] = allPosts.map((post) => {
+  const image = PlaceHolderImages.find((img) => img.id === post.imageId);
+  return {
+    ...post,
+    imageUrl: image?.imageUrl || 'https://via.placeholder.com/1200x800',
+    imageHint: image?.imageHint || 'placeholder',
+  };
+});
