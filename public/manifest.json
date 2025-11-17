@@ -1,0 +1,21 @@
+{
+  "name": "Caffeine Compass",
+  "short_name": "Caffeine Compass",
+  "description": "Your daily dose of coffee culture, reviews, and science.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2251a3",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

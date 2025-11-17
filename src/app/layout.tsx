@@ -85,7 +85,6 @@ export const metadata: Metadata = {
   },
   other: {
     'google-adsense-account': 'ca-pub-3042243846300811',
-    'script-ld-json': JSON.stringify([organizationLdJson, websiteLdJson]),
   },
   icons: {
     icon: '/favicon.ico',
@@ -107,6 +106,14 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3042243846300811"
           crossOrigin="anonymous"
           strategy="afterInteractive"
+        />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLdJson) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLdJson) }}
         />
       </head>
       <body className={cn('min-h-screen bg-background font-body antialiased')} suppressHydrationWarning={true}>
