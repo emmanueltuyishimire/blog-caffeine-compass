@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import { blogPosts } from '@/lib/data';
 import type { Metadata } from 'next';
-import { FAQPage, WithContext } from 'schema-dts';
+import { FAQPage, WithContext, Article, ImageObject, BreadcrumbList } from 'schema-dts';
 
 interface BlogPostPageProps {
   params: {
@@ -22,18 +22,15 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
   
   const url = `/blog/${post.slug}`;
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
   const fullUrl = `${siteUrl}${url}`;
 
-  // Regular expression to find all FAQ sections
+  // FAQPage JSON-LD
   const faqRegex = /<dt.*?>(.*?)<\/dt><dd>(.*?)<\/dd>/gs;
   const faqMatches = [...post.content.matchAll(faqRegex)];
-
   const faqJsonLd: WithContext<FAQPage> | null = faqMatches.length > 0 ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     mainEntity: faqMatches.map(match => {
-      // Basic text extraction from HTML, can be improved with a parser if needed
       const question = match[1].replace(/<[^>]*>/g, '').trim();
       const answer = match[2].replace(/<[^>]*>/g, '').trim();
       return {
@@ -47,7 +44,8 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     }),
   } : null;
 
-  const articleJsonLd = {
+  // Article JSON-LD
+  const articleJsonLd: WithContext<Article> = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     mainEntityOfPage: {
@@ -56,10 +54,11 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     },
     headline: post.title,
     description: post.excerpt,
-    image: post.imageUrl,
+    image: `${siteUrl}${post.imageUrl}`,
     author: {
       '@type': 'Organization',
       name: 'Caffeine Compass',
+      url: siteUrl,
     },
     publisher: {
       '@type': 'Organization',
@@ -70,24 +69,51 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
       },
     },
     datePublished: post.date,
+    dateModified: post.date, // Using post.date as fallback
   };
 
-  const scripts = [
-    <script
-      key="article-jsonld"
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
-    />,
+  // ImageObject JSON-LD
+  const imageJsonLd: WithContext<ImageObject> = {
+    '@context': 'https://schema.org',
+    '@type': 'ImageObject',
+    contentUrl: `${siteUrl}${post.imageUrl}`,
+    name: post.title,
+    description: post.excerpt,
+    author: {
+        '@type': 'Organization',
+        name: 'Caffeine Compass',
+    },
+    encodingFormat: 'image/webp',
+  };
+
+  // BreadcrumbList JSON-LD
+  const breadcrumbJsonLd: WithContext<BreadcrumbList> = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: siteUrl,
+        },
+        {
+            '@type': 'ListItem',
+            position: 2,
+            name: post.title,
+            item: fullUrl,
+        }
+    ],
+  };
+
+  const allScripts = [
+    articleJsonLd,
+    imageJsonLd,
+    breadcrumbJsonLd
   ];
 
   if (faqJsonLd) {
-    scripts.push(
-      <script
-        key="faq-jsonld"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
-    );
+    allScripts.push(faqJsonLd);
   }
 
   return {
@@ -117,7 +143,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
       images: [post.imageUrl],
     },
     other: {
-      'script-ld-json': scripts,
+      'script-ld-json': JSON.stringify(allScripts),
     },
   };
 }

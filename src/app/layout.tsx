@@ -6,6 +6,7 @@ import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { Literata, Space_Grotesk } from 'next/font/google';
 import { Analytics } from '@/components/analytics';
+import { Organization, WebSite, WithContext } from 'schema-dts';
 
 const fontBody = Literata({
   subsets: ['latin'],
@@ -19,16 +20,43 @@ const fontHeadline = Space_Grotesk({
   variable: '--font-headline',
 });
 
-const siteUrl = 'https://blog.calculation.site';
+const siteUrl = process.env.URL || 'https://blog.calculation.site';
+
+const organizationLdJson: WithContext<Organization> = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Caffeine Compass',
+  url: siteUrl,
+  logo: `${siteUrl}/logo.png`,
+  sameAs: ['https://calculation.site'],
+};
+
+const websiteLdJson: WithContext<WebSite> = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Caffeine Compass',
+  url: siteUrl,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: `${siteUrl}/search?q={search_term_string}`,
+    },
+    'query-input': 'required name=search_term_string',
+  },
+};
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: 'Caffeine Compass',
     template: '%s | Caffeine Compass',
   },
   description: 'Your daily dose of coffee culture, reviews, and science.',
   keywords: ['coffee', 'espresso', 'pour-over', 'coffee beans', 'coffee review', 'caffeine', 'cafe'],
-  authors: [{ name: 'T.Emmanuel' }],
+  authors: [{ name: 'T.Emmanuel', url: siteUrl }],
+  creator: 'T.Emmanuel',
+  publisher: 'Caffeine Compass',
   alternates: {
     canonical: '/',
   },
@@ -42,6 +70,7 @@ export const metadata: Metadata = {
         url: '/caffeine-calculation-site-background-image.webp',
         width: 1200,
         height: 630,
+        alt: 'A panoramic image of coffee beans and brewing equipment.',
       },
     ],
     locale: 'en_US',
@@ -56,8 +85,11 @@ export const metadata: Metadata = {
   other: {
     'google-adsense-account': 'ca-pub-3042243846300811',
   },
+  icons: {
+    icon: '/favicon.ico',
+  },
+  manifest: '/manifest.json',
 };
-
 
 export default function RootLayout({
   children,
@@ -68,7 +100,15 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-pt-[3.5rem] ${fontBody.variable} ${fontHeadline.variable}`}>
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3042243846300811" crossOrigin="anonymous"></script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLdJson) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLdJson) }}
+        />
       </head>
       <body className={cn('min-h-screen bg-background font-body antialiased')} suppressHydrationWarning={true}>
         <Analytics />
