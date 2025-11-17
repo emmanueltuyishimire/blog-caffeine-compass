@@ -53,6 +53,9 @@ export const metadata: Metadata = {
     description: 'Your daily dose of coffee culture, reviews, and science.',
     images: ['/caffeine-calculation-site-background-image.webp'],
   },
+  other: {
+    'google-adsense-account': 'ca-pub-3042243846300811',
+  },
 };
 
 
@@ -62,42 +65,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
-  const organizationLdJson = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: 'Caffeine Compass',
-    url: siteUrl,
-    logo: `${siteUrl}/caffeine-calculation-site-background-image.webp`,
-    sameAs: [],
-  };
-
-  const websiteLdJson = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: 'Caffeine Compass',
-    url: siteUrl,
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: `${siteUrl}/search?q={search_term_string}`,
-      'query-input': 'required name=search_term_string',
-    },
-  };
-
-
   return (
     <html lang="en" className={`scroll-pt-[3.5rem] ${fontBody.variable} ${fontHeadline.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLdJson) }}
-          />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLdJson) }}
-          />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3042243846300811"
-        crossOrigin="anonymous"></script>
       </head>
       <body className={cn('min-h-screen bg-background font-body antialiased')} suppressHydrationWarning={true}>
         <Analytics />
