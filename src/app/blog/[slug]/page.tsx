@@ -120,13 +120,13 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     title: post.title,
     description: post.excerpt,
     alternates: {
-      canonical: url,
+      canonical: fullUrl,
     },
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: 'article',
-      url: url,
+      url: fullUrl,
       images: [
         {
           url: post.imageUrl,
