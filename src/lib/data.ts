@@ -1144,7 +1144,7 @@ export const blogPosts = [
     title: 'How to Make Cold Brew Coffee at Home',
     author: 'Caffeine Compass Staff',
     date: 'April 10, 2025',
-    imageUrl: 'https://images.unsplash.com/photo-1592663527359-cf6642f54cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2xkJTIwYnJld3xlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib.rb-4.1.0&q=80&w=1080',
+    imageUrl: 'https://images.unsplash.com/photo-1592663527359-cf6642f54cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2xkJTIwYnJld3xlbnwwfHx8fDE3NjMyMjY4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'cold brew',
     excerpt: "Learn the simple, patient art of making smooth and rich cold brew concentrate right in your own kitchen.",
     content: `
@@ -1282,50 +1282,6 @@ export const blogPosts = [
       <p class="mt-8 text-sm text-muted-foreground"><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
     `,
   },
-  {
-    slug: 'best-espresso-machines-under-200-2025',
-    title: 'The 5 Best Espresso Machines Under $200 in 2025',
-    category: 'Espresso Machines',
-    date: 'June 30, 2025',
-    rating: 4.5,
-    imageUrl: 'https://via.placeholder.com/600x400',
-    imageHint: 'budget espresso',
-    excerpt: "Find the perfect budget-friendly espresso machine to kickstart your home barista journey without breaking the bank.",
-    content: 'A detailed review of the top 5 espresso machines under $200 for 2025.',
-  },
-  {
-    slug: 'best-coffee-grinders-2025',
-    title: 'The Best Coffee Grinders of 2025 for Every Budget',
-    category: 'Coffee Grinders',
-    date: 'June 29, 2025',
-    rating: 4.8,
-    imageUrl: 'https://images.unsplash.com/photo-1611854778859-3ee00caf1ea5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBncmluZGVyc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib.rb-4.1.0&q=80&w=1080',
-    imageHint: 'top-coffee-grinders',
-    excerpt: "From manual to electric, we review the best coffee grinders to unlock the full flavor of your beans.",
-    content: 'A comprehensive review of coffee grinders across different price points.',
-  },
-  {
-    slug: 'best-single-serve-coffee-makers-2025',
-    title: 'Top Single-Serve Coffee Makers of 2025',
-    category: 'Coffee Makers',
-    date: 'June 28, 2025',
-    rating: 4.3,
-    imageUrl: 'https://images.unsplash.com/photo-1720762223716-ed06ab1142cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzaW5nbGUtc2VydmUlMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib.rb-4.1.0&q=80&w=1080',
-    imageHint: 'single-serve-makers',
-    excerpt: "Discover the most convenient and high-quality single-serve coffee makers for a quick, perfect cup every time.",
-    content: 'Reviewing the best single-serve coffee makers for speed and convenience.',
-  },
-  {
-    slug: 'best-drip-coffee-makers-for-home-and-office-2025',
-    title: 'Best Drip Coffee Makers for Home & Office in 2025',
-    category: 'Coffee Makers',
-    date: 'June 27, 2025',
-    rating: 4.6,
-    imageUrl: 'https://images.unsplash.com/photo-1610874150308-a1e6f8c905d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkcmlwJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyODE0MHww&ixlib.rb-4.1.0&q=80&w=1080',
-    imageHint: 'drip-makers-home-office',
-    excerpt: "We rank the top drip coffee makers that deliver consistently delicious coffee for your home or office environment.",
-    content: 'A review of the best drip coffee makers available in 2025.',
-  }
 ]
 
     
