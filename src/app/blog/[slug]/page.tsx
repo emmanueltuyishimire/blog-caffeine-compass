@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import { blogPosts } from '@/lib/data';
 import type { Metadata } from 'next';
+import { FAQPage, WithContext } from 'schema-dts';
 
 interface BlogPostPageProps {
   params: {
@@ -21,6 +22,73 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
   
   const url = `/blog/${post.slug}`;
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  const fullUrl = `${siteUrl}${url}`;
+
+  // Regular expression to find all FAQ sections
+  const faqRegex = /<dt.*?>(.*?)<\/dt><dd>(.*?)<\/dd>/gs;
+  const faqMatches = [...post.content.matchAll(faqRegex)];
+
+  const faqJsonLd: WithContext<FAQPage> | null = faqMatches.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqMatches.map(match => {
+      // Basic text extraction from HTML, can be improved with a parser if needed
+      const question = match[1].replace(/<[^>]*>/g, '').trim();
+      const answer = match[2].replace(/<[^>]*>/g, '').trim();
+      return {
+        '@type': 'Question',
+        name: question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: answer,
+        },
+      };
+    }),
+  } : null;
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': fullUrl,
+    },
+    headline: post.title,
+    description: post.excerpt,
+    image: post.imageUrl,
+    author: {
+      '@type': 'Organization',
+      name: 'Caffeine Compass',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Caffeine Compass',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteUrl}/logo.png`,
+      },
+    },
+    datePublished: post.date,
+  };
+
+  const scripts = [
+    <script
+      key="article-jsonld"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+    />,
+  ];
+
+  if (faqJsonLd) {
+    scripts.push(
+      <script
+        key="faq-jsonld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+    );
+  }
 
   return {
     title: post.title,
@@ -47,6 +115,9 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
       title: post.title,
       description: post.excerpt,
       images: [post.imageUrl],
+    },
+    other: {
+      'script-ld-json': scripts,
     },
   };
 }
