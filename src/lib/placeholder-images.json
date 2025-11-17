@@ -8,31 +8,31 @@
     },
     {
       "id": "ryze-review",
-      "imageUrl": "https://images.unsplash.com/photo-1670508183158-d1a3cbf5239a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtdXNocm9vbSUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjU1NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1670508183158-d1a3cbf5239a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtdXNocm9vbSUyMGNvZmZlZXxlbnwwfHx8fDE3NjMyMjU1NTl8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "mushroom coffee",
       "description": "A cup of Ryze mushroom coffee."
     },
     {
       "id": "espresso-beginners-2025",
-      "imageUrl": "https://images.unsplash.com/photo-1689164255885-d172a4f5fc4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZXNwcmVzc28lMjBiZWdpbm5lcnxlbnwwfHx8fDE3NjMyMjgxNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1689164255885-d172a4f5fc4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZXNwcmVzc28lMjBiZWdpbm5lcnxlbnwwfHx8fDE3NjMyMjgxNDF8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "espresso beginner",
       "description": "A person learning to use a simple espresso machine."
     },
     {
       "id": "top-coffee-grinders",
-      "imageUrl": "https://images.unsplash.com/photo-1611854778859-3ee00caf1ea5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBncmluZGVyc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1611854778859-3ee00caf1ea5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBncmluZGVyc3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee grinders",
       "description": "A lineup of various coffee grinders."
     },
     {
       "id": "single-serve-makers",
-      "imageUrl": "https://images.unsplash.com/photo-1720762223716-ed06ab1142cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzaW5nbGUtc2VydmUlMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1720762223716-ed06ab1142cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzaW5nbGUtc2VydmUlMjBjb2ZmZWV8ZW58MHx8fHwxNzYzMjI4MTQwfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "single-serve coffee",
       "description": "A sleek single-serve coffee maker brewing a cup."
     },
     {
       "id": "budget-espresso-200",
-      "imageUrl": "https://images.unsplash.com/photo-1575724494215-e1baede6fa4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidWRnZXQlMjBlc3ByZXNzb3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1575724494215-e1baede6fa4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidWRnZXQlMjBlc3ByZXNzb3xlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "budget espresso",
       "description": "An affordable espresso machine under $200 making espresso."
     },
@@ -74,7 +74,7 @@
     },
     {
       "id": "reusable-filters",
-      "imageUrl": "https://images.unsplash.com/photo-1667568977136-2375252124cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZXVzYWJsZSUyMGZpbHRlcnxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1667568977136-2375252124cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZXVzYWJsZSUyMGZpbHRlcnxlbnwwfHx8fDE3NjMyMjgxNDB8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "reusable filter",
       "description": "A reusable metal coffee filter."
     },
@@ -878,7 +878,7 @@
     },
     {
       "id": "organic-beans",
-      "imageUrl": "https://images.unsplash.com/photo-1507983944321-7248f6d39546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvcmdhbmljJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1507985943934-95ab66373b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvcmdhbmljJTIwY29mZmVlfGVufDB8fHx8MTc2MzIyODQyMnww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "organic coffee",
       "description": "A hand holding coffee beans with a green leaf."
     },
@@ -1055,6 +1055,12 @@
       "imageUrl": "https://images.unsplash.com/photo-1711437365291-b3df620b2fd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb25leSUyMGNhbGN1bGF0b3J8ZW58MHx8fHwxNzYzMjI3NDU3fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "money calculator",
       "description": "An infographic breaking down the cost to start a coffee shop."
+    },
+    {
+      "id": "ryze-mushroom-coffee-benefits",
+      "imageUrl": "https://images.unsplash.com/photo-1735623102116-910500bc5445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnbG93aW5nJTIwbXVzaHJvb218ZW58MHx8fHwxNzYzMjI1NTU5fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "glowing mushroom",
+      "description": "A glowing mushroom, symbolizing the benefits of Ryze coffee."
     }
   ]
 }
