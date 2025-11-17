@@ -841,17 +841,14 @@ export const blogPosts = [
       <p>Your next step is simple: grab a jar, get some coarsely ground beans, and start your first batch. Trust the process, taste the results, and don't be afraid to tweak the variables. The perfect glass of cold brew is waiting in your fridge.</p>
       <p><em><strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through links on this page, I may earn a small commission at no extra cost to you.</em></p>
     `,
-  }
-];
-
-export const productReviews = [
+  },
   {
     slug: 'best-espresso-machines-under-200-2025',
     title: 'The 5 Best Espresso Machines Under $200 in 2025',
     category: 'Espresso Machines',
     date: 'June 30, 2025',
     rating: 4.5,
-    imageUrl: 'https://images.unsplash.com/photo-1575468130797-aa950b68aeec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2llbmNlJTIwaGVhbHRofGVufDB8fHx8MTc2MzIxNjQwNHww&ixlib.rb-4.1.0&q=80&w=1080',
+    imageUrl: 'https://via.placeholder.com/600x400',
     imageHint: 'budget espresso',
     excerpt: "Find the perfect budget-friendly espresso machine to kickstart your home barista journey without breaking the bank.",
     content: 'A detailed review of the top 5 espresso machines under $200 for 2025.',
@@ -888,6 +885,7 @@ export const productReviews = [
     imageHint: 'drip-makers-home-office',
     excerpt: "We rank the top drip coffee makers that deliver consistently delicious coffee for your home or office environment.",
     content: 'A review of the best drip coffee makers available in 2025.',
-  },
-];
+  }
+]
 
+    
