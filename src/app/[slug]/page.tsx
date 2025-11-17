@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     };
   }
   
-  const url = `/blog/${post.slug}`;
+  const url = `/${post.slug}`;
   const fullUrl = `${siteUrl}${url}`;
 
   // FAQPage JSON-LD
