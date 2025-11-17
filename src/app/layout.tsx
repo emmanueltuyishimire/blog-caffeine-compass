@@ -4,18 +4,18 @@ import { cn } from '@/lib/utils';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
-import { Literata, Space_Grotesk } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import { Analytics } from '@/components/analytics';
 import { Organization, WebSite, WithContext } from 'schema-dts';
 import Script from 'next/script';
 
-const fontBody = Literata({
+const fontBody = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-body',
 });
 
-const fontHeadline = Space_Grotesk({
+const fontHeadline = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-headline',
@@ -85,6 +85,7 @@ export const metadata: Metadata = {
   },
   other: {
     'google-adsense-account': 'ca-pub-3042243846300811',
+    'script-ld-json': JSON.stringify([organizationLdJson, websiteLdJson]),
   },
   icons: {
     icon: '/favicon.ico',
@@ -106,14 +107,6 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3042243846300811"
           crossOrigin="anonymous"
           strategy="afterInteractive"
-        />
-         <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLdJson) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLdJson) }}
         />
       </head>
       <body className={cn('min-h-screen bg-background font-body antialiased')} suppressHydrationWarning={true}>
