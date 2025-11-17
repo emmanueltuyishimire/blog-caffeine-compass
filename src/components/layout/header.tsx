@@ -5,7 +5,7 @@ const navItems = [
   { href: '/', label: 'Home' },
   { href: 'https://calculation.site', label: 'Caffeine' },
   { href: 'https://calculation.site/calculators', label: 'Calculators' },
-  { href: 'https://calculation.site/business', label: 'CoffeeBizz' },
+  { href: 'https://calculation.site/articles', label: 'CoffeeBizz' },
 ];
 
 export function Header() {
@@ -35,3 +35,5 @@ export function Header() {
     </header>
   );
 }
+
+    
